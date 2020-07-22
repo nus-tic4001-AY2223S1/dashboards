@@ -1,5 +1,5 @@
 <frontmatter>
-title: "Participation Dashboard"
+title: "Participation dashboard"
 </frontmatter>
 
 <h1 class="display-4">Participation dashboard</h1>

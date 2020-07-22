@@ -2,8 +2,8 @@
 <navbar type="dark">
   <a slot="brand" href="{{url_module_website}}" title="Home" class="navbar-brand"> {{ badge_main_site }}</a>
   <li><a href="{{baseUrl}}/index.html" class="nav-link"><md>Dashboards home</md></a></li>
-  <li><a href="{{baseUrl}}/contents/participation.html" class="nav-link"><md>**Participation dashboard**</md></a></li>
-  <li><a href="{{baseUrl}}/contents/forum-activities.html" class="nav-link"><md>**Forum dashboard**</md></a></li>
+  <li tags="m--cs2103 m--cs2113"><a href="{{baseUrl}}/contents/participation.html" class="nav-link"><md>**Participation dashboard**</md></a></li>
+  <li tags="m--cs2103 m--cs2113"><a href="{{baseUrl}}/contents/forum-activities.html" class="nav-link"><md>**Forum dashboard**</md></a></li>
   <dropdown header="**iP dashboards**" class="nav-link">
     <li><a href="{{baseUrl}}/contents/ip-progress.html" class="dropdown-item"><md>:fas-tasks: iP progress</md></a></li>
     <li><a href="{{baseUrl}}/contents/ip-comments.html" class="dropdown-item"><md>:octicon-comment: iP comments</md></a></li>
