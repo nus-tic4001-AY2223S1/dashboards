@@ -1,13 +1,13 @@
 <!-- ===========================  primary module configuration ============================================= -->
 
-<variable name="module">CS2103</variable>
-<variable name="module_pair">{{ module }}/T</variable>
-<variable name="module_name">Software Engineering</variable>
-<variable name="module_color">success</variable>
+<variable name="module">TIC4001</variable>
+<variable name="module_pair">{{ module }}</variable>
+<variable name="module_name">Software Engineering Practicum I</variable>
+<variable name="module_color">info</variable>
 
 <variable name="S">1</variable>
-<variable name="semester">AY2021S{{ S }}</variable>
-<variable name="period">2020 Aug-Dec</variable>
+<variable name="semester">AY2223S{{ S }}</variable>
+<variable name="period">2022 Aug-Nov</variable>
 <variable name="current_week">0</variable>
 <variable name="archived"></variable>  <!-- keep empty during semester time -->
 
