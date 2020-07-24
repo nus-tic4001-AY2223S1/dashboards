@@ -1,5 +1,5 @@
 <frontmatter>
-  title: "{{ module_pair }} dashboards"
+  title: "dashboards"
 </frontmatter>
 
 <h1 class="display-3">{{ module_pair }} dashboards</h1>
