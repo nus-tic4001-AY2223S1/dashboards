@@ -6,8 +6,8 @@ title: "Participation dashboard"
 
 <box>
 
-* Details about participation marks calculations are [here]({{ url_module_website }}/admin/participation.html).
-* The important column of the table below is the <span class="text-monospace">==Weeks participated==</span> column. It tells you how many weeks you have met the bar for the [criterion <span class="badge badge-info badge-pill">A</span>](participation.html). Your target is to hit 10 weeks.
+* Details about participation marks calculations are [here]({{ url_module_website }}{{ '/#assessment' if tic2002 else '/admin/participation.html' }}).
+* The important column of the table below is the <span class="text-monospace">==Weeks participated==</span> column. It tells you how many weeks in which you have met _participation bar_ %%(i.e., scored more than half of the participation points)%%.
 * Meaning of colors/icons:
   * %%{{ icon_info }}%% : you can click on this icon to find more info
   * <span class="badge badge-success">N</span> : you reached the participation bar for week `N`
@@ -15,4 +15,4 @@ title: "Participation dashboard"
 * If you have queries about the participation marks, please email `{{ module | lower }}@comp.nus.edu.sg`.
 </box>
 
-<include src="participation-table.mbdf" />
+<include src="{{ module | lower }}/participation-table.mbdf" />
