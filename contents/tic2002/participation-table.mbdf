@@ -1,7 +1,9 @@
-<tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., repl exercises, post-lecture quizzes">Weeks participated</tooltip>
+%%[This page was last updated on Aug 16 2020]%% 
+
+ <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., repl exercises, post-lecture quizzes">Weeks participated</tooltip>
 -------------------------------------------------------------|------------------------------------------------------------------------------------------
 A0052630_ %%<trigger trigger="click" for="modal:pD-A0052630">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
-A0094621_ %%<trigger trigger="click" for="modal:pD-A0094621">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span> → **0**
+A0094621_ %%<trigger trigger="click" for="modal:pD-A0094621">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
 A0177726_ %%<trigger trigger="click" for="modal:pD-A0177726">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span> → **0**
 A0177803_ %%<trigger trigger="click" for="modal:pD-A0177803">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
 A0177808_ %%<trigger trigger="click" for="modal:pD-A0177808">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
@@ -40,9 +42,9 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 
 <div class="indented">
 
-##### Week <span class="badge badge-danger mr-1">~~1~~</span>: <small>2/5 points</small>
+##### Week <span class="badge badge-success mr-1">1</span>: <small>5/5 points</small>
 * **Submit pre-module survey**: done %%(2/2 points)%%
-* **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+* **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 </div>
     
 </modal>
@@ -82,9 +84,9 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 
 <div class="indented">
 
-##### Week <span class="badge badge-success mr-1">1</span>: <small>3/5 points</small>
+##### Week <span class="badge badge-success mr-1">1</span>: <small>5/5 points</small>
 * **Submit pre-module survey**: done %%(2/2 points)%%
-* **Repl exercises**: percentage of correct solutions: `25%` %%(1/3 points)%%
+* **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 </div>
     
 </modal>
