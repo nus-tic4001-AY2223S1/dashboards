@@ -15,8 +15,9 @@ title: "iP progress dashboard"
   * <span class="badge badge-success">ABC</span> : you have done the corresponding item.
   * <span class="badge badge-info">ABC</span> : you have done the corresponding item which is an optional item (well done!).
   * <span class="badge badge-danger">~~ABC~~</span> : you have not done the corresponding item yet.
-  * <span class="badge badge-secondary">~~ABC~~</span> : item due soon, not done yet.
+  * <span class="badge badge-dark">~~ABC~~</span> : item due soon, not done yet.
+  * <span class="badge badge-secondary">~~ABC~~</span> : optional item due soon, not done yet.
 * If you have queries about the data shown in this page, please email `{{ module | lower }}@comp.nus.edu.sg`.
 </box>
 
-<include src="ip-progress-table.mbdf" />
+<include src="{{ module | lower }}/ip-progress-table.mbdf" />
