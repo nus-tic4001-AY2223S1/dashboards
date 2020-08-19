@@ -1,0 +1,242 @@
+%%[This page was last updated on Aug 18 2020]%% 
+
+ <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., participation status of each week → total weeks in which you met the participation bar">Weeks participated</tooltip>
+-------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------
+A0120420_ %%<trigger trigger="click" for="modal:pD-A0120420">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0137851_ %%<trigger trigger="click" for="modal:pD-A0137851">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0150565_ %%<trigger trigger="click" for="modal:pD-A0150565">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177716_ %%<trigger trigger="click" for="modal:pD-A0177716">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177727_ %%<trigger trigger="click" for="modal:pD-A0177727">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177732_ %%<trigger trigger="click" for="modal:pD-A0177732">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177740_ %%<trigger trigger="click" for="modal:pD-A0177740">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177754_ %%<trigger trigger="click" for="modal:pD-A0177754">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177784_ %%<trigger trigger="click" for="modal:pD-A0177784">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span> → **0**
+A0177802_ %%<trigger trigger="click" for="modal:pD-A0177802">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177807_ %%<trigger trigger="click" for="modal:pD-A0177807">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177809_ %%<trigger trigger="click" for="modal:pD-A0177809">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span> → **0**
+A0177810_ %%<trigger trigger="click" for="modal:pD-A0177810">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177820_ %%<trigger trigger="click" for="modal:pD-A0177820">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177968_ %%<trigger trigger="click" for="modal:pD-A0177968">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177971_ %%<trigger trigger="click" for="modal:pD-A0177971">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span> → **1**
+
+<modal large header="A0120420_: Participation Details" id="modal:pD-A0120420">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0137851_: Participation Details" id="modal:pD-A0137851">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0150565_: Participation Details" id="modal:pD-A0150565">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177716_: Participation Details" id="modal:pD-A0177716">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177727_: Participation Details" id="modal:pD-A0177727">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177732_: Participation Details" id="modal:pD-A0177732">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177740_: Participation Details" id="modal:pD-A0177740">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177754_: Participation Details" id="modal:pD-A0177754">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177784_: Participation Details" id="modal:pD-A0177784">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-danger mr-1">~~1~~</span>: <small>0/2 points</small>
+* **Submit pre-module survey**: not done %%(0/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177802_: Participation Details" id="modal:pD-A0177802">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177807_: Participation Details" id="modal:pD-A0177807">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177809_: Participation Details" id="modal:pD-A0177809">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-danger mr-1">~~1~~</span>: <small>0/2 points</small>
+* **Submit pre-module survey**: not done %%(0/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177810_: Participation Details" id="modal:pD-A0177810">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177820_: Participation Details" id="modal:pD-A0177820">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177968_: Participation Details" id="modal:pD-A0177968">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177971_: Participation Details" id="modal:pD-A0177971">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
+
+<modal large header="A0177989_: Participation Details" id="modal:pD-A0177989">
+
+#### Weekly Participation %%(repl exercises, post-lecture quizzes)%%
+
+<div class="indented">
+
+##### Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small>
+* **Submit pre-module survey**: done %%(2/2 points)%%
+</div>
+    
+</modal>
+    
