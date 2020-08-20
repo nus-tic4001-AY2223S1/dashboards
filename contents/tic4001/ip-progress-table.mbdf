@@ -1,22 +1,22 @@
-%%[This page was last updated on Aug 17 2020]%% 
+%%[This page was last updated on Aug 19 2020]%% 
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., weeks in which some code was committed to the repo">Weekly progress</tooltip>|<tooltip content="i.e., iP increments as indicated by the git tags in your fork">Increments</tooltip>|<tooltip content="i.e., other iP-related admin tasks">Admin tasks</tooltip>
 -------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------
 A0120420_ %%<trigger trigger="click" for="modal:ipPD-A0120420">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
 A0137851_ %%<trigger trigger="click" for="modal:ipPD-A0137851">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
 A0150565_ %%<trigger trigger="click" for="modal:ipPD-A0150565">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
-A0177716_ %%<trigger trigger="click" for="modal:ipPD-A0177716">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
+A0177716_ %%<trigger trigger="click" for="modal:ipPD-A0177716">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
 A0177727_ %%<trigger trigger="click" for="modal:ipPD-A0177727">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
-A0177732_ %%<trigger trigger="click" for="modal:ipPD-A0177732">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
-A0177740_ %%<trigger trigger="click" for="modal:ipPD-A0177740">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
+A0177732_ %%<trigger trigger="click" for="modal:ipPD-A0177732">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
+A0177740_ %%<trigger trigger="click" for="modal:ipPD-A0177740">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span>|<span class="badge badge-success mr-1">Level-0</span><span class="badge badge-success mr-1">Level-1</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
 A0177754_ %%<trigger trigger="click" for="modal:ipPD-A0177754">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
 A0177784_ %%<trigger trigger="click" for="modal:ipPD-A0177784">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
 A0177802_ %%<trigger trigger="click" for="modal:ipPD-A0177802">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
 A0177807_ %%<trigger trigger="click" for="modal:ipPD-A0177807">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
 A0177809_ %%<trigger trigger="click" for="modal:ipPD-A0177809">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
 A0177810_ %%<trigger trigger="click" for="modal:ipPD-A0177810">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
-A0177820_ %%<trigger trigger="click" for="modal:ipPD-A0177820">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
-A0177968_ %%<trigger trigger="click" for="modal:ipPD-A0177968">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
+A0177820_ %%<trigger trigger="click" for="modal:ipPD-A0177820">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-success mr-1">Level-1</span><span class="badge badge-success mr-1">Level-2</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
+A0177968_ %%<trigger trigger="click" for="modal:ipPD-A0177968">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
 A0177971_ %%<trigger trigger="click" for="modal:ipPD-A0177971">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-dark mr-1">~~Forking~~</span>
 A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</trigger>%%|<span class="badge badge-dark mr-1">~~2~~</span>|<span class="badge badge-dark mr-1">~~Level-0~~</span><span class="badge badge-dark mr-1">~~Level-1~~</span><span class="badge badge-dark mr-1">~~Level-2~~</span><span class="badge badge-dark mr-1">~~Level-3~~</span>|<span class="badge badge-success mr-1">Forking</span>
 
@@ -113,7 +113,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* **Week <span class="badge badge-dark mr-1">~~2~~</span>** [Aug 14 2020 - Aug 27 2020]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">2</span>** [Aug 14 2020 - Aug 27 2020]: Pushed **`2` commits**
 </div>
     
 #### iP Increments
@@ -188,7 +188,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* <span class="badge badge-dark mr-1">~~Forking~~</span>: **Forked?** No. **Issue tracker enabled?** No
+* <span class="badge badge-success mr-1">Forking</span>: **Forked?** Yes. **Issue tracker enabled?** Yes
 </div>
     
 </modal>
@@ -200,15 +200,15 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* **Week <span class="badge badge-dark mr-1">~~2~~</span>** [Aug 14 2020 - Aug 27 2020]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">2</span>** [Aug 14 2020 - Aug 27 2020]: Pushed **`2` commits**
 </div>
     
 #### iP Increments
 
 <div class="indented">
 
-* <span class="badge badge-dark mr-1">~~Level-0~~</span>: [Due in Week 2]: Tag `Level-0` not found in the fork
-* <span class="badge badge-dark mr-1">~~Level-1~~</span>: [Due in Week 2]: Tag `Level-1` not found in the fork
+* <span class="badge badge-success mr-1">Level-0</span>: [Due in Week 2]: Tag `Level-0` found in the fork
+* <span class="badge badge-success mr-1">Level-1</span>: [Due in Week 2]: Tag `Level-1` found in the fork
 * <span class="badge badge-dark mr-1">~~Level-2~~</span>: [Due in Week 2]: Tag `Level-2` not found in the fork
 * <span class="badge badge-dark mr-1">~~Level-3~~</span>: [Due in Week 2]: Tag `Level-3` not found in the fork
 </div>
@@ -217,7 +217,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* <span class="badge badge-dark mr-1">~~Forking~~</span>: **Forked?** No. **Issue tracker enabled?** No
+* <span class="badge badge-success mr-1">Forking</span>: **Forked?** Yes. **Issue tracker enabled?** Yes
 </div>
     
 </modal>
@@ -333,7 +333,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* <span class="badge badge-dark mr-1">~~Forking~~</span>: **Forked?** No. **Issue tracker enabled?** No
+* <span class="badge badge-dark mr-1">~~Forking~~</span>: **Forked?** Yes. **Issue tracker enabled?** No
 </div>
     
 </modal>
@@ -403,7 +403,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* **Week <span class="badge badge-dark mr-1">~~2~~</span>** [Aug 14 2020 - Aug 27 2020]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">2</span>** [Aug 14 2020 - Aug 27 2020]: Pushed **`3` commits**
 </div>
     
 #### iP Increments
@@ -411,8 +411,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 <div class="indented">
 
 * <span class="badge badge-dark mr-1">~~Level-0~~</span>: [Due in Week 2]: Tag `Level-0` not found in the fork
-* <span class="badge badge-dark mr-1">~~Level-1~~</span>: [Due in Week 2]: Tag `Level-1` not found in the fork
-* <span class="badge badge-dark mr-1">~~Level-2~~</span>: [Due in Week 2]: Tag `Level-2` not found in the fork
+* <span class="badge badge-success mr-1">Level-1</span>: [Due in Week 2]: Tag `Level-1` found in the fork
+* <span class="badge badge-success mr-1">Level-2</span>: [Due in Week 2]: Tag `Level-2` found in the fork
 * <span class="badge badge-dark mr-1">~~Level-3~~</span>: [Due in Week 2]: Tag `Level-3` not found in the fork
 </div>
     
@@ -420,7 +420,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* <span class="badge badge-dark mr-1">~~Forking~~</span>: **Forked?** No. **Issue tracker enabled?** No
+* <span class="badge badge-success mr-1">Forking</span>: **Forked?** Yes. **Issue tracker enabled?** Yes
 </div>
     
 </modal>
@@ -432,7 +432,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* **Week <span class="badge badge-dark mr-1">~~2~~</span>** [Aug 14 2020 - Aug 27 2020]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">2</span>** [Aug 14 2020 - Aug 27 2020]: Pushed **`2` commits**
 </div>
     
 #### iP Increments
@@ -449,7 +449,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 <div class="indented">
 
-* <span class="badge badge-dark mr-1">~~Forking~~</span>: **Forked?** No. **Issue tracker enabled?** No
+* <span class="badge badge-success mr-1">Forking</span>: **Forked?** Yes. **Issue tracker enabled?** Yes
 </div>
     
 </modal>
