@@ -1,4 +1,4 @@
-%%[This page was last updated on Aug 23 2020]%% 
+%%[This page was last updated on Aug 24 2020]%% 
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., participation status of each week → total weeks in which you met the participation bar">Weeks participated</tooltip>
 -------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------
@@ -9,9 +9,9 @@ A0177803_ %%<trigger trigger="click" for="modal:pD-A0177803">{{ icon_info }}</tr
 A0177808_ %%<trigger trigger="click" for="modal:pD-A0177808">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span> → **2**
 A0177959_ %%<trigger trigger="click" for="modal:pD-A0177959">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span> → **2**
 A0194107_ %%<trigger trigger="click" for="modal:pD-A0194107">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span> → **2**
-A0194111_ %%<trigger trigger="click" for="modal:pD-A0194111">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-danger mr-1">~~2~~</span> → **0**
+A0194111_ %%<trigger trigger="click" for="modal:pD-A0194111">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-success mr-1">2</span> → **1**
 A0194139_ %%<trigger trigger="click" for="modal:pD-A0194139">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-danger mr-1">~~2~~</span> → **0**
-A0194166_ %%<trigger trigger="click" for="modal:pD-A0194166">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-danger mr-1">~~2~~</span> → **0**
+A0194166_ %%<trigger trigger="click" for="modal:pD-A0194166">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-success mr-1">2</span> → **1**
 A0194175_ %%<trigger trigger="click" for="modal:pD-A0194175">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span> → **2**
 A0194217_ %%<trigger trigger="click" for="modal:pD-A0194217">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span> → **2**
 A0194229_ %%<trigger trigger="click" for="modal:pD-A0194229">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span> → **2**
@@ -64,7 +64,7 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Submit pre-module survey**: done %%(2/2 points)%%
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
 ##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>0/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+* **Repl exercises**: percentage of correct solutions: `8%` %%(0/3 points)%%
 </div>
     
 </modal>
@@ -143,8 +143,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-danger mr-1">~~1~~</span>: <small>2/5 points</small>
 * **Submit pre-module survey**: done %%(2/2 points)%%
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
-##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>0/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+##### Week <span class="badge badge-success mr-1">2</span>: <small>3/3 points</small>
+* **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 </div>
     
 </modal>
@@ -159,8 +159,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-danger mr-1">~~1~~</span>: <small>2/5 points</small>
 * **Submit pre-module survey**: done %%(2/2 points)%%
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
-##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>0/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>1/3 points</small>
+* **Repl exercises**: percentage of correct solutions: `33%` %%(1/3 points)%%
 </div>
     
 </modal>
@@ -175,8 +175,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-danger mr-1">~~1~~</span>: <small>2/5 points</small>
 * **Submit pre-module survey**: done %%(2/2 points)%%
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
-##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>0/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+##### Week <span class="badge badge-success mr-1">2</span>: <small>3/3 points</small>
+* **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 </div>
     
 </modal>
@@ -240,7 +240,7 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Submit pre-module survey**: done %%(2/2 points)%%
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">2</span>: <small>3/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `83%` %%(3/3 points)%%
+* **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 </div>
     
 </modal>
@@ -271,8 +271,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-danger mr-1">~~1~~</span>: <small>2/5 points</small>
 * **Submit pre-module survey**: done %%(2/2 points)%%
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
-##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>0/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>1/3 points</small>
+* **Repl exercises**: percentage of correct solutions: `33%` %%(1/3 points)%%
 </div>
     
 </modal>
@@ -287,8 +287,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">1</span>: <small>5/5 points</small>
 * **Submit pre-module survey**: done %%(2/2 points)%%
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
-##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>0/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `17%` %%(0/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~2~~</span>: <small>1/3 points</small>
+* **Repl exercises**: percentage of correct solutions: `33%` %%(1/3 points)%%
 </div>
     
 </modal>
