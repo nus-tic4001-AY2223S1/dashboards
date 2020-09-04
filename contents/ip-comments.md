@@ -5,4 +5,4 @@ pageNav: 4
 
 <h1 class="display-4">iP review comments dashboard</h1>
 
-<include src="ip-comments-panels.mbdf" />
+<include src="{{ module | lower }}/ip-review-comments-panels.mbdf" />
