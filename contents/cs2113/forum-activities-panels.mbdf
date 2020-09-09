@@ -1,1 +1,1155 @@
-%%[No data yet]%%
+%%[This page was last updated on Sep 06 2020]%%
+
+
+<panel type="info" header="### 1. NEIL..RJEE `@neilbaner` (14 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Using * wildcard for imports**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36" expanded>
+
+Is it ever acceptable to use the * wildcard in an import statement? For example, I have a package called "task" with some different classes, all of which are accessed by my main Duke class in another package. Is it necessary to import every single class separately, or may I use, say, `import com.neilbaner.duke.task.*` ?
+
+Thank you!
+</panel>
+
+<panel  header="**2. :fas-info-circle: Policy on use of this keyword**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27" expanded>
+
+Can I clarify when we are expected to use the "this" keyword to access member variables in a class? Personally, I prefer to use "this" at all times to be explicit, but I seem to remember being told (either in lecture or in tutorial, can't seem to recall which) not to use it when not required to cut down on clutter. I couldn't find anything on this in the Java coding standard guide. The notes on the website on the use of the "this" keyword don't cover this either. 
+
+I just wanted to confirm if I should always use it or not?
+
+Thank you!
+</panel>
+
+<panel  header="**3. :fas-info-circle: 💡[repl.it] Replit Java version**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/16" expanded>
+
+Note that repl.it uses Java version 1.8.0, aka Java 8, NOT Java 11 as we are using for class normally. This may or may not have implications for one of the exercises, due to differences in the String class (eg. Java 11 having some very convenient additions not present in Java 8...)
+</panel>
+
+<panel  header="**4. :fas-info-circle: [Week 3 Ex3] Instructions slightly unclear**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15" expanded>
+
+https://nus-cs2113-ay2021s1.github.io/website/schedule/week3/topics.html#key-exercise-pass-objects-to-move-method
+
+The instructions for creating the move method specifies the following behaviour:
+
+>* Returns null and does nothing if either p or r is null
+>* Returns a new Point object that has attributes x and y that match those of r
+>* Does not modify p
+>* Updates r so that its attributes x and y match those of p
+
+I think the instructions do not make clear whether the returned Point object should have attributes x and y matching those of r before the modification or after. 
+
+The expected output seems to indicate that it is the former; that is, the method returns the previous/initial position of the rectangle as a Point. There's also little point (no pun intended) in directly returning one of the parameters. 
+
+Perhaps the written instructions could be made slightly more explicit in mentioning this? 
+</panel>
+
+<panel  header="**5. :fas-info-circle: [Week 3 Ex2] Using Accessors/Getters vs directly accessing member variables**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/14" expanded>
+
+Hi Prof,
+
+Week 3 Ex2 on repl.it requires us to calculate the area of a rectangle object, by multiplying its height and width together. Is it recommended to use the getter methods for the dimensions of the rectangle, or to just directly access the height and width variables? I noticed the model solution used the latter approach, but I used the getter methods myself. 
+
+The comments in the skeleton code suggest using the setter for changing the dimensions rather than directly modifying the member variables, so I'm wondering why the model solution accessed the member variables directly rather than using the getters. 
+
+Thank you, have a great day!
+</panel>
+
+<panel  header="**6. :fas-info-circle: 💡AdoptOpenJDK - potential solution to JDK installation issues?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/12" expanded>
+
+I hear a lot of my friends having issues with installing Java - specifically, the part about getting it to show up in their PATH as expected - so I thought I'd share what worked for me.
+
+I installed OpenJDK using the AdoptOpenJDK installer, linked [here](https://adoptopenjdk.net/). I chose OpenJDK 11 and Hotspot JVM. 
+
+Simply downloading and running the installer should, in theory, configure everything as necessary. By default, the installer will add the JDK to the PATH, so you should not need to perform any additional setup, except configuring your IDE (IntelliJ IDEA or whatever you might be using) to use the appropriate JDK. 
+
+Has anyone else had success using this particular installer?
+</panel>
+
+<panel  header="**7. :fas-info-circle: Individual Project Repo: Public or Private?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/3" expanded>
+
+Hi Prof, should our repository for the individual project be made public or private? If the latter, then who should we add as collaborators? 
+
+Thank you!
+</panel>
+
+<panel  header="**8. :fas-info-circle: Glitter link broken**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2" expanded>
+
+Good day :)
+
+I might be getting ahead of myself, but I was trying to access the class Gitter chat, and can't seem to do so. 
+The first link on [this](https://nus-cs2113-ay2021s1.github.io/website/admin/tools.html) page, which appears to link to https://nus-cs2113-ay2021s1.github.io/website/admin/urt_gitter, leads me to a 404 page on GitHub, while the other link https://gitter.im/nus-cs2113-AY2021S1/community takes me to a 404 on the Gitter website. 
+
+Is the chat just not up yet?
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2#issuecomment-670808653" expanded>
+
+Ah, thank you. I suspected I was being a bit eager. I'll check back later. 
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678306177" expanded>
+
+Agreed, I'm fairly sure indentation counts towards the limit. 
+
+Don't ask me what happens if you have 30 levels of nested indentation though. 
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15#issuecomment-678749094" expanded>
+
+Ah, I didn't look at the hint. I figured it out when I saw the expected output. Thank you!
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683349638" expanded>
+
+If it makes you feel any better @farice9  I did the same thing. Whoops. A bit more care while reading the instructions would go a long way I guess :P
+</panel>
+
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683482929" expanded>
+
+Ah, thank you @hughjazzman don't know how I missed that. 
+</panel>
+
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683483096" expanded>
+
+I appear to have received the invite a few hours ago. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 2. WIRA..HMAD `@hughjazzman` (12 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Automated Text UI Testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22" expanded>
+
+OS: Windows 10
+Increment: ['A-TextUiTesting'](https://nus-cs2113-ay2021s1.github.io/website/schedule/week4/project.html#a-textuitesting)
+File: 'runtest.bat'
+
+While working on the increment, I find an issue when using file compare ('FC') for the special characters '✓' and '✘'. In the output file 'ACTUAL.TXT', the corresponding characters seem to get converted to '?' (question mark), and the follow lines will be shown in the diff:
+'''
+Comparing files ACTUAL.TXT and EXPECTED.TXT
+***** ACTUAL.TXT
+ Got it. I've added this task:
+  [D][?] do homework (by: no idea)
+ Now you have 8 tasks in the list.
+***** EXPECTED.TXT
+ Got it. I've added this task:
+  [D][Γ£ÿ] do homework (by: no idea)
+ Now you have 8 tasks in the list.
+*****
+
+***** ACTUAL.TXT
+ Nice! I've marked this task as done:
+ [T][?] read book
+------------------------------------------------------------
+***** EXPECTED.TXT
+ Nice! I've marked this task as done:
+ [T][Γ£ô] read book
+------------------------------------------------------------
+*****
+'''
+To fix it, I basically had to change the the expected character to be a '?' in 'EXPECTED.TXT' and it will give me that no differences were encountered. However, this would mean that the test cannot check for '✓' and '✘' characters being different.
+
+I guess that the error probably comes from the special characters being unicode characters which is an issue if 'FC' isn't expecting it. From the [docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fc), there is an option for unicode, but it will be on the whole file and not just a single character.
+
+I also note that in [Updating test as the program evolves](https://se-education.org/guides/tutorials/textUiTesting.html#updating-tests-as-the-program-evolves), "we accept that the actual behavior should be the new expected behavior".
+
+Is there any way for the test to check for those characters, or should I just stick with the question marks?
+</panel>
+
+<panel  header="**2. :fas-info-circle: Week 3 Tutorial Exercise - Coding Standard Violations**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/20" expanded>
+
+'''Java
+import java.util.*;
+
+public class Task {
+    public static final String descriptionPrefix = "description: ";
+    private String description;
+    private boolean important;
+    List<String> pastDescription = new ArrayList<>(); // a list of past descriptions
+
+    public Task(String d) {
+      this.description = d;
+      if (!d.isEmpty())
+          this.important = true;
+    }
+
+    public String getAsXML() { return "<task>"+description+"</task>"; }
+
+    /**
+     * Print the description as a string.
+     */
+    public void printingDescription(){ System.out.println(this); }
+
+    @Override
+    public String toString() { return descriptionPrefix + description; }
+}
+'''
+Other than the given ones regarding 'descriptionPrefix', 'printingDescription()', and 'important', these should be the other ones:
+
+- 'import java.util.*' should be 'import java.util.ArrayList' to be explicit
+- 'pastDescription' should be 'pastDescriptions' to indicate collection
+- 'this.description = d' can just be 'description = d' to reduce noise
+- 'if' statement should be in wrapped in brackets 
+- 'getAsXML()' should be 'getAsXml()' - lowercase
+
+Did I miss anything?
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678271798" expanded>
+
+I assume since the wrapped lines is about the layout to improve readability, it is so that the code is easily viewable on smaller widths. Then this means the spaces would be part of the limit.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-680952533" expanded>
+
+I would assume all the input we get is completely ideal, and that we will learn about catching errors in future weeks.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-681765124" expanded>
+
+Nice! It works, thanks @wangqinNick.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683380238" expanded>
+
+It’s here: https://se-education.org/guides/conventions/java/index.html#variables
+
+>  **Avoid unnecessary use of `this` with fields.**
+
+> Use the `this` keyword only when a field is shadowed by a method or constructor parameter.
+
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683398093" expanded>
+
+Assuming the data from the classrooms follows what's said here - https://docs.repl.it/classrooms/exports - then that's probably why they can't use our repl.it usernames. If only repl.it gave the data with usernames.
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683418650" expanded>
+
+@adinata15 What's your OS? The forward/backslash seems like something to do with using the right file on the right OS.
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683440611" expanded>
+
+@adinata15 Hmm then maybe not. Looking at your package structure, because you packaged Duke in 'main.java' I believe these should work:
+
+'''bash
+javac -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\Duke.java
+java -Dfile.encoding=UTF-8 -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT
+'''
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-683806460" expanded>
+
+@kaijiel24 Yep, since they are special characters you would need to change the console code page as well as the font to print them. Of the fonts available in my 'cmd', only MS Gothic, NSimSun, SimSun-ExtB could display them.
+'''
+chcp 65001
+'''
+
+Sources:
+https://ss64.com/nt/chcp.html
+https://github.com/rrrene/credo/issues/422
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31#issuecomment-684621953" expanded>
+
+Answered in #22 
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-687758900" expanded>
+
+It's in the Coding Standard: https://se-education.org/guides/conventions/java/basic.html#package-and-import-statements
+
+> Imported classes should always be listed explicitly.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 3. WANG.. QIN `@wangqinNick` (11 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Questions regarding DukeException**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/34" expanded>
+
+I want to ask the DukeException class should inherit whether the Exception class or the RuntimeException class.
+The example in the textbook, uses the Exception class as the father class, but I find in the project, it is more convenient to use runtimeException as the father class. 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18#issuecomment-680074633" expanded>
+
+I think perhaps it is because you use the ArrayList, but you did not declare the generic. 
+Since generic does not do type-check and  you did not declare either, it gave such warning.
+Try  ArrayList  < String >  filteredList = new ArrayList <>();
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-681746444" expanded>
+
+There is a line in runtest.sh doing "# run the program, feed commands from input.txt file and redirect the output to the ACTUAL.TXT"
+Change it to:
+java -Dfile.encoding=UTF-8 -classpath ../bin sample.Main < input.txt > ACTUAL.TXT
+don't forget to change the class name to yours
+(I am using a Mac and not sure if this works or not. )
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683376398" expanded>
+
+This is perhaps you have changed you main class name, or moved it to another package. 
+You can try to change this line.
+For example, if you have moved it to another package, you should also compile it with your class name with the package's name
+eg. "sample.Main".
+java -Dfile.encoding=UTF-8 -classpath ../bin sample.Main < input.txt > ACTUAL.TXT
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683376840" expanded>
+
+You need to declare and compile all the classes you have, not only the main class.
+Like this:
+if ! javac -cp ../src -Xlint:none -d ../bin ../src/main/java/sample.Main.java ../src/main/java/commands/add/*.java ../src/main/java/commands/*.java ../src/main/java/common/*.java ../src/main/java/data/exceptions/*.java ../src/main/java/data/task/*.java ../src/main/java/data/*.java ../src/main/java/parser/*.java ../src/main/java/storage/*.java ../src/main/java/ui/*.java
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683376922" expanded>
+
+Or you could run the test-ui by a jar file, which is more convenient when you have complicated structures such as multiple classes and packages. 
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-686346191" expanded>
+
+> @Colin386
+> Hi,
+> Yes that is my project structure, however, when I run the java -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT, it gives me the error "Error: Could not find or load main class main.java.Duke".
+> Even though an ACTUAL.txt is created, it does not get updated based on the inputs given.
+> 
+> <img alt="Capture" width="228" src="https://user-images.githubusercontent.com/59180102/91990284-2c521e80-ed4f-11ea-9b22-3f5deffd00d5.PNG">
+
+This is because your project structure. Your source file is "java" folder (the blue one in the picture) instead of src folder
+
+<img width="240" alt="Screenshot 2020-09-03 at 4 41 34 PM" src="https://user-images.githubusercontent.com/50083580/92092174-56194d00-ee04-11ea-9613-f0ef9bd1d84e.png">
+
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-686347659" expanded>
+
+You should either change the project structure or change the command in runtest.bat according to your current structure. 
+To change the structure, you goto File->Project Structure-> source
+
+Or perhaps try this, if you do not want to change your current structure.
+java -classpath ..\bin Duke < input.txt > ACTUAL.TXT
+
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687699906" expanded>
+
+> ![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
+> 
+> I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
+
+I have no clear thought. But I am interested in your structure :/
+You project content root is week4circus, instead of circus as normal. Did you import the project or you just open it? Could you click File -> Project Structure ->modules and screen shot your modules? 
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687707479" expanded>
+
+> > > ![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
+> > > I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
+> > 
+> > 
+> > I have no clear thought. But I am interested in your structure :/
+> > You project content root is week4circus, instead of circus as normal. Did you import the project or you just open it? Could you click File -> Project Structure ->modules and screen shot your modules?
+> 
+> ![image](https://user-images.githubusercontent.com/60385689/92318550-661d7080-f040-11ea-8a50-b3bddd2a533c.png)
+> 
+> This is my project structure.
+> The "week4circus" is a folder created by me and I cloned the github repo into it
+
+Maybe you can try this: whenever you have ..\bin, you change it to ..\circus\bin
+But in case it won't not work, you either "git reset" to reset it later, or save a copy of it beforehand. 
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/34#issuecomment-687716186" expanded>
+
+> It should inherit the `Exception` class. (`RuntimeException` is a subclass of Exception)
+> See: https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html
+
+Thanks, I understand difference about checked and unchecked exceptions now. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 4. TEOH..IANG `@zhixiangteoh` (8 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/1#issuecomment-671171147" expanded>
+
+I have found the repl.it link under Week 2 Admin Info - https://repl.it/classroom/invite/sclqjqn
+
+Seems right
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10#issuecomment-677460651" expanded>
+
+I believe you can keep it, change it, or remove it.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/17#issuecomment-679248745" expanded>
+
+I sure hope error-handling is not required considering we technically haven't gone over try-catch statements and other error-handling, but I am curious to know as well!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683376354" expanded>
+
+Because you compiled the files into `<root>/bin/`, your java command should be
+
+`java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT` ?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683377276" expanded>
+
+Just change this line in runtest.bat: `javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\Duke.java`
+
+to 
+
+`javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\*.java`, similar to in runtest.sh
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683398656" expanded>
+
+> @zhixiangteoh When `java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT` is used, it still gives the same error.
+> @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java.
+> @AndreWongZH For the uninitialised value, I declared some variable without assigning a value for them at first (only assign when user input data) but everything works fine when I tried running it on the console.
+
+Your main class and file are still "Duke" and "Duke.java" respectively?
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683401756" expanded>
+
+> > > @zhixiangteoh When `java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT` is used, it still gives the same error.
+> > > @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java.
+> > > @AndreWongZH For the uninitialised value, I declared some variable without assigning a value for them at first (only assign when user input data) but everything works fine when I tried running it on the console.
+> > 
+> > 
+> > Your main class and file are still "Duke" and "Duke.java" respectively?
+> 
+> I am not sure where to find the file Duke.java but my main class is still Duke. This is the screenshot of the directory:
+> ![image](https://user-images.githubusercontent.com/48993548/91656076-3f16ea00-eae8-11ea-9478-c6a95cb3cec1.png)
+
+Hey, i think perhaps this will work:
+
+`java -Dfile.encoding=UTF-8 -classpath ..\bin main\java\Duke < input.txt > ACTUAL.TXT`
+
+It seems that because your compilation destination is <root>\bin but the package main.java was compiled and not the files, the classpath is ..\bin but you need to execute the `<package>.<subpackage>.<main class>`.
+
+See also: https://stackoverflow.com/questions/7509295/noclassdeffounderror-wrong-name/13697239
+
+If this still doesn't work, try changing your javac command in runtest.bat to:
+
+`javac  -verbose -cp ..\src\main\java -Xlint:none -d ..\bin ..\src\main\java\*.java`
+
+to see what files or packages are being loaded.
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-687758159" expanded>
+
+I personally feel using explicit imports is still better; on top of the stated benefits, I feel it is also more flexible in that it allows you to more clearly and easily remove particular import statements in the event you reorganize your packages and/or the code in the class to which you are importing the packages/classes to.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 5. ADI ..NATA `@adinata15` (7 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Automated Text-UI Testing Issue : Cannot find file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29" expanded>
+
+I am still a bit confused about automated testing. After following the guide on the cs2113 website and changing the path, I still get the error:
+'''
+Error: Could not find or load main class Duke
+Caused by: java.lang.NoClassDefFoundError: main/java/Duke (wrong name: Duke)
+'''
+![image](https://user-images.githubusercontent.com/48993548/91651424-13333e80-eabf-11ea-807b-10f801ebb4f8.png)
+These are my java and javac command lines:
+'''
+javac  -cp ..\src\main\java -Xlint:none -d ..\bin ..\src\main\java\*.java
+java -Dfile.encoding=UTF-8 -classpath ..\bin\main\java Duke < input.txt > ACTUAL.TXT
+'''
+Does anyone know how to solve this error? Thank you!
+</panel>
+
+<panel  header="**2. :fas-info-circle: Indentation settings on wrap lines**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11" expanded>
+
+Regarding the settings for the wrapped lines, do we include the indentation spaces into the 120 chars limit?
+It is on this part of the website settings:
+
+![image](https://user-images.githubusercontent.com/48993548/90884968-4f8ddd00-e3e3-11ea-94a5-679e06c720c8.JPG)
+
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678590000" expanded>
+
+Thank you!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683398377" expanded>
+
+@zhixiangteoh  When ```java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT``` is used, it still gives the same error.
+@wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java. 
+@AndreWongZH For the uninitialised value, I declared some variable without assigning a value for them at first (only assign when user input data) but everything works fine when I tried running it on the console.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683399230" expanded>
+
+> > @zhixiangteoh When `java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT` is used, it still gives the same error.
+> > @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java.
+> > @AndreWongZH For the uninitialised value, I declared some variable without assigning a value for them at first (only assign when user input data) but everything works fine when I tried running it on the console.
+> 
+> Your main class and file are still "Duke" and "Duke.java" respectively?
+
+I am not sure where to find the file Duke.java but my main class is still Duke. This is the screenshot of the directory:
+![image](https://user-images.githubusercontent.com/48993548/91656076-3f16ea00-eae8-11ea-9478-c6a95cb3cec1.png)
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683404671" expanded>
+
+> > > > @zhixiangteoh When 'java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT' is used, it still gives the same error.
+> > > > @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java.
+> > > > @AndreWongZH For the uninitialised value, I declared some variable without assigning a value for them at first (only assign when user input data) but everything works fine when I tried running it on the console.
+> > > 
+> > > 
+> > > Your main class and file are still "Duke" and "Duke.java" respectively?
+> > 
+> > 
+> > I am not sure where to find the file Duke.java but my main class is still Duke. This is the screenshot of the directory:
+> > ![image](https://user-images.githubusercontent.com/48993548/91656076-3f16ea00-eae8-11ea-9478-c6a95cb3cec1.png)
+> 
+> Hey, i think perhaps this will work:
+> 
+> 'java -Dfile.encoding=UTF-8 -classpath ..\bin main\java\Duke < input.txt > ACTUAL.TXT'
+> 
+> It seems that because your compilation destination is \bin but the package main.java was compiled and not the files, the classpath is ..\bin but you need to execute the '<package>.<subpackage>.<main class>'.
+> 
+> See also: https://stackoverflow.com/questions/7509295/noclassdeffounderror-wrong-name/13697239
+> 
+> If this still doesn't work, try changing your javac command in runtest.bat to:
+> 
+> 'javac -verbose -cp ..\src\main\java -Xlint:none -d ..\bin ..\src\main\java\*.java'
+> 
+> to see what files or packages are being loaded.
+
+I try changing it to:
+'''
+java -Dfile.encoding=UTF-8 -classpath ..\bin main\java\Duke < input.txt > ACTUAL.TXT
+'''
+The same error still comes out. However, when I change it to:
+'''
+java -Dfile.encoding=UTF-8 -classpath ../bin main/java/Duke < input.txt > ACTUAL.TXT
+'''
+It works :D. I then try to change all backslash to slash in the runtime.bat file and it also works. I am not really sure why this works, but could this lead to a problem in the future?
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683437264" expanded>
+
+> @adinata15 What's your OS? The forward/backslash seems like something to do with using the right file on the right OS.
+
+My OS is Windows 10.
+![image](https://user-images.githubusercontent.com/48993548/91663554-317b5780-eb1c-11ea-94f8-405953cc9bc1.png)
+The Windows 10 version might be the cause, is it?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 6. FELI..ALIM `@felixhalim` (6 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10#issuecomment-677465756" expanded>
+
+Please refer to #5 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-680960994" expanded>
+
+Error-handling is not necessary for Level-3. Based on #17
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/7#issuecomment-682308726" expanded>
+
+I believe that this issue has been resolved and ready to be closed.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683301227" expanded>
+
+Same case here
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683305749" expanded>
+
+Noted. Thanks prof.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31#issuecomment-684625922" expanded>
+
+To prevent repeated question regarding this, it would be better if the solution is added to the documentation. @okkhoy 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 7. MUHA..WALA `@MuhammadHoze` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Exercise: [Key Exercise] getMultipleGradeCaps Method**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/7" expanded>
+
+Hi prof, i wanted to clarify, for this exercise, only the main method has to be unchanged right? Am i able to directly edit the getGradeCap method or that has to remain unchanged as well? 
+</panel>
+
+<panel  header="**2. :fas-info-circle: Exercises in the Topics**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/4" expanded>
+
+Hi prof, just wanted to check if the Exercises in the Topics are mandatory to do?  
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/4#issuecomment-674396528" expanded>
+
+Yes besides the one on repl.it. 
+
+ Exercises (For Example)
+
+ SE vs Civil Engineering
+
+ Software vs Bridges
+
+ Coding as a manufacturing activity
+
+ List pros and cons of SE
+
+ Which one of these is not included in Brook’s list of ‘Woes of the Craft’?
+
+Do these exercises also contribute to the participation marks? 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/4#issuecomment-674397335" expanded>
+
+Alright thanks 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 8. HENG..YUEN `@HengFuYuen` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: SourceTree red exclamation mark beside Remote icon**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/13" expanded>
+
+Hi prof! Is it a problem if there is a red exclamation mark next to my remote icon on SourceTree (refer to picture below)? It seems to be able to successfully redirect me to the github page when I click on it although I have not tried to push any new commits yet.
+
+![image](https://user-images.githubusercontent.com/60005925/90949168-bb6e5500-e478-11ea-87f7-968047b02150.png)
+ 
+Thank you very much!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/13#issuecomment-678651302" expanded>
+
+Ok! Thank you very much prof!
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685448395" expanded>
+
+I also had the same problem of a build failure and the terminal being unable to find the classes that I have used in Duke. However, I was testing things out and either of these two compile lines seems to make it work:
+javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\Task.java
+javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\*.java
+However, I am not sure if this is correct.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685457298" expanded>
+
+I see! Thanks for the clarification prof!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 9. LIM ..BING `@farice9` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Did not fulfill participation requirement on Week 2/3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26" expanded>
+
+Hey! I don't understand why I did not get the participation mark for Week 2/3 despite attending lecture and answered the in-lecture questions (the one hosted on pollev), finished the repl.it questions & ip progress before tutorial.
+
+I would appreciate it if I can understand why this happened so that I can avoid the same mistake in the future. Thanks!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/1#issuecomment-671157439" expanded>
+
+Hi! I noticed that the link to repl.it "cs2113-2020 Aug-Dec" classroom is not attached under https://nus-cs2113-ay2021s1.github.io/website/schedule/week1/admin.html > "Tools - repl.it"
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683304572" expanded>
+
+I see, thanks for the reply. I opened up and noticed that my "First Name" on repl.it was my real name instead of GitHub name. I hadn't considered that an issue as my repl.it username was the same as github.
+
+![image](https://user-images.githubusercontent.com/56571027/91640211-602afc80-ea4e-11ea-8ab4-f2157027acb0.png)
+
+I've changed the "First Name" to the GitHub name afterward.
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683306192" expanded>
+
+Thanks @tobiasceg for pointing out and @okkhoy for verifying the issue. Really appreciate it!
+
+I'll keep this issue open, hopefully affected people will notice this.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. ZHAO..IANG `@e0426051` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Not sure how to redo circus activity in lecture**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35" expanded>
+
+Hi, I was unable to complete all the steps during the lecture for the circus activity, so I attempted them again. However, I made the mistake of deleting my previous forked repository on Github as I thought it was interfering with my unsuccessful pushes. Currently, the main branch has been updated and hence I was unable to make another branch called "in-lecture". May I know how I should go about solving this issue?
+
+Error:
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Question regarding traditional task method for Level-4**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32" expanded>
+
+Hi,
+I was wondering whether we are supposed to retain the traditional task entry feature (e.g. type anything, added as task) as we code Level-4. This seems redundant since the old task method seems to be identical to "ToDo" tasks now.
+
+Also, may I ask how strictly should we stick to the example outputs? It seems possible to detect the types of tasks automatically by looking for the "by" and "at" keywords in the string itself, but I'm not sure if such implementation/deviation from example output is allowed. (This method will follow the input of Level-2/Level-3)
+
+Thanks for any advice regarding these queries.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32#issuecomment-684755917" expanded>
+
+@okkhoy Thanks for the clarification. 
+
+Regarding the second part, I meant to write the program such that it automatically categorizes the type of task by detecting "/at" and "/by" (or the lack thereof) on the input so that the user does not need to enter specifically the type of task(e.g. typing `project meeting /at Mon 2-4pm` instead of  `event project meeting /at Mon 2-4pm`). However, since the Level-2 commands are retained, I am uncertain of how the automated categorization can distinguish (or is required to distinguish) between a Level-2 "task" and To-Do since they seem like the same thing. Is it a better idea to stick with the guidelines provided by the sample output?
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32#issuecomment-684803361" expanded>
+
+@okkhoy Thank you for the advice. I will stick with the recommended method for Level-4 and will instead consider implementing automatic flag detection for the tP.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 11. GUNI..TTAL `@gmit22` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Automated Text-UI Testing Issue : Cannot find file and symbol**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33" expanded>
+
+I am not able to get the automated testing to work. It keeps on giving the error ACTUAL.txt not found and cannot find class that have been incorporated in the main class, resulting in a build failure. 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685741084" expanded>
+
+@Colin386  
+Hi, 
+Yes that is my project structure, however, when I run the java -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT, it gives me the error "Error: Could not find or load main class main.java.Duke". 
+Even though an ACTUAL.txt is created, it does not get updated based on the inputs given.
+
+<img width="228" alt="Capture" src="https://user-images.githubusercontent.com/59180102/91990284-2c521e80-ed4f-11ea-9b22-3f5deffd00d5.PNG">
+
+
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685742128" expanded>
+
+@HengFuYuen @okkhoy 
+Yes this command worked to compile all the classes in the folder. 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-686611414" expanded>
+
+Yes I tried this, it works. Understood the problem, thanks
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 12. SHRE..UMAR `@shreytheshreyas` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Regarding iP**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10" expanded>
+
+Hi Prof,
+In our Level-0 Greet implementation of the iP our we suppose to retain the initial logo "Duke" that was initially present or do we just remove the logo for now and just add in the code to greet the user?
+</panel>
+
+<panel  header="**2. :fas-info-circle: [Key Exercise] Grade Helper:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/8" expanded>
+
+Hi Prof, Just wanted to raise this issue there doesn't seem to be an assignment file for the Grade helper key exercise on repl.it.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/8#issuecomment-675457815" expanded>
+
+oh ok noted, thanks prof :)
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10#issuecomment-677518711" expanded>
+
+oh ok thanks guys :)
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 13. TANG..TING `@t170815518` (3 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Repl.it Error: Note: Recompile with -Xlint:unchecked for details.**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18" expanded>
+
+I am attempting 'Week 3 Ex9: filterEmails method', using 'java.util.ArrayList'; however, repl.it prompts the message in output like:
+'''
+Note: Main.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint: unchecked for details.
+[]
+[]
+[adam@example.com, john@example.com, some@]
+[@bee.com]
+'''
+where the first 2 lines make the output different from the expected and thus the solution cannot be accepted.
+My full code:
+'''java
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Main {
+    public static String[] filterEmails(String[] items){
+        // TODO: add your code here
+        ArrayList filteredList = new ArrayList();
+        for (String email: items){
+            if (email.contains("@")){
+                filteredList.add(email);
+            }
+        }
+        String[] result = new String[filteredList.size()];
+        filteredList.toArray(result);
+        return result;
+    }
+
+    public static void printItems(String[] items){
+        // TODO: add your code here
+        System.out.println(Arrays.toString(items));
+    }
+
+    public static void main(String[] args) {
+        printItems(filterEmails(new String[]{}));
+        printItems(filterEmails(new String[]{"abc"}));
+        printItems(filterEmails(new String[]{"adam@example.com", "aab", "john@example.com", "some@"}));
+        printItems(filterEmails(new String[]{"xyz", "@bee.com", "aab"}));
+    }
+} 
+'''
+How can I solve the issue, especially the one that ' Recompile with -Xlint: unchecked for details.'? (I tried searching from StackOverflow but failed to understand the answers there. :( )
+
+Any help will be appreciated. :) 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18#issuecomment-680144111" expanded>
+
+
+> I think perhaps it is because you use the ArrayList, but you did not declare the generic.
+> Since generic does not do type-check and you did not declare either, it gave such warning.
+> Try ArrayList < String > filteredList = new ArrayList <>();
+
+That works, thank you! It seems both warnings are caused because of it. 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683374090" expanded>
+
+Same issue. Thank you for pointing out it. Appreciate all the replies here. 
+I've just changed my repl's first name too. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 14. RIAZ..AMED `@riazaham` (3 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687695109" expanded>
+
+![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
+
+I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687700988" expanded>
+
+> > ![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
+> > I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
+> 
+> I have no clear thought. But I am interested in your structure :/
+> You project content root is week4circus, instead of circus as normal. Did you import the project or you just open it? Could you click File -> Project Structure ->modules and screen shot your modules?
+
+![image](https://user-images.githubusercontent.com/60385689/92318550-661d7080-f040-11ea-8a50-b3bddd2a533c.png)
+
+This is my project structure.
+The "week4circus" is a folder created by me and I cloned the github repo into it
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687713389" expanded>
+
+> The ACTUAL file gets created on successfully running the `runtest.bat` file.
+> Were you able to run the `runtest.bat`?
+
+Oh wow it works now.... :/ idk what changed but it works now! Thanks for the help
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 15. R RA..MANA `@R-Ramana` (2 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: iP: Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21" expanded>
+
+For Level-3 of the iP, can we assume that the input from the user will always be done < int > and no other variations like < int > done/I have done < int >?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-681617750" expanded>
+
+Thanks all
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 16. LOW ..LEON `@leonlowzd` (2 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Bye World problem issue**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/9" expanded>
+
+Hi prof, is there a problem with the script/compiler? 
+
+<img width="686" alt="Screenshot 2020-08-19 at 8 43 45 PM" src="https://user-images.githubusercontent.com/69446308/90638203-a074c880-e25f-11ea-9935-7cebcffd560a.png">
+
+A bit of context, I save and did not submit my draft and moved on to the other questions. Now this question have error... 
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/9#issuecomment-676339932" expanded>
+
+Ohh.. I've reloaded the website, alls good :) 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 17. PRAC..ENKA `@prachi2023` (2 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Tick and Cross characters not appearing when doing text ui testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31" expanded>
+
+When I run the code on IntelliJ, the characters for the ticks and the cross appear. However, when I run the code using the command line, they appear as question marks. How to fix this issue? 
+
+
+![IntelliJOutput](https://user-images.githubusercontent.com/60388723/91830275-28ea6480-ec75-11ea-85c9-806ffc07eb3b.PNG)
+![commandLineOutput](https://user-images.githubusercontent.com/60388723/91830282-2982fb00-ec75-11ea-9532-2a5d8d7ff587.PNG)
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31#issuecomment-684627256" expanded>
+
+Sorry I might have missed that. Thanks guys
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 18. NEO .. ERN `@neojiaern` (2 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: iP: Level-0**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5" expanded>
+
+Hi Prof, regarding Level-0 of the iP, the task states that we should commit after making changes, for this increment are we supposed to push the changes to the fork on github after committing? In addition, are we supposed to keep the DUKE logo that shows at the start?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5#issuecomment-674406397" expanded>
+
+Noted, thank you prof
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 19. WU Y..UXIN `@Lezn0` (2 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Automated runtest issues: cannot find symbol**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30" expanded>
+
+I am getting this when trying out the runtest.bat for some reason. List is a custom class I declared. I have not changed my runtest.bat file at all.
+![image](https://user-images.githubusercontent.com/60455558/91651518-432f1180-eac0-11ea-9d1c-4bbfc7616346.png)
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683377275" expanded>
+
+Thank you so much! It works now.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 20. ANG ..YANG `@acyang97` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: IP Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/19" expanded>
+
+Hi prof, for Level-3 of the IP, are we free to use anything we want in the square brackets before the name of the task to indicate if the task is done or not done? 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 21. LIAU.. JIE `@kaijiel24` (1 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-683693127" expanded>
+
+I faced the same issue and after implementing @wangqinNick solution, the terminal will still show '''Γ£ÿ''' and '''Γ£ô''' instead of '''✘''' and '''✓''' when I have yet to change the '''EXPECTED.txt''' to match '''ACTUAL.txt'''. But when I open '''ACTUAL.txt''' it shows '''✘''' and '''✓''' correctly. 
+After I changed '''EXPECTED.txt''' to match '''ACTUAL.txt''', no differences will be detected when I run runtest.bat so I believe it is the terminal that is not able to show the correct symbol rather than java.
+'''
+Comparing files ACTUAL.TXT and EXPECTED.TXT
+FC: no differences encountered
+'''
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 22. YEOW..NDON `@brandonywl` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: No Invitation to nus-cs2113-AY2021S1**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25" expanded>
+
+Hi.
+
+I did not receive any invite to the organization and tried to follow the link in the admin info but did not work.
+
+I just made the pull request a couple of hours earlier. Is that a factor?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 23. DANI..OONG `@daniellimws` (1 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35#issuecomment-687739348" expanded>
+
+You can click on "branches" here (which links you to https://github.com/e0426051/circus/branches)
+
+![image](https://user-images.githubusercontent.com/8130120/92322937-274ee100-f067-11ea-8713-7a65b9f0ca9b.png)
+
+Then you should be able to delete the `in-lecture` branch on GitHub
+
+![image](https://user-images.githubusercontent.com/8130120/92322953-3766c080-f067-11ea-9f02-5982c053655a.png)
+
+Then there shouldn't be a problem with pushing anymore.
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 24. NG N..OLIN `@Colin386` (1 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685022185" expanded>
+
+Hi there!
+How does your file structure look like in the project?
+![image](https://user-images.githubusercontent.com/60383990/91886910-9c639480-ecbc-11ea-8b07-f4480383a7aa.png)
+If yours looks like this where you have a main.java folder with all the classes inside it, you may need to change the runtest.bat file:
+
+instead of writing:
+`java -classpath ..\bin Duke < input.txt > ACTUAL.TXT`
+you will need to write:
+`java -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT`
+Im not sure if this will help, but it did help me resolve the issue of missing classes. Do let me know how it goes
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 25. ANDR.. HUA `@AndreWongZH` (1 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683378099" expanded>
+
+![image](https://user-images.githubusercontent.com/21986187/91651800-a53d4600-eac3-11ea-809f-b56cf0302e4b.png)
+
+Maybe you did not initialize a value and called it?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 26. TAN ..BIAS `@tobiasceg` (1 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683304118" expanded>
+
+the prof mentioned that theres a possibility that ur repl account name was set up according to the instructions: github name into the first name part of the repl account 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 27. MATT..GANI `@matthewgani` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: IP Level-3 Question**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/17" expanded>
+
+Hi Prof, for IP level-3 (mark as done), do we have to account for the cases where the user inputs a task number(positive or negative) that does not exist or if the user simply inputs done with no number and print out an error message?
+
+
+Thank you!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 28. NI Y..ILUN `@lunzard` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Individual Project: updates in iP progress dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/6" expanded>
+
+Hi Prof, are we able to see the updates in the iP progress dashboard [https://nus-cs2113-ay2021s1.github.io/dashboards/contents/ip-progress.html](url) now?
+I have made my first commit to the forked project, with a summary "Update Level-0", but I didn't see any change in the dashboard. The last update is still on Mar 03 2020.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 29. LIM ..G LE `@limgl1998` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Commit date and time being messed up due to rebase**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/28" expanded>
+
+For some reasons, I had to rebase my commit history to merge 2 different branches. As a result, the timings for my commits became very recent (ie all the commit timings became that of the time where I did my rebase). Will I be penalised because of my commit timings as they are past the deadlines?
+</panel>
+
+</panel>
