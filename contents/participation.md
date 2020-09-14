@@ -11,7 +11,8 @@ title: "Participation dashboard"
 * Meaning of colors/icons:
   * %%{{ icon_info }}%% : you can click on this icon to find more info
   * <span class="badge badge-success">N</span> : you reached the participation bar for week `N`
-  * <span class="badge badge-danger">~~N~~</span> : you did not reach the participation bar for week `N`
+  * <span class="badge badge-warning">~~N~~</span> : you earned _some_ participation points in the week `N` but fell short of the participation bar for that week (these _tried-but-fell-short_ weeks are not normally counted for participation, but they could be given _some_ consideration if you failed to earn full participation marks at the end)
+  * <span class="badge badge-danger">~~N~~</span> : you did not earn _any_ participation points for week `N`
 * If you have queries about the participation marks, please email `{{ module | lower }}@comp.nus.edu.sg`.
 </box>
 
