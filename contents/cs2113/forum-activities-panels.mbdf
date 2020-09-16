@@ -1,17 +1,45 @@
-%%[This page was last updated on Sep 06 2020]%%
+%%[This page was last updated on Sep 14 2020]%%
 
 
-<panel type="info" header="### 1. NEIL..RJEE `@neilbaner` (14 posts)"  collapsed>
+<panel type="info" header="### 1. NEIL..RJEE `@neilbaner` (24 posts)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: Using * wildcard for imports**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36" expanded>
+<panel  header="**1. :fas-info-circle: [General] Forking vs Branching for group projects**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44" expanded>
+
+As NUS SoC students, we all have to do many group projects, most of which involve collaborating on code. I've used GitHub in the past for this, but mostly in the very simple "everyone just commits to master" style. Of course, with CS2113T, we're all now more familiar with advanced git and revision control strategies. 
+
+Prof, can I ask, in your opinion, for the type of small group project that we often undertake, what's the best approach of these:
+
+- Creating a GitHub Organisation for the project and creating a repository under the organisation that everyone contributes to via forks and PRs. 
+- One member making a repository on their account and everyone making a fork and submitting PRs. 
+- One member making a repository on their account and everyone making a separate branch and submitting PRs. 
+- One member making a repository on their account and everyone committing to a separate "development" branch, and then submitting PRs to master.
+- Committing directly to master. 
+
+While PRs are very good for organising code, I think they can be a bit of a hassle for smaller projects where speed is more important than code quality (as long as there are no bugs, which should be tested before committing). I wonder if Prof has any advice on choosing an approach? Or maybe any of my classmates have any ideas/stories/suggestions? 
+
+Thank you all in advance, have a lovely weekend!
+</panel>
+
+<panel  header="**2. :fas-info-circle: [iP] Progress very out of date on the Code Dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40" expanded>
+
+Hi Prof and everyone,
+
+I was looking through the RepoSense dashboard with all of our iPs, and I noticed that my iP is quite behind (the last commit was on 4th September). However, I have made more commits to my iP since then (including on the same day) but those don't seem to be picked up by RepoSense. I noticed others' commits as new as today are being picked up; is there something I'm doing wrong? Have I perhaps messed up a branch or something?
+
+Thank you!
+
+EDIT: Links for reference: [RepoSense for my iP](https://nus-cs2113-ay2021s1.github.io/ip-dashboard/#sort=totalCommits%20dsc&groupSelect=groupByAuthors&search=neilbaner&sortWithin=title&since=2020-08-14&timeframe=commit&mergegroup=&breakdown=false&tabOpen=true&tabType=zoom&zA=neilbaner&zR=neilbaner%2Fip%5Bmaster%5D&zACS=88.38133547868061&zS=2020-08-14&zFS=&zU=2020-09-10&zMG=false&zFTF=commit&zFGS=groupByAuthors), [GitHub for my iP](https://github.com/NeilBaner/ip/commits/master)
+</panel>
+
+<panel  header="**3. :fas-info-circle: Using * wildcard for imports**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36" expanded>
 
 Is it ever acceptable to use the * wildcard in an import statement? For example, I have a package called "task" with some different classes, all of which are accessed by my main Duke class in another package. Is it necessary to import every single class separately, or may I use, say, `import com.neilbaner.duke.task.*` ?
 
 Thank you!
 </panel>
 
-<panel  header="**2. :fas-info-circle: Policy on use of this keyword**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27" expanded>
+<panel  header="**4. :fas-info-circle: Policy on use of this keyword**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27" expanded>
 
 Can I clarify when we are expected to use the "this" keyword to access member variables in a class? Personally, I prefer to use "this" at all times to be explicit, but I seem to remember being told (either in lecture or in tutorial, can't seem to recall which) not to use it when not required to cut down on clutter. I couldn't find anything on this in the Java coding standard guide. The notes on the website on the use of the "this" keyword don't cover this either. 
 
@@ -20,12 +48,12 @@ I just wanted to confirm if I should always use it or not?
 Thank you!
 </panel>
 
-<panel  header="**3. :fas-info-circle: 💡[repl.it] Replit Java version**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/16" expanded>
+<panel  header="**5. :fas-info-circle: 💡[repl.it] Replit Java version**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/16" expanded>
 
 Note that repl.it uses Java version 1.8.0, aka Java 8, NOT Java 11 as we are using for class normally. This may or may not have implications for one of the exercises, due to differences in the String class (eg. Java 11 having some very convenient additions not present in Java 8...)
 </panel>
 
-<panel  header="**4. :fas-info-circle: [Week 3 Ex3] Instructions slightly unclear**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15" expanded>
+<panel  header="**6. :fas-info-circle: [Week 3 Ex3] Instructions slightly unclear**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15" expanded>
 
 https://nus-cs2113-ay2021s1.github.io/website/schedule/week3/topics.html#key-exercise-pass-objects-to-move-method
 
@@ -43,7 +71,7 @@ The expected output seems to indicate that it is the former; that is, the method
 Perhaps the written instructions could be made slightly more explicit in mentioning this? 
 </panel>
 
-<panel  header="**5. :fas-info-circle: [Week 3 Ex2] Using Accessors/Getters vs directly accessing member variables**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/14" expanded>
+<panel  header="**7. :fas-info-circle: [Week 3 Ex2] Using Accessors/Getters vs directly accessing member variables**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/14" expanded>
 
 Hi Prof,
 
@@ -54,7 +82,7 @@ The comments in the skeleton code suggest using the setter for changing the dime
 Thank you, have a great day!
 </panel>
 
-<panel  header="**6. :fas-info-circle: 💡AdoptOpenJDK - potential solution to JDK installation issues?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/12" expanded>
+<panel  header="**8. :fas-info-circle: 💡AdoptOpenJDK - potential solution to JDK installation issues?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/12" expanded>
 
 I hear a lot of my friends having issues with installing Java - specifically, the part about getting it to show up in their PATH as expected - so I thought I'd share what worked for me.
 
@@ -65,14 +93,14 @@ Simply downloading and running the installer should, in theory, configure everyt
 Has anyone else had success using this particular installer?
 </panel>
 
-<panel  header="**7. :fas-info-circle: Individual Project Repo: Public or Private?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/3" expanded>
+<panel  header="**9. :fas-info-circle: Individual Project Repo: Public or Private?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/3" expanded>
 
 Hi Prof, should our repository for the individual project be made public or private? If the latter, then who should we add as collaborators? 
 
 Thank you!
 </panel>
 
-<panel  header="**8. :fas-info-circle: Glitter link broken**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2" expanded>
+<panel  header="**10. :fas-info-circle: Glitter link broken**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2" expanded>
 
 Good day :)
 
@@ -82,42 +110,271 @@ The first link on [this](https://nus-cs2113-ay2021s1.github.io/website/admin/too
 Is the chat just not up yet?
 </panel>
 
-<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2#issuecomment-670808653" expanded>
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2#issuecomment-670808653" expanded>
 
 Ah, thank you. I suspected I was being a bit eager. I'll check back later. 
 </panel>
 
-<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678306177" expanded>
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678306177" expanded>
 
 Agreed, I'm fairly sure indentation counts towards the limit. 
 
 Don't ask me what happens if you have 30 levels of nested indentation though. 
 </panel>
 
-<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15#issuecomment-678749094" expanded>
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15#issuecomment-678749094" expanded>
 
 Ah, I didn't look at the hint. I figured it out when I saw the expected output. Thank you!
 </panel>
 
-<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683349638" expanded>
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683349638" expanded>
 
 If it makes you feel any better @farice9  I did the same thing. Whoops. A bit more care while reading the instructions would go a long way I guess :P
 </panel>
 
-<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683482929" expanded>
+<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683482929" expanded>
 
 Ah, thank you @hughjazzman don't know how I missed that. 
 </panel>
 
-<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683483096" expanded>
+<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683483096" expanded>
 
 I appear to have received the invite a few hours ago. 
 </panel>
 
+<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-689915299" expanded>
+
+Sorry for the late response. Understood. Thank you. 
+</panel>
+
+<panel  header="**18 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40#issuecomment-690295153" expanded>
+
+@wangqinNick Ahhh I think I see the problem then. Thank you. I also just double checked that all my tags were pushed because some of my tags this morning were only on my local repo :/ I was just very confused since no one else seemed to have this issue; perhaps they already merged their branches. 
+
+@okkhoy The user.name seems to be fine. I'll wait for the reposense to update tomorrow. 
+
+Thank you to everyone :)
+</panel>
+
+<panel  header="**19 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40#issuecomment-690921483" expanded>
+
+Update: All is well, the latest changes have been picked up. 
+</panel>
+
+<panel  header="**20 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44#issuecomment-691655008" expanded>
+
+Thank you for the helpful insight. When you say PR workflow, are there any significant advantages or disadvantages to creating forks vs. branches? I imagine forks keep the production repository cleaner, but branches are a bit easier to manage? 
+</panel>
+
+<panel  header="**21 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-691655985" expanded>
+
+Interesting update: If I use IntelliJ to automatically import each class (i.e. delete my import com.neilbaner.duke.exceptions.* and then Alt-Enter on each exception manually), then by the time I import every single exception (eg. import com.neilbaner.duke.exceptions.TaskIndexOutOfBoundsException, com.neilbaner.duke.exceptions.UnknownCommandException etc. etc, IntelliJ decides that it should combine them all back into com.neilbaner.duke.exceptions.*. This does throw a bit of a spanner in the works. 
+</panel>
+
+<panel  header="**22 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44#issuecomment-691673146" expanded>
+
+I see. I guess I need to try all the different approaches before settling on one. Thanks for your advice. It was very helpful. I'll close this issue now. 
+</panel>
+
+<panel  header="**23 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692393580" expanded>
+
+I, too, am facing something similar. The same path that works in IntelliJ no longer works when I create a JAR and test it using`java -jar`. I handled the exception, but the feature doesn't work as expected which is a bit of a shame. 
+</panel>
+
+<panel  header="**24 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692430567" expanded>
+
+For mine, there are some text files containing lists of application data (i.e. not user generated data) that I want to bundle with the application. I made sure that those text files are inside the jar, but the same path that works when running in IntelliJ don't work with the jar. Can I ask how we can access files within the jar? Should the path be something like ./ip.jar/... ?
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 2. WIRA..HMAD `@hughjazzman` (12 posts)"  collapsed>
+<panel type="info" header="### 2. WANG.. QIN `@wangqinNick` (20 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Third-party libraries not recognised after updating the IntelliJ IDEA**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/45" expanded>
+
+I was using the IntelliJ IDEA version 2019.2 on a macOS 10.15.  After updating the the IDEA to version 2020.3, it could not recognise some of my third-party libraries. I tried several methods and still could not solve the issue, including manually set up the jar path and etc. The IDEA also crashed several times when I set the library path. In the end, I had to reinstall the 2019.2 version. 
+</panel>
+
+<panel  header="**2. :fas-info-circle: Requesting Permission to use Gson**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/38" expanded>
+
+## Library
+https://github.com/google/gson
+
+## Purpose
+To save and load the task list more easily
+
+## License
+https://github.com/google/gson/blob/master/LICENSE
+
+</panel>
+
+<panel  header="**3. :fas-info-circle: Questions regarding DukeException**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/34" expanded>
+
+I want to ask the DukeException class should inherit whether the Exception class or the RuntimeException class.
+The example in the textbook, uses the Exception class as the father class, but I find in the project, it is more convenient to use runtimeException as the father class. 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18#issuecomment-680074633" expanded>
+
+I think perhaps it is because you use the ArrayList, but you did not declare the generic. 
+Since generic does not do type-check and  you did not declare either, it gave such warning.
+Try  ArrayList  < String >  filteredList = new ArrayList <>();
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-681746444" expanded>
+
+There is a line in runtest.sh doing "# run the program, feed commands from input.txt file and redirect the output to the ACTUAL.TXT"
+Change it to:
+java -Dfile.encoding=UTF-8 -classpath ../bin sample.Main < input.txt > ACTUAL.TXT
+don't forget to change the class name to yours
+(I am using a Mac and not sure if this works or not. )
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683376398" expanded>
+
+This is perhaps you have changed you main class name, or moved it to another package. 
+You can try to change this line.
+For example, if you have moved it to another package, you should also compile it with your class name with the package's name
+eg. "sample.Main".
+java -Dfile.encoding=UTF-8 -classpath ../bin sample.Main < input.txt > ACTUAL.TXT
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683376840" expanded>
+
+You need to declare and compile all the classes you have, not only the main class.
+Like this:
+if ! javac -cp ../src -Xlint:none -d ../bin ../src/main/java/sample.Main.java ../src/main/java/commands/add/*.java ../src/main/java/commands/*.java ../src/main/java/common/*.java ../src/main/java/data/exceptions/*.java ../src/main/java/data/task/*.java ../src/main/java/data/*.java ../src/main/java/parser/*.java ../src/main/java/storage/*.java ../src/main/java/ui/*.java
+
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683376922" expanded>
+
+Or you could run the test-ui by a jar file, which is more convenient when you have complicated structures such as multiple classes and packages. 
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-686346191" expanded>
+
+> @Colin386
+> Hi,
+> Yes that is my project structure, however, when I run the java -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT, it gives me the error "Error: Could not find or load main class main.java.Duke".
+> Even though an ACTUAL.txt is created, it does not get updated based on the inputs given.
+> 
+> <img alt="Capture" width="228" src="https://user-images.githubusercontent.com/59180102/91990284-2c521e80-ed4f-11ea-9b22-3f5deffd00d5.PNG">
+
+This is because your project structure. Your source file is "java" folder (the blue one in the picture) instead of src folder
+
+<img width="240" alt="Screenshot 2020-09-03 at 4 41 34 PM" src="https://user-images.githubusercontent.com/50083580/92092174-56194d00-ee04-11ea-9613-f0ef9bd1d84e.png">
+
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-686347659" expanded>
+
+You should either change the project structure or change the command in runtest.bat according to your current structure. 
+To change the structure, you goto File->Project Structure-> source
+
+Or perhaps try this, if you do not want to change your current structure.
+java -classpath ..\bin Duke < input.txt > ACTUAL.TXT
+
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687699906" expanded>
+
+> ![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
+> 
+> I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
+
+I have no clear thought. But I am interested in your structure :/
+You project content root is week4circus, instead of circus as normal. Did you import the project or you just open it? Could you click File -> Project Structure ->modules and screen shot your modules? 
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687707479" expanded>
+
+> > > ![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
+> > > I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
+> > 
+> > 
+> > I have no clear thought. But I am interested in your structure :/
+> > You project content root is week4circus, instead of circus as normal. Did you import the project or you just open it? Could you click File -> Project Structure ->modules and screen shot your modules?
+> 
+> ![image](https://user-images.githubusercontent.com/60385689/92318550-661d7080-f040-11ea-8a50-b3bddd2a533c.png)
+> 
+> This is my project structure.
+> The "week4circus" is a folder created by me and I cloned the github repo into it
+
+Maybe you can try this: whenever you have ..\bin, you change it to ..\circus\bin
+But in case it won't not work, you either "git reset" to reset it later, or save a copy of it beforehand. 
+</panel>
+
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/34#issuecomment-687716186" expanded>
+
+> It should inherit the `Exception` class. (`RuntimeException` is a subclass of Exception)
+> See: https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html
+
+Thanks, I understand difference about checked and unchecked exceptions now. 
+</panel>
+
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40#issuecomment-689952526" expanded>
+
+The responseSense does not detect branch unless it has been merged to master and pushed to the remote. You just merge your level-five one hour ago and I think you can check the progress tomorrow. 
+
+And similar for the tags, it might be that your tag for the levels does not point to commits in the main branch. Try checking if all the commits of the relevant tags can be found on your main branch. Tag the merging commits, instead of the branch commit. 
+</panel>
+
+<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691653867" expanded>
+
+Try: type "chcp 65001" in your cmd  
+https://ss64.com/nt/chcp.html
+</panel>
+
+<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691654361" expanded>
+
+then try run your jar by: java -Dfile.encoding=UTF-8 -jar duke.jar
+</panel>
+
+<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691656960" expanded>
+
+
+
+
+> I get this error.
+> 
+> ![image](https://user-images.githubusercontent.com/35717847/93016010-92149500-f5f0-11ea-9da1-9437eb7d0392.png)
+
+This is interesting. I am not sure why it treats the parameter as the jar file name. The command works on my laptop. Could you try without the .\before the jar name? 
+</panel>
+
+<panel  header="**18 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691657936" expanded>
+
+> Oh the command doesn't work in powershell but it works in cmd, however, the icons still show as question marks
+
+For the cmd, I think according to the "The default code page in the USA is 437, the default in most of Europe is 850. " , also need chcp 65001 first, before the java command with  -Dfile.encoding=UTF-8 parameter. 
+</panel>
+
+<panel  header="**19 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691666529" expanded>
+
+> > > Oh the command doesn't work in powershell but it works in cmd, however, the icons still show as question marks
+> > 
+> > 
+> > For the cmd, I think according to the "The default code page in the USA is 437, the default in most of Europe is 850. " , also need chcp 65001 first, before the java command with -Dfile.encoding=UTF-8 parameter.
+> 
+> Yea I tried this as well
+> 
+> ![image](https://user-images.githubusercontent.com/35717847/93016787-4c5acb00-f5f6-11ea-9064-9a5a411fc957.png)
+
+Then maybe because your output is not in UTF-8? You can try force the print a tick in UTF-8 and see if there is a tick at cmd to check if it is the problem. 
+</panel>
+
+<panel  header="**20 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/45#issuecomment-692108701" expanded>
+
+Solved: I configured the path and use another SDK instead of the one Intellij IDEA provide.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 3. WIRA..HMAD `@hughjazzman` (12 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated Text UI Testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22" expanded>
@@ -270,118 +527,7 @@ It's in the Coding Standard: https://se-education.org/guides/conventions/java/ba
 </panel>
 
 
-<panel type="info" header="### 3. WANG.. QIN `@wangqinNick` (11 posts)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Questions regarding DukeException**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/34" expanded>
-
-I want to ask the DukeException class should inherit whether the Exception class or the RuntimeException class.
-The example in the textbook, uses the Exception class as the father class, but I find in the project, it is more convenient to use runtimeException as the father class. 
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18#issuecomment-680074633" expanded>
-
-I think perhaps it is because you use the ArrayList, but you did not declare the generic. 
-Since generic does not do type-check and  you did not declare either, it gave such warning.
-Try  ArrayList  < String >  filteredList = new ArrayList <>();
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-681746444" expanded>
-
-There is a line in runtest.sh doing "# run the program, feed commands from input.txt file and redirect the output to the ACTUAL.TXT"
-Change it to:
-java -Dfile.encoding=UTF-8 -classpath ../bin sample.Main < input.txt > ACTUAL.TXT
-don't forget to change the class name to yours
-(I am using a Mac and not sure if this works or not. )
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683376398" expanded>
-
-This is perhaps you have changed you main class name, or moved it to another package. 
-You can try to change this line.
-For example, if you have moved it to another package, you should also compile it with your class name with the package's name
-eg. "sample.Main".
-java -Dfile.encoding=UTF-8 -classpath ../bin sample.Main < input.txt > ACTUAL.TXT
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683376840" expanded>
-
-You need to declare and compile all the classes you have, not only the main class.
-Like this:
-if ! javac -cp ../src -Xlint:none -d ../bin ../src/main/java/sample.Main.java ../src/main/java/commands/add/*.java ../src/main/java/commands/*.java ../src/main/java/common/*.java ../src/main/java/data/exceptions/*.java ../src/main/java/data/task/*.java ../src/main/java/data/*.java ../src/main/java/parser/*.java ../src/main/java/storage/*.java ../src/main/java/ui/*.java
-
-</panel>
-
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30#issuecomment-683376922" expanded>
-
-Or you could run the test-ui by a jar file, which is more convenient when you have complicated structures such as multiple classes and packages. 
-</panel>
-
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-686346191" expanded>
-
-> @Colin386
-> Hi,
-> Yes that is my project structure, however, when I run the java -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT, it gives me the error "Error: Could not find or load main class main.java.Duke".
-> Even though an ACTUAL.txt is created, it does not get updated based on the inputs given.
-> 
-> <img alt="Capture" width="228" src="https://user-images.githubusercontent.com/59180102/91990284-2c521e80-ed4f-11ea-9b22-3f5deffd00d5.PNG">
-
-This is because your project structure. Your source file is "java" folder (the blue one in the picture) instead of src folder
-
-<img width="240" alt="Screenshot 2020-09-03 at 4 41 34 PM" src="https://user-images.githubusercontent.com/50083580/92092174-56194d00-ee04-11ea-9613-f0ef9bd1d84e.png">
-
-</panel>
-
-<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-686347659" expanded>
-
-You should either change the project structure or change the command in runtest.bat according to your current structure. 
-To change the structure, you goto File->Project Structure-> source
-
-Or perhaps try this, if you do not want to change your current structure.
-java -classpath ..\bin Duke < input.txt > ACTUAL.TXT
-
-</panel>
-
-<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687699906" expanded>
-
-> ![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
-> 
-> I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
-
-I have no clear thought. But I am interested in your structure :/
-You project content root is week4circus, instead of circus as normal. Did you import the project or you just open it? Could you click File -> Project Structure ->modules and screen shot your modules? 
-</panel>
-
-<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687707479" expanded>
-
-> > > ![image](https://user-images.githubusercontent.com/60385689/92317639-d1157a00-f035-11ea-8638-a9b9cbaf228b.png)
-> > > I tried runtest but the ACTUAL.txt file could not be found. Anyone has any idea...?
-> > 
-> > 
-> > I have no clear thought. But I am interested in your structure :/
-> > You project content root is week4circus, instead of circus as normal. Did you import the project or you just open it? Could you click File -> Project Structure ->modules and screen shot your modules?
-> 
-> ![image](https://user-images.githubusercontent.com/60385689/92318550-661d7080-f040-11ea-8a50-b3bddd2a533c.png)
-> 
-> This is my project structure.
-> The "week4circus" is a folder created by me and I cloned the github repo into it
-
-Maybe you can try this: whenever you have ..\bin, you change it to ..\circus\bin
-But in case it won't not work, you either "git reset" to reset it later, or save a copy of it beforehand. 
-</panel>
-
-<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/34#issuecomment-687716186" expanded>
-
-> It should inherit the `Exception` class. (`RuntimeException` is a subclass of Exception)
-> See: https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html
-
-Thanks, I understand difference about checked and unchecked exceptions now. 
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 4. TEOH..IANG `@zhixiangteoh` (8 posts)"  collapsed>
+<panel type="info" header="### 4. TEOH..IANG `@zhixiangteoh` (11 posts)"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/1#issuecomment-671171147" expanded>
@@ -458,13 +604,60 @@ to see what files or packages are being loaded.
 I personally feel using explicit imports is still better; on top of the stated benefits, I feel it is also more flexible in that it allows you to more clearly and easily remove particular import statements in the event you reorganize your packages and/or the code in the class to which you are importing the packages/classes to.
 </panel>
 
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37#issuecomment-688475566" expanded>
+
+Honestly think this should be perfectly sound and acceptable, although it isn't exactly specified in most places I've looked (including all the [reference links at the bottom of the SE-EDU Java coding standard page](https://se-education.org/guides/conventions/java/basic.html#references)). 
+
+The alternative to indexing your array would be to write something like `int nameIndex = 0; int dateIndex = 1` which for a 2-element array feels like it actually makes the code a little less readable.
+
+A _possibly_ relevant section I found is in [this doc](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf) under section 10.3, but no explicit mention of array indexing.
+
+Agree this is not so clear cut, so would also like to see what the general recommendation is.
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689564770" expanded>
+
+so your branch-A-Packages is found but not branch-Level-5? Might it be due to a small typo in the uppercase 'L', given that the name technically should be `branch-level-5`? Don't know if they accounted for typos like this.
+
+Edit: It seems your `branch-A-Packages` is a branch from `branch-Level-5`, when it should be a branch from `master`?
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689567798" expanded>
+
+> > so your branch-A-Packages is found but not branch-Level-5? Might it be due to a small typo in the uppercase 'L', given that the name technically should be `branch-level-5`? Don't know if they accounted for typos like this
+> 
+> branch-A-Packages is not even detected. um its an upper case 'L' and my friends did with upper case 'L' worked but mine didn't
+
+from your commit history it seems you created the `branch-A-Packages` branch from `branch-Level-5`, but i think we are supposed to merge `branch-Level-5` into `master`, `git checkout master`, then `git branch branch-A-Packages` or `git checkout -b branch-A-Packages` from `master`.
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 5. ADI ..NATA `@adinata15` (7 posts)"  collapsed>
+<panel type="info" header="### 5. ADI ..NATA `@adinata15` (10 posts)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: Automated Text-UI Testing Issue : Cannot find file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29" expanded>
+<panel  header="**1. :fas-info-circle: FileNotFoundException in JAR file implementation**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51" expanded>
+
+When implementing the JAR file, I encounter the FileNotFoundException. When I tried on the normal java terminal everything works, with or without the duke.txt. Is this something we need to fix or is this ok? My code is as follows:
+'''
+public static final String filepath = "./data/duke.txt";//file path from root file
+private static void handlePastData() {
+        File pastFile = new File(filepath); // create a File for the given file path
+        String wholeDoc = readFile(pastFile);
+        //when file is empty or not created
+        if (wholeDoc == null) {
+            return;//skip parsing data
+        }
+        //convert file entry to tasks
+        parseFile(wholeDoc);
+    }
+'''
+This is the error:
+![image](https://user-images.githubusercontent.com/48993548/93128552-3e926c00-f702-11ea-8674-08daea052c59.png)
+</panel>
+
+<panel  header="**2. :fas-info-circle: Automated Text-UI Testing Issue : Cannot find file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29" expanded>
 
 I am still a bit confused about automated testing. After following the guide on the cs2113 website and changing the path, I still get the error:
 '''
@@ -480,7 +673,7 @@ java -Dfile.encoding=UTF-8 -classpath ..\bin\main\java Duke < input.txt > ACTUAL
 Does anyone know how to solve this error? Thank you!
 </panel>
 
-<panel  header="**2. :fas-info-circle: Indentation settings on wrap lines**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11" expanded>
+<panel  header="**3. :fas-info-circle: Indentation settings on wrap lines**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11" expanded>
 
 Regarding the settings for the wrapped lines, do we include the indentation spaces into the 120 chars limit?
 It is on this part of the website settings:
@@ -491,19 +684,19 @@ It is on this part of the website settings:
 
 </panel>
 
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678590000" expanded>
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678590000" expanded>
 
 Thank you!
 </panel>
 
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683398377" expanded>
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683398377" expanded>
 
 @zhixiangteoh  When ```java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT``` is used, it still gives the same error.
 @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java. 
 @AndreWongZH For the uninitialised value, I declared some variable without assigning a value for them at first (only assign when user input data) but everything works fine when I tried running it on the console.
 </panel>
 
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683399230" expanded>
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683399230" expanded>
 
 > > @zhixiangteoh When `java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT` is used, it still gives the same error.
 > > @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java.
@@ -516,7 +709,7 @@ I am not sure where to find the file Duke.java but my main class is still Duke. 
 
 </panel>
 
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683404671" expanded>
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683404671" expanded>
 
 > > > > @zhixiangteoh When 'java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT' is used, it still gives the same error.
 > > > > @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java.
@@ -554,7 +747,7 @@ java -Dfile.encoding=UTF-8 -classpath ../bin main/java/Duke < input.txt > ACTUAL
 It works :D. I then try to change all backslash to slash in the runtime.bat file and it also works. I am not really sure why this works, but could this lead to a problem in the future?
 </panel>
 
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683437264" expanded>
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683437264" expanded>
 
 > @adinata15 What's your OS? The forward/backslash seems like something to do with using the right file on the right OS.
 
@@ -563,10 +756,72 @@ My OS is Windows 10.
 The Windows 10 version might be the cause, is it?
 </panel>
 
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692421230" expanded>
+
+It works now, thank you! Similar to the issue of @NeilBaner, all the symbols (ie: tick and smiley faces) does not work in JAR files anymore (it previously works on Java terminal). Is this acceptable or need to be fixed too?
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692456284" expanded>
+
+Thank you, it is working now! @NeilBaner @okkhoy 
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 6. FELI..ALIM `@felixhalim` (6 posts)"  collapsed>
+<panel type="info" header="### 6. KING..IANG `@kstonekuan` (6 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Status icons not showing when using JAR file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47" expanded>
+
+My status icons show "?" instead of the ticks and crosses when I run from my JAR file although they can be saved fine in my duke.txt.
+
+![image](https://user-images.githubusercontent.com/35717847/93014867-35f94300-f5e7-11ea-8fc4-2b4b9829c021.png)
+
+![image](https://user-images.githubusercontent.com/35717847/93014876-427d9b80-f5e7-11ea-96be-1791903ad7ad.png)
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691654025" expanded>
+
+I have tried this before and it is already active
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691654525" expanded>
+
+I get this error.
+
+![image](https://user-images.githubusercontent.com/35717847/93016010-92149500-f5f0-11ea-9da1-9437eb7d0392.png)
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691657405" expanded>
+
+Oh the command doesn't work in powershell but it works in cmd, however, the icons still show as question marks
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691658616" expanded>
+
+> > Oh the command doesn't work in powershell but it works in cmd, however, the icons still show as question marks
+> 
+> For the cmd, I think according to the "The default code page in the USA is 437, the default in most of Europe is 850. " , also need chcp 65001 first, before the java command with -Dfile.encoding=UTF-8 parameter.
+
+Yea I tried this as well
+
+![image](https://user-images.githubusercontent.com/35717847/93016787-4c5acb00-f5f6-11ea-9064-9a5a411fc957.png)
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691682955" expanded>
+
+> Maybe because your terminal is using a font that doesn't support this character? Try changing to a different font? Or maybe one from [here](https://github.com/powerline/fonts)? I hope this works
+
+Changing the font to NSimSun on cmd works, thank you @daniellimws, @wangqinNick and @daniellimzj ! 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 7. FELI..ALIM `@felixhalim` (6 posts)"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10#issuecomment-677465756" expanded>
@@ -602,7 +857,99 @@ To prevent repeated question regarding this, it would be better if the solution 
 </panel>
 
 
-<panel type="info" header="### 7. MUHA..WALA `@MuhammadHoze` (4 posts)"  collapsed>
+<panel type="info" header="### 8. CHAN..IANG `@scjx123` (5 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689558468" expanded>
+
+I think the script runs once a day, and its probably a good idea to try having your final merge as branch-Level-5. 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689562764" expanded>
+
+> > I think the script runs once a day, and its probably a good idea to try having your final merge as branch-Level-5.
+> 
+> but its pushed to github already how do I leave the the final merge as branch-Level-5?
+
+im not entirely sure if im right, but you can either create another branch and called it that, followed by a merge, or do a git reset back to your previous commit, and merge again. 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/46#issuecomment-691610903" expanded>
+
+May i also extend this issue to whether a .prn file is allowed as well? 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/46#issuecomment-691633442" expanded>
+
+> @scjx123 what is a prn file?
+
+its a type of spreadsheet text file. (: 
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/46#issuecomment-691636303" expanded>
+
+> If [this](https://cdn.fileinfo.com/img/ss/lg/prn_1251.png) example is correct, I wouldn't suggest/approve using this.
+> You can open it in a text editor, so human editable, yes, but it is hard to find where the data is!
+> So defeats the purpose of having a human editable text file.
+
+the file i have does not resemble this, let me email you a copy! 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 9. ZHAO..IANG `@e0426051` (5 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Not sure how to redo circus activity in lecture**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35" expanded>
+
+Hi, I was unable to complete all the steps during the lecture for the circus activity, so I attempted them again. However, I made the mistake of deleting my previous forked repository on Github as I thought it was interfering with my unsuccessful pushes. Currently, the main branch has been updated and hence I was unable to make another branch called "in-lecture". May I know how I should go about solving this issue?
+
+Error:
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Question regarding traditional task method for Level-4**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32" expanded>
+
+Hi,
+I was wondering whether we are supposed to retain the traditional task entry feature (e.g. type anything, added as task) as we code Level-4. This seems redundant since the old task method seems to be identical to "ToDo" tasks now.
+
+Also, may I ask how strictly should we stick to the example outputs? It seems possible to detect the types of tasks automatically by looking for the "by" and "at" keywords in the string itself, but I'm not sure if such implementation/deviation from example output is allowed. (This method will follow the input of Level-2/Level-3)
+
+Thanks for any advice regarding these queries.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32#issuecomment-684755917" expanded>
+
+@okkhoy Thanks for the clarification. 
+
+Regarding the second part, I meant to write the program such that it automatically categorizes the type of task by detecting "/at" and "/by" (or the lack thereof) on the input so that the user does not need to enter specifically the type of task(e.g. typing `project meeting /at Mon 2-4pm` instead of  `event project meeting /at Mon 2-4pm`). However, since the Level-2 commands are retained, I am uncertain of how the automated categorization can distinguish (or is required to distinguish) between a Level-2 "task" and To-Do since they seem like the same thing. Is it a better idea to stick with the guidelines provided by the sample output?
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32#issuecomment-684803361" expanded>
+
+@okkhoy Thank you for the advice. I will stick with the recommended method for Level-4 and will instead consider implementing automatic flag detection for the tP.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35#issuecomment-688404279" expanded>
+
+@daniellimws  @okkhoy 
+Apologies for the delayed reply. I just realized my issue is the result of my blunder of forking @okkhoy 's Circus fork instead of the one at `https://github.com/nus-cs2113-AY2021S1/circus`. I have since re-done the activity with the correct fork and everything seems to work now.
+
+Appreciate the help provided.
+
+@okkhoy 
+I was mistaken that the `https://github.com/nus-cs2113-AY2021S1/circus` project (I probably shouldn't have called that the 'main branch') had been updated with an `in-lecture` branch when in actual fact I accidentally forked your fork instead. Apologies for the inconvenience caused.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. MUHA..WALA `@MuhammadHoze` (4 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Exercise: [Key Exercise] getMultipleGradeCaps Method**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/7" expanded>
@@ -642,7 +989,7 @@ Alright thanks
 </panel>
 
 
-<panel type="info" header="### 8. HENG..YUEN `@HengFuYuen` (4 posts)"  collapsed>
+<panel type="info" header="### 11. HENG..YUEN `@HengFuYuen` (4 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: SourceTree red exclamation mark beside Remote icon**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/13" expanded>
@@ -675,7 +1022,7 @@ I see! Thanks for the clarification prof!
 </panel>
 
 
-<panel type="info" header="### 9. LIM ..BING `@farice9` (4 posts)"  collapsed>
+<panel type="info" header="### 12. LIM ..BING `@farice9` (4 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Did not fulfill participation requirement on Week 2/3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26" expanded>
@@ -710,47 +1057,116 @@ I'll keep this issue open, hopefully affected people will notice this.
 </panel>
 
 
-<panel type="info" header="### 10. ZHAO..IANG `@e0426051` (4 posts)"  collapsed>
+<panel type="info" header="### 13. LOW ..NING `@ninggggx99` (4 posts)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: Not sure how to redo circus activity in lecture**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35" expanded>
+<panel  header="**1. :fas-info-circle: branch-Level-5 not detected in dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39" expanded>
 
-Hi, I was unable to complete all the steps during the lecture for the circus activity, so I attempted them again. However, I made the mistake of deleting my previous forked repository on Github as I thought it was interfering with my unsuccessful pushes. Currently, the main branch has been updated and hence I was unable to make another branch called "in-lecture". May I know how I should go about solving this issue?
+Hi, I have pushed the branch-Level-5 but it is not detected by the iP dashboard. May I know if there's anything I merged wrong?
 
-Error:
-hint: Updates were rejected because the tip of your current branch is behind
-hint: its remote counterpart. Integrate the remote changes (e.g.
-hint: 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+![image](https://user-images.githubusercontent.com/20852776/92601861-e7466300-f2df-11ea-9632-948cc64082ab.png)
 
 </panel>
 
-<panel  header="**2. :fas-info-circle: Question regarding traditional task method for Level-4**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689551174" expanded>
 
-Hi,
-I was wondering whether we are supposed to retain the traditional task entry feature (e.g. type anything, added as task) as we code Level-4. This seems redundant since the old task method seems to be identical to "ToDo" tasks now.
+> I believe the dashboard is only updated once a week.
 
-Also, may I ask how strictly should we stick to the example outputs? It seems possible to detect the types of tasks automatically by looking for the "by" and "at" keywords in the string itself, but I'm not sure if such implementation/deviation from example output is allowed. (This method will follow the input of Level-2/Level-3)
+I don't think so. The dashboard detected my Level-5 tag but not the branch
 
-Thanks for any advice regarding these queries.
+
 </panel>
 
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32#issuecomment-684755917" expanded>
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689559262" expanded>
 
-@okkhoy Thanks for the clarification. 
+> I think the script runs once a day, and its probably a good idea to try having your final merge as branch-Level-5.
 
-Regarding the second part, I meant to write the program such that it automatically categorizes the type of task by detecting "/at" and "/by" (or the lack thereof) on the input so that the user does not need to enter specifically the type of task(e.g. typing `project meeting /at Mon 2-4pm` instead of  `event project meeting /at Mon 2-4pm`). However, since the Level-2 commands are retained, I am uncertain of how the automated categorization can distinguish (or is required to distinguish) between a Level-2 "task" and To-Do since they seem like the same thing. Is it a better idea to stick with the guidelines provided by the sample output?
+but its pushed to github already how do I leave the the final merge as branch-Level-5?
 </panel>
 
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/32#issuecomment-684803361" expanded>
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689565931" expanded>
 
-@okkhoy Thank you for the advice. I will stick with the recommended method for Level-4 and will instead consider implementing automatic flag detection for the tP.
+> so your branch-A-Packages is found but not branch-Level-5? Might it be due to a small typo in the uppercase 'L', given that the name technically should be `branch-level-5`? Don't know if they accounted for typos like this
+
+branch-A-Packages is not checked on the dashboard. um its an upper case 'L' and my friends did with upper case 'L' worked but mine didn't
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 11. GUNI..TTAL `@gmit22` (4 posts)"  collapsed>
+<panel type="info" header="### 14. NEO .. ERN `@neojiaern` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Undo fast foward merge**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/50" expanded>
+
+Hi, I was merging branch-Level-6 to master branch but did not check the "Create a new commit even if fast forward is possible". It resulted in something like this:
+![image](https://user-images.githubusercontent.com/37478363/93120936-ad69c800-f6f6-11ea-89be-e2a3dfa6ee6e.png)
+
+Then I did a **git reset --keep branch-Level-6@{1}** but was unable to revert back to the previous state before merging as the branch-Level-6 returned to the 2nd last commit in branch-Level-6 and master stayed at my last commit of branch-Level-6. So I merged master back into branch-Level-6 which went back into the situation shown in the picture above.  I was unable to revert the merge after that.
+
+How do I move master back to origin/master? Would it be safe to checkout origin/master and reset master branch there? Or may I know if there is any other solution to this? 
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: iP: Level-0**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5" expanded>
+
+Hi Prof, regarding Level-0 of the iP, the task states that we should commit after making changes, for this increment are we supposed to push the changes to the fork on github after committing? In addition, are we supposed to keep the DUKE logo that shows at the start?
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5#issuecomment-674406397" expanded>
+
+Noted, thank you prof
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/50#issuecomment-692439695" expanded>
+
+Thank you! It is working now. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 15. TAN ..ELIA `@AmeliaTYR` (4 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: branch-Level-5 not detected in dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41" expanded>
+
+Hi sorry I pushed branch-Level-5 two days ago (8sep) and it says the ip progress dashboard updated yesterday (9sep) but it still says it doesn't detect the branch-Level-5.  
+
+![image](https://user-images.githubusercontent.com/53657436/92683529-b3ae1c00-f365-11ea-9b4d-7fdcf71ac6f1.png)
+![image](https://user-images.githubusercontent.com/53657436/92683682-1bfcfd80-f366-11ea-850b-a6e6fe4a1118.png)
+
+did I do something wrongly? 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690097107" expanded>
+
+I merged the branch that it was merged to to the master is that ok?
+![image](https://user-images.githubusercontent.com/53657436/92706420-119f2b80-f387-11ea-91f3-e2c1ffb424f7.png)
+Or how do I undo the merging mess I made?
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690138541" expanded>
+
+I reverted it to branch-Level-5 and then merged it to master so now it's like this:
+
+![image](https://user-images.githubusercontent.com/53657436/92716900-043b6e80-f392-11ea-8f05-cbed905ed039.png)
+
+master now has the latest version of the code 
+
+is this acceptable? (also do i need to undo all of the other merge stuff I did or can I just leave it? I'm afraid I might accidentally delete something important?)
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690896569" expanded>
+
+Thank you @okkhoy and @ChanJianHao for your help!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 16. GUNI..TTAL `@gmit22` (4 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated Text-UI Testing Issue : Cannot find file and symbol**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33" expanded>
@@ -786,7 +1202,7 @@ Yes I tried this, it works. Understood the problem, thanks
 </panel>
 
 
-<panel type="info" header="### 12. SHRE..UMAR `@shreytheshreyas` (4 posts)"  collapsed>
+<panel type="info" header="### 17. SHRE..UMAR `@shreytheshreyas` (4 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Regarding iP**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10" expanded>
@@ -813,7 +1229,44 @@ oh ok thanks guys :)
 </panel>
 
 
-<panel type="info" header="### 13. TANG..TING `@t170815518` (3 posts)"  collapsed>
+<panel type="info" header="### 18. LI B..ZHAO `@TomLBZ` (3 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: [Urgent] Broken runtest.sh during the tp pull requests online automated testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48" expanded>
+
+![image](https://user-images.githubusercontent.com/26886705/93044474-92ac3a80-f687-11ea-974c-c7cc9f51ed21.png)
+
+As shown on this image, the runtest.sh prompts "line 14: dos2unix: command not found\r\n1,10c1,10" when executed (I did not modify that file). As a result, my pull request for tp is blocked and cannot get processed.
+
+On my own computer this problem never occurred and I cannot reproduce it on my computer. It only occurs online when I push the code to the pull request (then the automatic checks starts).
+
+Need urgent fix.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48#issuecomment-691830421" expanded>
+
+> Can you change it to `dos2unix` instead of `dot2unix` and see if the PR passes?
+> 
+> Edit: Errr... I noticed from the screenshot it is `dos2unix`. Let me check with the devel team and update.
+
+Oops... Sorry for my typo, I have corrected the text now... 
+(If my text description is inaccurate or wrong, please kindly refer to the picture. Thanks :))
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48#issuecomment-691848487" expanded>
+
+> Apparently, that message is harmless; the failure is caused due to a difference in the line number (10 in your case) in the expected/actual file, which could be a bug.
+> Please check.
+
+My code is printing exactly the same thing (a same string consisting of ansi escape codes) without the use of user input, so there shouldnt be a difference. Also, I cannot reproduce the error on my pc (always no difference) and I have no idea of what I could do to reproduce it. 
+also, I'm wondering why it shows dos2unix command not found instead of showing me my output is unexpected. 
+I will check my code later but I don't know what I can do about it. it is already printing the same string anyways... 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 19. TANG..TING `@t170815518` (3 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Repl.it Error: Note: Recompile with -Xlint:unchecked for details.**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18" expanded>
@@ -884,7 +1337,7 @@ I've just changed my repl's first name too.
 </panel>
 
 
-<panel type="info" header="### 14. RIAZ..AMED `@riazaham` (3 posts)"  collapsed>
+<panel type="info" header="### 20. RIAZ..AMED `@riazaham` (3 posts)"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687695109" expanded>
@@ -919,7 +1372,7 @@ Oh wow it works now.... :/ idk what changed but it works now! Thanks for the hel
 </panel>
 
 
-<panel type="info" header="### 15. R RA..MANA `@R-Ramana` (2 posts)"  collapsed>
+<panel type="info" header="### 21. R RA..MANA `@R-Ramana` (2 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: iP: Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21" expanded>
@@ -935,7 +1388,7 @@ Thanks all
 </panel>
 
 
-<panel type="info" header="### 16. LOW ..LEON `@leonlowzd` (2 posts)"  collapsed>
+<panel type="info" header="### 22. LOW ..LEON `@leonlowzd` (2 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Bye World problem issue**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/9" expanded>
@@ -956,7 +1409,7 @@ Ohh.. I've reloaded the website, alls good :)
 </panel>
 
 
-<panel type="info" header="### 17. PRAC..ENKA `@prachi2023` (2 posts)"  collapsed>
+<panel type="info" header="### 23. PRAC..ENKA `@prachi2023` (2 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Tick and Cross characters not appearing when doing text ui testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31" expanded>
@@ -977,23 +1430,103 @@ Sorry I might have missed that. Thanks guys
 </panel>
 
 
-<panel type="info" header="### 18. NEO .. ERN `@neojiaern` (2 posts)"  collapsed>
+<panel type="info" header="### 24. DANI..OONG `@daniellimws` (2 posts)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: iP: Level-0**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5" expanded>
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35#issuecomment-687739348" expanded>
 
-Hi Prof, regarding Level-0 of the iP, the task states that we should commit after making changes, for this increment are we supposed to push the changes to the fork on github after committing? In addition, are we supposed to keep the DUKE logo that shows at the start?
+You can click on "branches" here (which links you to https://github.com/e0426051/circus/branches)
+
+![image](https://user-images.githubusercontent.com/8130120/92322937-274ee100-f067-11ea-8713-7a65b9f0ca9b.png)
+
+Then you should be able to delete the `in-lecture` branch on GitHub
+
+![image](https://user-images.githubusercontent.com/8130120/92322953-3766c080-f067-11ea-9f02-5982c053655a.png)
+
+Then there shouldn't be a problem with pushing anymore.
+
 </panel>
 
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/5#issuecomment-674406397" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691681659" expanded>
 
-Noted, thank you prof
+Maybe because your terminal is using a font that doesn't support this character? Try changing to a different font? Or maybe one from [here](https://github.com/powerline/fonts)? I hope this works
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 19. WU Y..UXIN `@Lezn0` (2 posts)"  collapsed>
+<panel type="info" header="### 25. ANDR.. HUA `@AndreWongZH` (2 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683378099" expanded>
+
+![image](https://user-images.githubusercontent.com/21986187/91651800-a53d4600-eac3-11ea-809f-b56cf0302e4b.png)
+
+Maybe you did not initialize a value and called it?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/49#issuecomment-692152142" expanded>
+
+It seems like your version 1.0 is listed as a pre-release or maybe the progress dashboard is not updated yet.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 26. WONG.. WEI `@keke101` (2 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: On magic numbers**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37" expanded>
+
+Hello, can I check if the following array indexes used are deemed as magic numbers?
+'''
+String name = arguments[0];
+String date = arguments[1];
+'''
+My understanding is that this is pretty straight forward as I'm assigning them directly to two variables which have descriptive names.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37#issuecomment-688591278" expanded>
+
+That's what I thought so too, thanks for the clarification!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 27. CHAN.. HAO `@ChanJianHao` (2 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Requesting Permission to use AniList**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/43" expanded>
+
+## Library
+
+[AniList GraphQL](https://github.com/AniList/ApiV2-GraphQL-Docs)
+[GraphQL Plugin](https://github.com/jimkyndemeyer/js-graphql-intellij-plugin/)
+
+## Purpose
+
+To obtain information on anime and manga via a credible source. 
+
+## License
+
+Free for non-commercial use. 
+
+Our team has obtained permission from the AniList administrator for making use of this. We will minimize the usage of the library whenever possible to avoid stressing their service.
+
+[AniList Terms of Use](https://anilist.gitbook.io/anilist-apiv2-docs/overview/overview)
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41#issuecomment-690119344" expanded>
+
+Hello, I believe you could try to revert the merge. Check [this](https://community.atlassian.com/t5/Sourcetree-questions/How-do-I-revert-abort-a-merge-using-source-tree/qaq-p/350099) out for more information.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 28. WU Y..UXIN `@Lezn0` (2 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated runtest issues: cannot find symbol**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30" expanded>
@@ -1011,7 +1544,7 @@ Thank you so much! It works now.
 </panel>
 
 
-<panel type="info" header="### 20. ANG ..YANG `@acyang97` (1 posts)"  collapsed>
+<panel type="info" header="### 29. ANG ..YANG `@acyang97` (1 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: IP Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/19" expanded>
@@ -1022,7 +1555,7 @@ Hi prof, for Level-3 of the IP, are we free to use anything we want in the squar
 </panel>
 
 
-<panel type="info" header="### 21. LIAU.. JIE `@kaijiel24` (1 posts)"  collapsed>
+<panel type="info" header="### 30. LIAU.. JIE `@kaijiel24` (1 posts)"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-683693127" expanded>
@@ -1039,7 +1572,18 @@ FC: no differences encountered
 </panel>
 
 
-<panel type="info" header="### 22. YEOW..NDON `@brandonywl` (1 posts)"  collapsed>
+<panel type="info" header="### 31. CHEN.. JUN `@iamchenjiajun` (1 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689549494" expanded>
+
+I believe the dashboard is only updated once a week.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 32. YEOW..NDON `@brandonywl` (1 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: No Invitation to nus-cs2113-AY2021S1**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25" expanded>
@@ -1054,27 +1598,7 @@ I just made the pull request a couple of hours earlier. Is that a factor?
 </panel>
 
 
-<panel type="info" header="### 23. DANI..OONG `@daniellimws` (1 posts)"  collapsed>
-
-
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35#issuecomment-687739348" expanded>
-
-You can click on "branches" here (which links you to https://github.com/e0426051/circus/branches)
-
-![image](https://user-images.githubusercontent.com/8130120/92322937-274ee100-f067-11ea-8713-7a65b9f0ca9b.png)
-
-Then you should be able to delete the `in-lecture` branch on GitHub
-
-![image](https://user-images.githubusercontent.com/8130120/92322953-3766c080-f067-11ea-9f02-5982c053655a.png)
-
-Then there shouldn't be a problem with pushing anymore.
-
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 24. NG N..OLIN `@Colin386` (1 posts)"  collapsed>
+<panel type="info" header="### 33. NG N..OLIN `@Colin386` (1 posts)"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685022185" expanded>
@@ -1094,20 +1618,42 @@ Im not sure if this will help, but it did help me resolve the issue of missing c
 </panel>
 
 
-<panel type="info" header="### 25. ANDR.. HUA `@AndreWongZH` (1 posts)"  collapsed>
+<panel type="info" header="### 34. DANI..-JIE `@daniellimzj` (1 posts)"  collapsed>
 
 
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683378099" expanded>
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-691679828" expanded>
 
-![image](https://user-images.githubusercontent.com/21986187/91651800-a53d4600-eac3-11ea-809f-b56cf0302e4b.png)
+I seem to have the same issues. Running the command with the -Dfile.encoding=UTF-8 parameter just changes my output from a regular question mark "?" to the same symbol that @kstonekuan sees.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 35. SIM .. YOU `@f0fz` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Progress Dashboard not detecting A-Jar tag/release**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/49" expanded>
+
+So far, I've made a release on my repo for the jar file and tagged it with the A-Jar tag. Is there anything else I'm missing out?
 
-Maybe you did not initialize a value and called it?
+For context, I made the Level-6, Level-7, and A-Collections increments on the same day and they were marked on the Dashboard as complete.
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 26. TAN ..BIAS `@tobiasceg` (1 posts)"  collapsed>
+<panel type="info" header="### 36. MARC..YONG `@Reinbowl` (1 posts)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689556437" expanded>
+
+I believe when creating branch-A-Packages later on, it might have messed up the branches as it shows the package branching from the level 5 branch and not from master.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 37. TAN ..BIAS `@tobiasceg` (1 posts)"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683304118" expanded>
@@ -1118,7 +1664,29 @@ the prof mentioned that theres a possibility that ur repl account name was set u
 </panel>
 
 
-<panel type="info" header="### 27. MATT..GANI `@matthewgani` (1 posts)"  collapsed>
+<panel type="info" header="### 38. LAM ..ROLD `@jerroldlam` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Request to apache commons lang 3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/42" expanded>
+
+## Library
+
+[Apache Commons Lang](https://commons.apache.org/proper/commons-lang/)
+
+## Purpose
+
+To allow for the class to be printed as a string.
+
+## License
+
+Apache (http://www.apache.org/licenses/)
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 39. MATT..GANI `@matthewgani` (1 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: IP Level-3 Question**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/17" expanded>
@@ -1132,7 +1700,7 @@ Thank you!
 </panel>
 
 
-<panel type="info" header="### 28. NI Y..ILUN `@lunzard` (1 posts)"  collapsed>
+<panel type="info" header="### 40. NI Y..ILUN `@lunzard` (1 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Individual Project: updates in iP progress dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/6" expanded>
@@ -1144,12 +1712,23 @@ I have made my first commit to the forked project, with a summary "Update Level-
 </panel>
 
 
-<panel type="info" header="### 29. LIM ..G LE `@limgl1998` (1 posts)"  collapsed>
+<panel type="info" header="### 41. LIM ..G LE `@limgl1998` (1 posts)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Commit date and time being messed up due to rebase**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/28" expanded>
 
 For some reasons, I had to rebase my commit history to merge 2 different branches. As a result, the timings for my commits became very recent (ie all the commit timings became that of the time where I did my rebase). Will I be penalised because of my commit timings as they are past the deadlines?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 42. WANG..SONG `@wgzesg` (1 posts)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Use a .csv file to store data**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/46" expanded>
+
+Hi Prof, instead of using .txt file, can we use a .csv file to store the data on the local machine? 
 </panel>
 
 </panel>

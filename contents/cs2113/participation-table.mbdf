@@ -1,4 +1,4 @@
-%%[This page was last updated on Sep 13 2020]%% 
+%%[This page was last updated on Sep 14 2020]%% 
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., participation status of each week → total weeks in which you met the participation bar">Weeks participated</tooltip>
 -------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------
@@ -131,7 +131,7 @@ A0200467_ %%<trigger trigger="click" for="modal:pD-A0200467">{{ icon_info }}</tr
 A0200482_ %%<trigger trigger="click" for="modal:pD-A0200482">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5**
 A0200549_ %%<trigger trigger="click" for="modal:pD-A0200549">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5**
 A0200563_ %%<trigger trigger="click" for="modal:pD-A0200563">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5**
-A0200572_ %%<trigger trigger="click" for="modal:pD-A0200572">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">~~4~~</span><span class="badge badge-success mr-1">5</span> → **4**
+A0200572_ %%<trigger trigger="click" for="modal:pD-A0200572">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-warning mr-1">~~4~~</span><span class="badge badge-success mr-1">5</span> → **4**
 A0200574_ %%<trigger trigger="click" for="modal:pD-A0200574">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5**
 A0200577_ %%<trigger trigger="click" for="modal:pD-A0200577">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5**
 A0200658_ %%<trigger trigger="click" for="modal:pD-A0200658">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5**
@@ -3198,7 +3198,7 @@ A0211781_ %%<trigger trigger="click" for="modal:pD-A0211781">{{ icon_info }}</tr
 * **Repl exercises**: percentage of correct solutions: `75%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
-##### Week <span class="badge badge-danger mr-1">~~4~~</span>: <small>3/9 points</small>
+##### Week <span class="badge badge-warning mr-1">~~4~~</span>: <small>3/9 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Accepted the invitation to join the module org on GitHub**: not done %%(0/2 points)%%
 * **Gave at least 2 comments in the iP PR review**: not done %%(0/4 points)%%

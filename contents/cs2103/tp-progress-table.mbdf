@@ -1,5 +1,5 @@
 
-%%[This page was last updated on Sep 14 2020]%%
+%%[This page was last updated on Sep 13 2020]%%
 
 <tabs active="1"> 
   <tab header="****:fas-users: Team Progress****">
@@ -11,10 +11,10 @@
 [CS2103T-W10-3](https://github.com/AY2021S1-CS2103T-W10-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W10-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W10-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Issues Enabled~~</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-W10-4](https://github.com/AY2021S1-CS2103T-W10-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W10-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W10-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W11-1](https://github.com/AY2021S1-CS2103T-W11-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W11-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W11-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
-[CS2103T-W11-2](https://github.com/AY2021S1-CS2103T-W11-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W11-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W11-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
+[CS2103T-W11-2](https://github.com/AY2021S1-CS2103T-W11-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W11-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W11-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Issues Enabled~~</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W11-3](https://github.com/AY2021S1-CS2103T-W11-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W11-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W11-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W11-4](https://github.com/AY2021S1-CS2103T-W11-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W11-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W11-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
-[CS2103T-W12-1](https://github.com/AY2021S1-CS2103T-W12-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W12-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W12-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
+[CS2103T-W12-1](https://github.com/AY2021S1-CS2103T-W12-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W12-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W12-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W12-2](https://github.com/AY2021S1-CS2103T-W12-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W12-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W12-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-W12-3](https://github.com/AY2021S1-CS2103T-W12-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W12-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W12-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-W12-4](https://github.com/AY2021S1-CS2103T-W12-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W12-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W12-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Issues Enabled~~</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
@@ -22,7 +22,7 @@
 [CS2103T-W13-2](https://github.com/AY2021S1-CS2103T-W13-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W13-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W13-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-W13-3](https://github.com/AY2021S1-CS2103T-W13-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W13-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W13-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W13-4](https://github.com/AY2021S1-CS2103T-W13-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W13-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W13-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
-[CS2103-W14-1](https://github.com/AY2021S1-CS2103-W14-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103-W14-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103-W14-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
+[CS2103-W14-1](https://github.com/AY2021S1-CS2103-W14-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103-W14-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103-W14-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Issues Enabled~~</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103-W14-2](https://github.com/AY2021S1-CS2103-W14-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103-W14-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103-W14-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103-W14-3](https://github.com/AY2021S1-CS2103-W14-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103-W14-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103-W14-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103-W14-4](https://github.com/AY2021S1-CS2103-W14-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103-W14-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103-W14-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
@@ -32,7 +32,7 @@
 [CS2103T-W15-4](https://github.com/AY2021S1-CS2103T-W15-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W15-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W15-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-W16-1](https://github.com/AY2021S1-CS2103T-W16-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W16-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W16-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W16-2](https://github.com/AY2021S1-CS2103T-W16-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W16-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W16-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
-[CS2103T-W16-3](https://github.com/AY2021S1-CS2103T-W16-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W16-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W16-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
+[CS2103T-W16-3](https://github.com/AY2021S1-CS2103T-W16-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W16-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W16-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W16-4](https://github.com/AY2021S1-CS2103T-W16-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W16-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W16-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-W17-1](https://github.com/AY2021S1-CS2103T-W17-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W17-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W17-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-W17-2](https://github.com/AY2021S1-CS2103T-W17-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-W17-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-W17-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
@@ -84,7 +84,7 @@
 [CS2103-F10-4](https://github.com/AY2021S1-CS2103-F10-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103-F10-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103-F10-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-F11-1](https://github.com/AY2021S1-CS2103T-F11-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-F11-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-F11-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-F11-2](https://github.com/AY2021S1-CS2103T-F11-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-F11-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-F11-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Issues Enabled~~</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
-[CS2103T-F11-3](https://github.com/AY2021S1-CS2103T-F11-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-F11-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-F11-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
+[CS2103T-F11-3](https://github.com/AY2021S1-CS2103T-F11-3/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-F11-3">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-F11-3/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Issues Enabled~~</span><span class="badge badge-dark mr-1">~~Docs Published~~</span><span class="badge badge-dark mr-1">~~PR Created~~</span>
 [CS2103T-F11-4](https://github.com/AY2021S1-CS2103T-F11-4/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-F11-4">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-F11-4/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-F12-1](https://github.com/AY2021S1-CS2103T-F12-1/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-F12-1">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-F12-1/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
 [CS2103T-F12-2](https://github.com/AY2021S1-CS2103T-F12-2/tp) %%<trigger trigger="click" for="modal:tpPD-CS2103T-F12-2">{{ icon_info }}</trigger>%%|<img src="https://github.com/AY2021S1-CS2103T-F12-2/tp/workflows/Java%20CI/badge.svg" />|<span class="badge badge-success mr-1">weekly meeting</span><span class="badge badge-success mr-1">product concept</span><span class="badge badge-success mr-1">user stories</span><span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Issues Enabled</span><span class="badge badge-success mr-1">Docs Published</span><span class="badge badge-success mr-1">PR Created</span>
@@ -184,9 +184,9 @@ activity | week | description | status
 <span class="badge badge-success mr-1">weekly meeting</span> | 3 | Set up a weekly meeting time | Yes
 <span class="badge badge-success mr-1">product concept</span> | 4 | Submitted product concept via TEAMMATES | Yes
 <span class="badge badge-success mr-1">user stories</span> | 5 | Brainstormed at least 20 user stories | Yes
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked the tp repo from the module org to the team org | Yes
-<span class="badge badge-success mr-1">Issues Enabled</span> | 6 | Issue tracker enabled in the team repo | Yes
-<span class="badge badge-success mr-1">Docs Published</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-W11-2.github.io/tp/UserGuide.html | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked the tp repo from the module org to the team org | No :far-frown:
+<span class="badge badge-dark mr-1">~~Issues Enabled~~</span> | 6 | Issue tracker enabled in the team repo | No :far-frown:
+<span class="badge badge-dark mr-1">~~Docs Published~~</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-W11-2.github.io/tp/UserGuide.html | No :far-frown:
 <span class="badge badge-dark mr-1">~~PR Created~~</span> | 6 | Created a PR from team fork to upstream repo | No :far-frown:
 </modal>
     
@@ -234,7 +234,7 @@ activity | week | description | status
 <span class="badge badge-success mr-1">user stories</span> | 5 | Brainstormed at least 20 user stories | Yes
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked the tp repo from the module org to the team org | Yes
 <span class="badge badge-success mr-1">Issues Enabled</span> | 6 | Issue tracker enabled in the team repo | Yes
-<span class="badge badge-success mr-1">Docs Published</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-W12-1.github.io/tp/UserGuide.html | Yes
+<span class="badge badge-dark mr-1">~~Docs Published~~</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-W12-1.github.io/tp/UserGuide.html | No :far-frown:
 <span class="badge badge-dark mr-1">~~PR Created~~</span> | 6 | Created a PR from team fork to upstream repo | No :far-frown:
 </modal>
     
@@ -360,8 +360,8 @@ activity | week | description | status
 <span class="badge badge-success mr-1">weekly meeting</span> | 3 | Set up a weekly meeting time | Yes
 <span class="badge badge-success mr-1">product concept</span> | 4 | Submitted product concept via TEAMMATES | Yes
 <span class="badge badge-success mr-1">user stories</span> | 5 | Brainstormed at least 20 user stories | Yes
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked the tp repo from the module org to the team org | Yes
-<span class="badge badge-success mr-1">Issues Enabled</span> | 6 | Issue tracker enabled in the team repo | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked the tp repo from the module org to the team org | No :far-frown:
+<span class="badge badge-dark mr-1">~~Issues Enabled~~</span> | 6 | Issue tracker enabled in the team repo | No :far-frown:
 <span class="badge badge-dark mr-1">~~Docs Published~~</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103-W14-1.github.io/tp/UserGuide.html | No :far-frown:
 <span class="badge badge-dark mr-1">~~PR Created~~</span> | 6 | Created a PR from team fork to upstream repo | No :far-frown:
 </modal>
@@ -522,7 +522,7 @@ activity | week | description | status
 <span class="badge badge-success mr-1">user stories</span> | 5 | Brainstormed at least 20 user stories | Yes
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked the tp repo from the module org to the team org | Yes
 <span class="badge badge-success mr-1">Issues Enabled</span> | 6 | Issue tracker enabled in the team repo | Yes
-<span class="badge badge-success mr-1">Docs Published</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-W16-3.github.io/tp/UserGuide.html | Yes
+<span class="badge badge-dark mr-1">~~Docs Published~~</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-W16-3.github.io/tp/UserGuide.html | No :far-frown:
 <span class="badge badge-dark mr-1">~~PR Created~~</span> | 6 | Created a PR from team fork to upstream repo | No :far-frown:
 </modal>
     
@@ -1352,9 +1352,9 @@ activity | week | description | status
 <span class="badge badge-success mr-1">weekly meeting</span> | 3 | Set up a weekly meeting time | Yes
 <span class="badge badge-success mr-1">product concept</span> | 4 | Submitted product concept via TEAMMATES | Yes
 <span class="badge badge-success mr-1">user stories</span> | 5 | Brainstormed at least 20 user stories | Yes
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked the tp repo from the module org to the team org | Yes
-<span class="badge badge-success mr-1">Issues Enabled</span> | 6 | Issue tracker enabled in the team repo | Yes
-<span class="badge badge-success mr-1">Docs Published</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-F11-3.github.io/tp/UserGuide.html | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked the tp repo from the module org to the team org | No :far-frown:
+<span class="badge badge-dark mr-1">~~Issues Enabled~~</span> | 6 | Issue tracker enabled in the team repo | No :far-frown:
+<span class="badge badge-dark mr-1">~~Docs Published~~</span> | 6 | docs have been published via GitHub pages e.g. https://AY2021S1-CS2103T-F11-3.github.io/tp/UserGuide.html | No :far-frown:
 <span class="badge badge-dark mr-1">~~PR Created~~</span> | 6 | Created a PR from team fork to upstream repo | No :far-frown:
 </modal>
     
@@ -1511,7 +1511,7 @@ A0117428_ %%<trigger trigger="click" for="modal:tpPD-A0117428">{{ icon_info }}</
 A0150036_ %%<trigger trigger="click" for="modal:tpPD-A0150036">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0150061_ %%<trigger trigger="click" for="modal:tpPD-A0150061">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0159922_ %%<trigger trigger="click" for="modal:tpPD-A0159922">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0166931_ %%<trigger trigger="click" for="modal:tpPD-A0166931">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0166931_ %%<trigger trigger="click" for="modal:tpPD-A0166931">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0167650_ %%<trigger trigger="click" for="modal:tpPD-A0167650">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0167817_ %%<trigger trigger="click" for="modal:tpPD-A0167817">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0168050_ %%<trigger trigger="click" for="modal:tpPD-A0168050">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1520,17 +1520,17 @@ A0170547_ %%<trigger trigger="click" for="modal:tpPD-A0170547">{{ icon_info }}</
 A0177871_ %%<trigger trigger="click" for="modal:tpPD-A0177871">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0177873_ %%<trigger trigger="click" for="modal:tpPD-A0177873">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0180014_ %%<trigger trigger="click" for="modal:tpPD-A0180014">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0180324_ %%<trigger trigger="click" for="modal:tpPD-A0180324">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0180324_ %%<trigger trigger="click" for="modal:tpPD-A0180324">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0183080_ %%<trigger trigger="click" for="modal:tpPD-A0183080">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0183548_ %%<trigger trigger="click" for="modal:tpPD-A0183548">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0183569_ %%<trigger trigger="click" for="modal:tpPD-A0183569">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0184524_ %%<trigger trigger="click" for="modal:tpPD-A0184524">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0184524_ %%<trigger trigger="click" for="modal:tpPD-A0184524">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0184537_ %%<trigger trigger="click" for="modal:tpPD-A0184537">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0185084_ %%<trigger trigger="click" for="modal:tpPD-A0185084">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0187381_ %%<trigger trigger="click" for="modal:tpPD-A0187381">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0188036_ %%<trigger trigger="click" for="modal:tpPD-A0188036">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0188189_ %%<trigger trigger="click" for="modal:tpPD-A0188189">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0189525_ %%<trigger trigger="click" for="modal:tpPD-A0189525">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0189525_ %%<trigger trigger="click" for="modal:tpPD-A0189525">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0189606_ %%<trigger trigger="click" for="modal:tpPD-A0189606">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0190134_ %%<trigger trigger="click" for="modal:tpPD-A0190134">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0190241_ %%<trigger trigger="click" for="modal:tpPD-A0190241">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1556,7 +1556,7 @@ A0199464_ %%<trigger trigger="click" for="modal:tpPD-A0199464">{{ icon_info }}</
 A0199741_ %%<trigger trigger="click" for="modal:tpPD-A0199741">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199809_ %%<trigger trigger="click" for="modal:tpPD-A0199809">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199832_ %%<trigger trigger="click" for="modal:tpPD-A0199832">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200162_ %%<trigger trigger="click" for="modal:tpPD-A0200162">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0200162_ %%<trigger trigger="click" for="modal:tpPD-A0200162">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200177_ %%<trigger trigger="click" for="modal:tpPD-A0200177">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200393_ %%<trigger trigger="click" for="modal:tpPD-A0200393">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200559_ %%<trigger trigger="click" for="modal:tpPD-A0200559">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1565,25 +1565,25 @@ A0200700_ %%<trigger trigger="click" for="modal:tpPD-A0200700">{{ icon_info }}</
 A0200760_ %%<trigger trigger="click" for="modal:tpPD-A0200760">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200765_ %%<trigger trigger="click" for="modal:tpPD-A0200765">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200794_ %%<trigger trigger="click" for="modal:tpPD-A0200794">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200813_ %%<trigger trigger="click" for="modal:tpPD-A0200813">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0200813_ %%<trigger trigger="click" for="modal:tpPD-A0200813">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200835_ %%<trigger trigger="click" for="modal:tpPD-A0200835">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200908_ %%<trigger trigger="click" for="modal:tpPD-A0200908">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201181_ %%<trigger trigger="click" for="modal:tpPD-A0201181">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201191_ %%<trigger trigger="click" for="modal:tpPD-A0201191">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201327_ %%<trigger trigger="click" for="modal:tpPD-A0201327">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0201327_ %%<trigger trigger="click" for="modal:tpPD-A0201327">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201764_ %%<trigger trigger="click" for="modal:tpPD-A0201764">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201775_ %%<trigger trigger="click" for="modal:tpPD-A0201775">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0201775_ %%<trigger trigger="click" for="modal:tpPD-A0201775">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201835_ %%<trigger trigger="click" for="modal:tpPD-A0201835">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201915_ %%<trigger trigger="click" for="modal:tpPD-A0201915">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201975_ %%<trigger trigger="click" for="modal:tpPD-A0201975">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0201915_ %%<trigger trigger="click" for="modal:tpPD-A0201915">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0201975_ %%<trigger trigger="click" for="modal:tpPD-A0201975">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0202092_ %%<trigger trigger="click" for="modal:tpPD-A0202092">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0202284_ %%<trigger trigger="click" for="modal:tpPD-A0202284">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0202348_ %%<trigger trigger="click" for="modal:tpPD-A0202348">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204208_ %%<trigger trigger="click" for="modal:tpPD-A0204208">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204705_ %%<trigger trigger="click" for="modal:tpPD-A0204705">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204750_ %%<trigger trigger="click" for="modal:tpPD-A0204750">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0204752_ %%<trigger trigger="click" for="modal:tpPD-A0204752">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0204754_ %%<trigger trigger="click" for="modal:tpPD-A0204754">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0204752_ %%<trigger trigger="click" for="modal:tpPD-A0204752">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0204754_ %%<trigger trigger="click" for="modal:tpPD-A0204754">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204950_ %%<trigger trigger="click" for="modal:tpPD-A0204950">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205204_ %%<trigger trigger="click" for="modal:tpPD-A0205204">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205232_ %%<trigger trigger="click" for="modal:tpPD-A0205232">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1602,12 +1602,12 @@ A0206170_ %%<trigger trigger="click" for="modal:tpPD-A0206170">{{ icon_info }}</
 A0206353_ %%<trigger trigger="click" for="modal:tpPD-A0206353">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206358_ %%<trigger trigger="click" for="modal:tpPD-A0206358">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206368_ %%<trigger trigger="click" for="modal:tpPD-A0206368">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0208035_ %%<trigger trigger="click" for="modal:tpPD-A0208035">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0208035_ %%<trigger trigger="click" for="modal:tpPD-A0208035">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0135448_ %%<trigger trigger="click" for="modal:tpPD-A0135448">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0135451_ %%<trigger trigger="click" for="modal:tpPD-A0135451">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0146240_ %%<trigger trigger="click" for="modal:tpPD-A0146240">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0149796_ %%<trigger trigger="click" for="modal:tpPD-A0149796">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0149802_ %%<trigger trigger="click" for="modal:tpPD-A0149802">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0149802_ %%<trigger trigger="click" for="modal:tpPD-A0149802">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0149836_ %%<trigger trigger="click" for="modal:tpPD-A0149836">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0149859_ %%<trigger trigger="click" for="modal:tpPD-A0149859">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0149884_ %%<trigger trigger="click" for="modal:tpPD-A0149884">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
@@ -1615,7 +1615,7 @@ A0149947_ %%<trigger trigger="click" for="modal:tpPD-A0149947">{{ icon_info }}</
 A0149980_ %%<trigger trigger="click" for="modal:tpPD-A0149980">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0149989_ %%<trigger trigger="click" for="modal:tpPD-A0149989">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0150008_ %%<trigger trigger="click" for="modal:tpPD-A0150008">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0150022_ %%<trigger trigger="click" for="modal:tpPD-A0150022">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0150022_ %%<trigger trigger="click" for="modal:tpPD-A0150022">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0150025_ %%<trigger trigger="click" for="modal:tpPD-A0150025">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0150034_ %%<trigger trigger="click" for="modal:tpPD-A0150034">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0150038_ %%<trigger trigger="click" for="modal:tpPD-A0150038">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1628,7 +1628,7 @@ A0177473_ %%<trigger trigger="click" for="modal:tpPD-A0177473">{{ icon_info }}</
 A0178059_ %%<trigger trigger="click" for="modal:tpPD-A0178059">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0180058_ %%<trigger trigger="click" for="modal:tpPD-A0180058">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0180061_ %%<trigger trigger="click" for="modal:tpPD-A0180061">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0180092_ %%<trigger trigger="click" for="modal:tpPD-A0180092">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0180092_ %%<trigger trigger="click" for="modal:tpPD-A0180092">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0182726_ %%<trigger trigger="click" for="modal:tpPD-A0182726">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0183151_ %%<trigger trigger="click" for="modal:tpPD-A0183151">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0183534_ %%<trigger trigger="click" for="modal:tpPD-A0183534">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1643,14 +1643,14 @@ A0189168_ %%<trigger trigger="click" for="modal:tpPD-A0189168">{{ icon_info }}</
 A0194484_ %%<trigger trigger="click" for="modal:tpPD-A0194484">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0194487_ %%<trigger trigger="click" for="modal:tpPD-A0194487">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0194488_ %%<trigger trigger="click" for="modal:tpPD-A0194488">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0194489_ %%<trigger trigger="click" for="modal:tpPD-A0194489">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0194512_ %%<trigger trigger="click" for="modal:tpPD-A0194512">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0194489_ %%<trigger trigger="click" for="modal:tpPD-A0194489">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0194512_ %%<trigger trigger="click" for="modal:tpPD-A0194512">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0194516_ %%<trigger trigger="click" for="modal:tpPD-A0194516">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0194567_ %%<trigger trigger="click" for="modal:tpPD-A0194567">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0194568_ %%<trigger trigger="click" for="modal:tpPD-A0194568">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0194569_ %%<trigger trigger="click" for="modal:tpPD-A0194569">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0196491_ %%<trigger trigger="click" for="modal:tpPD-A0196491">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0196510_ %%<trigger trigger="click" for="modal:tpPD-A0196510">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0196510_ %%<trigger trigger="click" for="modal:tpPD-A0196510">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0196539_ %%<trigger trigger="click" for="modal:tpPD-A0196539">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0196545_ %%<trigger trigger="click" for="modal:tpPD-A0196545">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0196583_ %%<trigger trigger="click" for="modal:tpPD-A0196583">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1664,7 +1664,7 @@ A0196634_ %%<trigger trigger="click" for="modal:tpPD-A0196634">{{ icon_info }}</
 A0196650_ %%<trigger trigger="click" for="modal:tpPD-A0196650">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0196680_ %%<trigger trigger="click" for="modal:tpPD-A0196680">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0196683_ %%<trigger trigger="click" for="modal:tpPD-A0196683">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0196686_ %%<trigger trigger="click" for="modal:tpPD-A0196686">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0196686_ %%<trigger trigger="click" for="modal:tpPD-A0196686">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0196705_ %%<trigger trigger="click" for="modal:tpPD-A0196705">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0197082_ %%<trigger trigger="click" for="modal:tpPD-A0197082">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0197215_ %%<trigger trigger="click" for="modal:tpPD-A0197215">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1686,7 +1686,7 @@ A0199248_ %%<trigger trigger="click" for="modal:tpPD-A0199248">{{ icon_info }}</
 A0199262_ %%<trigger trigger="click" for="modal:tpPD-A0199262">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199317_ %%<trigger trigger="click" for="modal:tpPD-A0199317">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199340_ %%<trigger trigger="click" for="modal:tpPD-A0199340">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0199359_ %%<trigger trigger="click" for="modal:tpPD-A0199359">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0199359_ %%<trigger trigger="click" for="modal:tpPD-A0199359">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199377_ %%<trigger trigger="click" for="modal:tpPD-A0199377">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199395_ %%<trigger trigger="click" for="modal:tpPD-A0199395">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199397_ %%<trigger trigger="click" for="modal:tpPD-A0199397">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1698,14 +1698,14 @@ A0199451_ %%<trigger trigger="click" for="modal:tpPD-A0199451">{{ icon_info }}</
 A0199476_ %%<trigger trigger="click" for="modal:tpPD-A0199476">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199477_ %%<trigger trigger="click" for="modal:tpPD-A0199477">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199502_ %%<trigger trigger="click" for="modal:tpPD-A0199502">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0199508_ %%<trigger trigger="click" for="modal:tpPD-A0199508">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0199508_ %%<trigger trigger="click" for="modal:tpPD-A0199508">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199522_ %%<trigger trigger="click" for="modal:tpPD-A0199522">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199537_ %%<trigger trigger="click" for="modal:tpPD-A0199537">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199554_ %%<trigger trigger="click" for="modal:tpPD-A0199554">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0199556_ %%<trigger trigger="click" for="modal:tpPD-A0199556">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0199556_ %%<trigger trigger="click" for="modal:tpPD-A0199556">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199568_ %%<trigger trigger="click" for="modal:tpPD-A0199568">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199574_ %%<trigger trigger="click" for="modal:tpPD-A0199574">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0199579_ %%<trigger trigger="click" for="modal:tpPD-A0199579">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0199579_ %%<trigger trigger="click" for="modal:tpPD-A0199579">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199596_ %%<trigger trigger="click" for="modal:tpPD-A0199596">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199624_ %%<trigger trigger="click" for="modal:tpPD-A0199624">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199627_ %%<trigger trigger="click" for="modal:tpPD-A0199627">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1717,7 +1717,7 @@ A0199758_ %%<trigger trigger="click" for="modal:tpPD-A0199758">{{ icon_info }}</
 A0199760_ %%<trigger trigger="click" for="modal:tpPD-A0199760">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199761_ %%<trigger trigger="click" for="modal:tpPD-A0199761">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199769_ %%<trigger trigger="click" for="modal:tpPD-A0199769">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0199770_ %%<trigger trigger="click" for="modal:tpPD-A0199770">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0199770_ %%<trigger trigger="click" for="modal:tpPD-A0199770">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199776_ %%<trigger trigger="click" for="modal:tpPD-A0199776">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199786_ %%<trigger trigger="click" for="modal:tpPD-A0199786">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199799_ %%<trigger trigger="click" for="modal:tpPD-A0199799">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1728,16 +1728,16 @@ A0199890_ %%<trigger trigger="click" for="modal:tpPD-A0199890">{{ icon_info }}</
 A0199902_ %%<trigger trigger="click" for="modal:tpPD-A0199902">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199922_ %%<trigger trigger="click" for="modal:tpPD-A0199922">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199926_ %%<trigger trigger="click" for="modal:tpPD-A0199926">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0199971_ %%<trigger trigger="click" for="modal:tpPD-A0199971">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0199971_ %%<trigger trigger="click" for="modal:tpPD-A0199971">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0199974_ %%<trigger trigger="click" for="modal:tpPD-A0199974">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0199994_ %%<trigger trigger="click" for="modal:tpPD-A0199994">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0199994_ %%<trigger trigger="click" for="modal:tpPD-A0199994">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200001_ %%<trigger trigger="click" for="modal:tpPD-A0200001">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200007_ %%<trigger trigger="click" for="modal:tpPD-A0200007">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200025_ %%<trigger trigger="click" for="modal:tpPD-A0200025">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200044_ %%<trigger trigger="click" for="modal:tpPD-A0200044">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200054_ %%<trigger trigger="click" for="modal:tpPD-A0200054">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200076_ %%<trigger trigger="click" for="modal:tpPD-A0200076">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200112_ %%<trigger trigger="click" for="modal:tpPD-A0200112">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0200076_ %%<trigger trigger="click" for="modal:tpPD-A0200076">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0200112_ %%<trigger trigger="click" for="modal:tpPD-A0200112">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200116_ %%<trigger trigger="click" for="modal:tpPD-A0200116">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200117_ %%<trigger trigger="click" for="modal:tpPD-A0200117">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200119_ %%<trigger trigger="click" for="modal:tpPD-A0200119">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1746,15 +1746,15 @@ A0200152_ %%<trigger trigger="click" for="modal:tpPD-A0200152">{{ icon_info }}</
 A0200161_ %%<trigger trigger="click" for="modal:tpPD-A0200161">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200175_ %%<trigger trigger="click" for="modal:tpPD-A0200175">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200190_ %%<trigger trigger="click" for="modal:tpPD-A0200190">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200204_ %%<trigger trigger="click" for="modal:tpPD-A0200204">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200223_ %%<trigger trigger="click" for="modal:tpPD-A0200223">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0200204_ %%<trigger trigger="click" for="modal:tpPD-A0200204">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0200223_ %%<trigger trigger="click" for="modal:tpPD-A0200223">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200498_ %%<trigger trigger="click" for="modal:tpPD-A0200498">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200534_ %%<trigger trigger="click" for="modal:tpPD-A0200534">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200541_ %%<trigger trigger="click" for="modal:tpPD-A0200541">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200593_ %%<trigger trigger="click" for="modal:tpPD-A0200593">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200618_ %%<trigger trigger="click" for="modal:tpPD-A0200618">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200643_ %%<trigger trigger="click" for="modal:tpPD-A0200643">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200657_ %%<trigger trigger="click" for="modal:tpPD-A0200657">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0200657_ %%<trigger trigger="click" for="modal:tpPD-A0200657">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200668_ %%<trigger trigger="click" for="modal:tpPD-A0200668">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200670_ %%<trigger trigger="click" for="modal:tpPD-A0200670">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200673_ %%<trigger trigger="click" for="modal:tpPD-A0200673">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1768,32 +1768,32 @@ A0200698_ %%<trigger trigger="click" for="modal:tpPD-A0200698">{{ icon_info }}</
 A0200718_ %%<trigger trigger="click" for="modal:tpPD-A0200718">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200732_ %%<trigger trigger="click" for="modal:tpPD-A0200732">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200739_ %%<trigger trigger="click" for="modal:tpPD-A0200739">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200750_ %%<trigger trigger="click" for="modal:tpPD-A0200750">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0200750_ %%<trigger trigger="click" for="modal:tpPD-A0200750">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200751_ %%<trigger trigger="click" for="modal:tpPD-A0200751">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0200761_ %%<trigger trigger="click" for="modal:tpPD-A0200761">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200766_ %%<trigger trigger="click" for="modal:tpPD-A0200766">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200777_ %%<trigger trigger="click" for="modal:tpPD-A0200777">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0200778_ %%<trigger trigger="click" for="modal:tpPD-A0200778">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0200778_ %%<trigger trigger="click" for="modal:tpPD-A0200778">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200783_ %%<trigger trigger="click" for="modal:tpPD-A0200783">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200788_ %%<trigger trigger="click" for="modal:tpPD-A0200788">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0200801_ %%<trigger trigger="click" for="modal:tpPD-A0200801">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201182_ %%<trigger trigger="click" for="modal:tpPD-A0201182">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201185_ %%<trigger trigger="click" for="modal:tpPD-A0201185">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201189_ %%<trigger trigger="click" for="modal:tpPD-A0201189">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201229_ %%<trigger trigger="click" for="modal:tpPD-A0201229">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0201229_ %%<trigger trigger="click" for="modal:tpPD-A0201229">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201233_ %%<trigger trigger="click" for="modal:tpPD-A0201233">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201293_ %%<trigger trigger="click" for="modal:tpPD-A0201293">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0201367_ %%<trigger trigger="click" for="modal:tpPD-A0201367">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201406_ %%<trigger trigger="click" for="modal:tpPD-A0201406">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201417_ %%<trigger trigger="click" for="modal:tpPD-A0201417">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201446_ %%<trigger trigger="click" for="modal:tpPD-A0201446">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201480_ %%<trigger trigger="click" for="modal:tpPD-A0201480">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0201480_ %%<trigger trigger="click" for="modal:tpPD-A0201480">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201495_ %%<trigger trigger="click" for="modal:tpPD-A0201495">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201575_ %%<trigger trigger="click" for="modal:tpPD-A0201575">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0201575_ %%<trigger trigger="click" for="modal:tpPD-A0201575">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201614_ %%<trigger trigger="click" for="modal:tpPD-A0201614">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201640_ %%<trigger trigger="click" for="modal:tpPD-A0201640">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0201706_ %%<trigger trigger="click" for="modal:tpPD-A0201706">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
-A0201715_ %%<trigger trigger="click" for="modal:tpPD-A0201715">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0201706_ %%<trigger trigger="click" for="modal:tpPD-A0201706">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0201715_ %%<trigger trigger="click" for="modal:tpPD-A0201715">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201725_ %%<trigger trigger="click" for="modal:tpPD-A0201725">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0201733_ %%<trigger trigger="click" for="modal:tpPD-A0201733">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0201747_ %%<trigger trigger="click" for="modal:tpPD-A0201747">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1820,17 +1820,17 @@ A0202720_ %%<trigger trigger="click" for="modal:tpPD-A0202720">{{ icon_info }}</
 A0202788_ %%<trigger trigger="click" for="modal:tpPD-A0202788">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0202811_ %%<trigger trigger="click" for="modal:tpPD-A0202811">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204671_ %%<trigger trigger="click" for="modal:tpPD-A0204671">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0204679_ %%<trigger trigger="click" for="modal:tpPD-A0204679">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0204679_ %%<trigger trigger="click" for="modal:tpPD-A0204679">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204683_ %%<trigger trigger="click" for="modal:tpPD-A0204683">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204700_ %%<trigger trigger="click" for="modal:tpPD-A0204700">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204707_ %%<trigger trigger="click" for="modal:tpPD-A0204707">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204713_ %%<trigger trigger="click" for="modal:tpPD-A0204713">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0204718_ %%<trigger trigger="click" for="modal:tpPD-A0204718">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0204718_ %%<trigger trigger="click" for="modal:tpPD-A0204718">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204722_ %%<trigger trigger="click" for="modal:tpPD-A0204722">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204736_ %%<trigger trigger="click" for="modal:tpPD-A0204736">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204740_ %%<trigger trigger="click" for="modal:tpPD-A0204740">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204771_ %%<trigger trigger="click" for="modal:tpPD-A0204771">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0204777_ %%<trigger trigger="click" for="modal:tpPD-A0204777">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0204777_ %%<trigger trigger="click" for="modal:tpPD-A0204777">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204786_ %%<trigger trigger="click" for="modal:tpPD-A0204786">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204812_ %%<trigger trigger="click" for="modal:tpPD-A0204812">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0204817_ %%<trigger trigger="click" for="modal:tpPD-A0204817">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1863,11 +1863,11 @@ A0205172_ %%<trigger trigger="click" for="modal:tpPD-A0205172">{{ icon_info }}</
 A0205196_ %%<trigger trigger="click" for="modal:tpPD-A0205196">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205216_ %%<trigger trigger="click" for="modal:tpPD-A0205216">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205235_ %%<trigger trigger="click" for="modal:tpPD-A0205235">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0205253_ %%<trigger trigger="click" for="modal:tpPD-A0205253">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0205253_ %%<trigger trigger="click" for="modal:tpPD-A0205253">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205260_ %%<trigger trigger="click" for="modal:tpPD-A0205260">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205280_ %%<trigger trigger="click" for="modal:tpPD-A0205280">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205295_ %%<trigger trigger="click" for="modal:tpPD-A0205295">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0205302_ %%<trigger trigger="click" for="modal:tpPD-A0205302">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0205302_ %%<trigger trigger="click" for="modal:tpPD-A0205302">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205306_ %%<trigger trigger="click" for="modal:tpPD-A0205306">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205314_ %%<trigger trigger="click" for="modal:tpPD-A0205314">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0205315_ %%<trigger trigger="click" for="modal:tpPD-A0205315">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1888,7 +1888,7 @@ A0205678_ %%<trigger trigger="click" for="modal:tpPD-A0205678">{{ icon_info }}</
 A0205680_ %%<trigger trigger="click" for="modal:tpPD-A0205680">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205682_ %%<trigger trigger="click" for="modal:tpPD-A0205682">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205721_ %%<trigger trigger="click" for="modal:tpPD-A0205721">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0205748_ %%<trigger trigger="click" for="modal:tpPD-A0205748">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0205748_ %%<trigger trigger="click" for="modal:tpPD-A0205748">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205773_ %%<trigger trigger="click" for="modal:tpPD-A0205773">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205792_ %%<trigger trigger="click" for="modal:tpPD-A0205792">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0205812_ %%<trigger trigger="click" for="modal:tpPD-A0205812">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -1909,22 +1909,22 @@ A0206022_ %%<trigger trigger="click" for="modal:tpPD-A0206022">{{ icon_info }}</
 A0206031_ %%<trigger trigger="click" for="modal:tpPD-A0206031">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206050_ %%<trigger trigger="click" for="modal:tpPD-A0206050">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206095_ %%<trigger trigger="click" for="modal:tpPD-A0206095">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0206096_ %%<trigger trigger="click" for="modal:tpPD-A0206096">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
+A0206096_ %%<trigger trigger="click" for="modal:tpPD-A0206096">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206124_ %%<trigger trigger="click" for="modal:tpPD-A0206124">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206151_ %%<trigger trigger="click" for="modal:tpPD-A0206151">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206153_ %%<trigger trigger="click" for="modal:tpPD-A0206153">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0206160_ %%<trigger trigger="click" for="modal:tpPD-A0206160">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0206160_ %%<trigger trigger="click" for="modal:tpPD-A0206160">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206191_ %%<trigger trigger="click" for="modal:tpPD-A0206191">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206249_ %%<trigger trigger="click" for="modal:tpPD-A0206249">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206311_ %%<trigger trigger="click" for="modal:tpPD-A0206311">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0206330_ %%<trigger trigger="click" for="modal:tpPD-A0206330">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0206330_ %%<trigger trigger="click" for="modal:tpPD-A0206330">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206332_ %%<trigger trigger="click" for="modal:tpPD-A0206332">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206345_ %%<trigger trigger="click" for="modal:tpPD-A0206345">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
 A0206350_ %%<trigger trigger="click" for="modal:tpPD-A0206350">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206377_ %%<trigger trigger="click" for="modal:tpPD-A0206377">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206380_ %%<trigger trigger="click" for="modal:tpPD-A0206380">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206403_ %%<trigger trigger="click" for="modal:tpPD-A0206403">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
-A0206418_ %%<trigger trigger="click" for="modal:tpPD-A0206418">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-success mr-1">Tutorial</span>
+A0206418_ %%<trigger trigger="click" for="modal:tpPD-A0206418">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206420_ %%<trigger trigger="click" for="modal:tpPD-A0206420">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0206443_ %%<trigger trigger="click" for="modal:tpPD-A0206443">{{ icon_info }}</trigger>%%||<span class="badge badge-success mr-1">Forked</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
 A0207959_ %%<trigger trigger="click" for="modal:tpPD-A0207959">{{ icon_info }}</trigger>%%||<span class="badge badge-dark mr-1">~~Forked~~</span><span class="badge badge-dark mr-1">~~Tutorial~~</span>
@@ -2022,7 +2022,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -2175,7 +2175,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -2244,7 +2244,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -2345,7 +2345,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -2787,7 +2787,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -2940,7 +2940,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -3025,7 +3025,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -3059,7 +3059,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -3093,7 +3093,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -3111,7 +3111,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -3229,7 +3229,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -3246,7 +3246,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -3570,7 +3570,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -3655,7 +3655,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -3790,7 +3790,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -4011,7 +4011,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -4266,7 +4266,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -4283,7 +4283,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -4386,7 +4386,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -4623,8 +4623,8 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -4997,7 +4997,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -5201,7 +5201,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -5270,7 +5270,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -5321,7 +5321,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -5524,7 +5524,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -5711,7 +5711,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -5745,7 +5745,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -5847,7 +5847,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -5864,7 +5864,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -6017,7 +6017,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -6035,7 +6035,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -6153,7 +6153,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -6392,7 +6392,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -6477,7 +6477,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -6595,7 +6595,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -6715,7 +6715,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -6748,7 +6748,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -6800,7 +6800,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -6816,7 +6816,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -7276,7 +7276,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -7360,7 +7360,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -7446,7 +7446,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -8006,7 +8006,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -8074,7 +8074,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -8431,7 +8431,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -8788,7 +8788,7 @@ activity | week | description | status
 #### tP Admin Tasks
 activity | week | description | status
 ---------|------|-------------|-------
-<span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
+<span class="badge badge-dark mr-1">~~Forked~~</span> | 6 | Forked team repo to own GitHub account | No :far-frown:
 <span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
@@ -8857,7 +8857,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -8925,7 +8925,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 
@@ -9044,7 +9044,7 @@ activity | week | description | status
 activity | week | description | status
 ---------|------|-------------|-------
 <span class="badge badge-success mr-1">Forked</span> | 6 | Forked team repo to own GitHub account | Yes
-<span class="badge badge-success mr-1">Tutorial</span> | 6 | Created a PR from the `tutorial-adding-command` branch | Yes
+<span class="badge badge-dark mr-1">~~Tutorial~~</span> | 6 | Created a PR from the `tutorial-adding-command` branch | No :far-frown:
 </modal>
     
 

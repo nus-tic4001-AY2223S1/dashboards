@@ -19,4 +19,4 @@ title: "tP progress dashboard"
 * If you have queries about the data shown in this page, please email `{{ module | lower }}@comp.nus.edu.sg`.
 </box>
 
-<include src="tp-progress-table.mbdf" />
+<include src="{{ module | lower }}/tp-progress-table.mbdf" />
