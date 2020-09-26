@@ -1,4 +1,4 @@
-%%[This page was last updated on Sep 16 2020]%% 
+%%[This page was last updated on Sep 20 2020]%% 
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., participation status of each week → total weeks in which you met the participation bar">Weeks participated</tooltip>
 -------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------
@@ -351,8 +351,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Quiz(zes)**: percentage of correct answers: `77%` %%(2/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
-##### Week <span class="badge badge-success mr-1">4</span>: <small>2/3 points</small>
-* **Repl exercises**: percentage of correct solutions: `67%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>3/3 points</small>
+* **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 </div>
     
 </modal>
