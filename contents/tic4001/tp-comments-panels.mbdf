@@ -1,1 +1,171 @@
-%%[No data yet]%%
+%%[This page was last updated on Oct 07 2020]%%
+
+
+<panel type="info" header="### 1. TAY JUN WEN `@tototto` (1 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/pull/7#discussion_r491784445" expanded>
+
+@ZhengShijieNUS @pigoliver @JanuariusJang 
+Should we place the entire switch case statement in one TRY block & all catch statement after the TRY block for cleaner and more readable code design? 
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/13#issuecomment-695885303" expanded>
+
+Pushed pull request to implement #13
+Closing this issue.
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/16#issuecomment-695889358" expanded>
+
+Fixed the issue in pull request : Added LIST functionality #8
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/9#issuecomment-700672107" expanded>
+
+Hi Jian Cheng,
+
+I'm fine with integer values too. if everyone is okay let us close this issue and update our user story on fri. 02 oct 2020.
+@ZhengShijieNUS @JanuariusJang @pigoliver 
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/14#issuecomment-700672816" expanded>
+
+@pigoliver 
+
+I believe we can close this issue. This is because we are following the given user format as per our design: 
+E.g. add t/cannot submit s/assigned sv/high dl/20Sep2020 o/Jack
+
+Are you agreeable to this?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 2. JANUARIUS JANG KHENG LIM `@JanuariusJang` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/12#issuecomment-699524515" expanded>
+
+Implemented the Delete function that is specified with the index number.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 3. CHI LAI PING `@Chilaiping` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/pull/1#issuecomment-696704992" expanded>
+
+Unsuccessful
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 4. CHAN WEIZHONG `@e0260222` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/pull/7#issuecomment-703072974" expanded>
+
+Failed Gradle Check
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/pull/8#issuecomment-703075917" expanded>
+
+Failed Gradle check
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/pull/10#issuecomment-703084894" expanded>
+
+Failed Gradle checks
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 5. OLIVIER CHEAH KUN DA `@skyventus` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/pull/1#issuecomment-696704923" expanded>
+
+Is it failing the test case
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 6. LIN TONG `@dgc5213` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/pull/27#issuecomment-705515373" expanded>
+
+Add List Round1. thanks
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 7. HNGOI ZI WEN `@e0261618` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/pull/1#issuecomment-696705043" expanded>
+
+build fail
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 8. ADI KESAVA DAS S/O SUDARSANA DASA ADHIKARI `@adi-kd0021` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/pull/2#issuecomment-696721850" expanded>
+
+Testing successful
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 9. ZHENG SHIJIE `@ZhengShijieNUS` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/9#issuecomment-702686236" expanded>
+
+I agree, too. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. HONG JIANCHENG `@pigoliver` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/9#issuecomment-700633148" expanded>
+
+Hi hi, the severity was assigned as integer in Defect Class, thus, it need to be an Integer, should we change it to String instead?
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/10#issuecomment-700633394" expanded>
+
+Resolved with ADD command
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/15#issuecomment-700633820" expanded>
+
+Feature added in Defect Class.
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/9#issuecomment-700673693" expanded>
+
+I am agree, waiting for others. Thanks thanks
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/14#issuecomment-700674007" expanded>
+
+Agree, thanks.
+</panel>
+
+</panel>
