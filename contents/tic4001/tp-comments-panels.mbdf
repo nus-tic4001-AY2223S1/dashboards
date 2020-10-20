@@ -1,4 +1,4 @@
-%%[This page was last updated on Oct 07 2020]%%
+%%[This page was last updated on Oct 16 2020]%%
 
 
 <panel type="info" header="### 1. TAY JUN WEN `@tototto` (1 comments)"  collapsed>
@@ -50,6 +50,16 @@ Are you agreeable to this?
 Implemented the Delete function that is specified with the index number.
 </panel>
 
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/pull/23#issuecomment-706102247" expanded>
+
+JUnit testing for delete function.
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/pull/36#issuecomment-707973528" expanded>
+
+Added logging, assertions and exceptions on Delete Function
+</panel>
+
 </panel>
 
 
@@ -59,6 +69,11 @@ Implemented the Delete function that is specified with the index number.
 <panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/pull/1#issuecomment-696704992" expanded>
 
 Unsuccessful
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/issues/5#issuecomment-709447633" expanded>
+
+Function has been tested.
 </panel>
 
 </panel>
@@ -80,6 +95,11 @@ Failed Gradle check
 <panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/pull/10#issuecomment-703084894" expanded>
 
 Failed Gradle checks
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/issues/68#issuecomment-710071955" expanded>
+
+This task is now obsolete.
 </panel>
 
 </panel>
@@ -104,6 +124,16 @@ Is it failing the test case
 Add List Round1. thanks
 </panel>
 
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/issues/20#issuecomment-707068972" expanded>
+
+Please help to close this issue. Thanks
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-2/tp/issues/19#issuecomment-707069165" expanded>
+
+Please help to close this issue. Thanks
+</panel>
+
 </panel>
 
 
@@ -126,10 +156,162 @@ build fail
 Testing successful
 </panel>
 
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/issues/7#issuecomment-709447594" expanded>
+
+Search functionality has been added.
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/issues/6#issuecomment-709448400" expanded>
+
+Delete function added
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-4/tp/issues/4#issuecomment-709449678" expanded>
+
+Add functionality added.
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 9. ZHENG SHIJIE `@ZhengShijieNUS` (0 comments)"  collapsed>
+<panel type="info" header="### 9. LIN BINHUI `@binbinhui` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/14#issuecomment-709374304" expanded>
+
+As a project manager, I want to create a project so that I can put in the project information.
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/15#issuecomment-709374617" expanded>
+
+As a project manager, I wish to be able to add a start and end date to my project so that I know the timeframe.
+
+
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/16#issuecomment-709374966" expanded>
+
+As a project manager, I want to be able to add employees to the project so that I know who are involved.
+
+
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/17#issuecomment-709375334" expanded>
+
+As a project manager, I want to add in the person-in-charge so that I know who is leading the project.
+
+
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/18#issuecomment-709375688" expanded>
+
+As a project manager, I want to add the description to the project so that I know what it is about.
+
+
+</panel>
+
+<panel  header="**6 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/19#issuecomment-709375882" expanded>
+
+As a project manager, I want to be able to add a status of my project so that I will know the progress of this project.
+
+
+</panel>
+
+<panel  header="**7 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/14#issuecomment-709388398" expanded>
+
+This is been done
+</panel>
+
+<panel  header="**8 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/14#issuecomment-709388709" expanded>
+
+It can be still enhanced on the current logic
+</panel>
+
+<panel  header="**9 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/15#issuecomment-709389516" expanded>
+
+It can be enhanced by using date/time format 
+</panel>
+
+<panel  header="**10 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/16#issuecomment-709390252" expanded>
+
+This is done
+</panel>
+
+<panel  header="**11 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/17#issuecomment-709390971" expanded>
+
+Not yet implement can add in under creating project class. 
+</panel>
+
+<panel  header="**12 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/28#issuecomment-709391689" expanded>
+
+This is done but will still leave it open because when more command line more help will be add
+</panel>
+
+<panel  header="**13 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/30#issuecomment-709394154" expanded>
+
+This is done
+</panel>
+
+<panel  header="**14 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/29#issuecomment-709394518" expanded>
+
+Skeleton is created. 
+</panel>
+
+<panel  header="**15 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/28#issuecomment-709394976" expanded>
+
+This feature is done
+</panel>
+
+<panel  header="**16 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/24#issuecomment-709396289" expanded>
+
+Replacement is be done
+</panel>
+
+<panel  header="**17 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/18#issuecomment-709403599" expanded>
+
+This is done
+</panel>
+
+<panel  header="**18 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/23#issuecomment-709404832" expanded>
+
+This is done
+</panel>
+
+<panel  header="**19 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/26#issuecomment-709405421" expanded>
+
+This is done
+</panel>
+
+<panel  header="**20 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/25#issuecomment-709405980" expanded>
+
+This is done
+</panel>
+
+<panel  header="**21 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/17#issuecomment-709460827" expanded>
+
+This is done
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. LIN QING `@linqing42` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/43#issuecomment-710001273" expanded>
+
+this is done
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-1/tp/issues/31#issuecomment-710036366" expanded>
+
+can be edit in next version
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 11. ZHENG SHIJIE `@ZhengShijieNUS` (0 comments)"  collapsed>
 
 
 <panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/9#issuecomment-702686236" expanded>
@@ -140,7 +322,7 @@ I agree, too.
 </panel>
 
 
-<panel type="info" header="### 10. HONG JIANCHENG `@pigoliver` (0 comments)"  collapsed>
+<panel type="info" header="### 12. HONG JIANCHENG `@pigoliver` (0 comments)"  collapsed>
 
 
 <panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/9#issuecomment-700633148" expanded>
@@ -166,6 +348,21 @@ I am agree, waiting for others. Thanks thanks
 <panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/14#issuecomment-700674007" expanded>
 
 Agree, thanks.
+</panel>
+
+<panel  header="**6 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/26#issuecomment-708230563" expanded>
+
+Successfully merged all related PR, this issue is closed.
+</panel>
+
+<panel  header="**7 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/27#issuecomment-708230694" expanded>
+
+Successfully merged all related PR, this issue is closed
+</panel>
+
+<panel  header="**8 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S1-TIC4001-3/tp/issues/25#issuecomment-708230901" expanded>
+
+Successfully merged all related PR, this issue is closed
 </panel>
 
 </panel>

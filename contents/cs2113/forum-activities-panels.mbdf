@@ -1,7 +1,345 @@
-%%[This page was last updated on Oct 07 2020]%% [**<span class="text-warning">:octicon-eye:</span> indicates those _watching_ the forum** (kudos :+1:)]
+%%[This page was last updated on Oct 16 2020]%% [**<span class="text-warning">:octicon-eye:</span> indicates those _watching_ the forum** (kudos :+1:)]
 
 
-<panel type="info" header="### 1. WANG.. QIN `@wangqinNick` (29 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 1. NEIL..RJEE `@neilbaner` (40 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Static classes vs instances**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/88" expanded>
+
+According to the lectures, and the notes on the website/textbook, something like 
+
+```java
+InputParser ip = new InputParser ();
+arguments = ip.getArguments(input);
+```
+
+Is preferred over 
+```java
+arguments = InputParser.getArguments(input);
+```
+
+However, if we have a class for printing the messages in the UI, must that also be instantiated every time? It would have to be instantiated in almost every single class in our program which I feel would bloat it somewhat. On the other hand it would make it less easily testable. 
+</panel>
+
+<panel  header="**2. :fas-info-circle: How to add resources to your Java project💡**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/73" expanded>
+
+In my iP, I wanted to use some text files as resources, containing some (not user-generated) data for my program. In the IDE, I was able to do so using the normal Files method, but this doesn't work with accessing files within a jar, as seen in #51 . 
+
+I followed the tutorials online, but I couldn't seem to get the IDE to package the resources folder inside my jar, no matter what I tried. Finally, after poking around in the project settings, here's what I found out you have to do:
+
+0. Create a resources folder under `src/main`, and put the resources you will need in that directory. 
+
+1. Go to File -> Project Structure
+
+2. Go to Modules on the left
+
+3. Go to the Sources tab on the right
+
+4. Find your resources folder
+
+5. Select the resources folder, and then click on "Mark as: Resources"
+
+6. Click OK
+
+Now whenever you build the project, or build a JAR, it will also include the resources folder and you can use it correctly. 
+
+(NB. This might be super obvious but it sure wasn't to me yesterday when I spent four hours trying to figure it out)
+</panel>
+
+<panel  header="**3. :fas-info-circle: [General] Forking vs Branching for group projects**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44" expanded>
+
+As NUS SoC students, we all have to do many group projects, most of which involve collaborating on code. I've used GitHub in the past for this, but mostly in the very simple "everyone just commits to master" style. Of course, with CS2113T, we're all now more familiar with advanced git and revision control strategies. 
+
+Prof, can I ask, in your opinion, for the type of small group project that we often undertake, what's the best approach of these:
+
+- Creating a GitHub Organisation for the project and creating a repository under the organisation that everyone contributes to via forks and PRs. 
+- One member making a repository on their account and everyone making a fork and submitting PRs. 
+- One member making a repository on their account and everyone making a separate branch and submitting PRs. 
+- One member making a repository on their account and everyone committing to a separate "development" branch, and then submitting PRs to master.
+- Committing directly to master. 
+
+While PRs are very good for organising code, I think they can be a bit of a hassle for smaller projects where speed is more important than code quality (as long as there are no bugs, which should be tested before committing). I wonder if Prof has any advice on choosing an approach? Or maybe any of my classmates have any ideas/stories/suggestions? 
+
+Thank you all in advance, have a lovely weekend!
+</panel>
+
+<panel  header="**4. :fas-info-circle: [iP] Progress very out of date on the Code Dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40" expanded>
+
+Hi Prof and everyone,
+
+I was looking through the RepoSense dashboard with all of our iPs, and I noticed that my iP is quite behind (the last commit was on 4th September). However, I have made more commits to my iP since then (including on the same day) but those don't seem to be picked up by RepoSense. I noticed others' commits as new as today are being picked up; is there something I'm doing wrong? Have I perhaps messed up a branch or something?
+
+Thank you!
+
+EDIT: Links for reference: [RepoSense for my iP](https://nus-cs2113-ay2021s1.github.io/ip-dashboard/#sort=totalCommits%20dsc&groupSelect=groupByAuthors&search=neilbaner&sortWithin=title&since=2020-08-14&timeframe=commit&mergegroup=&breakdown=false&tabOpen=true&tabType=zoom&zA=neilbaner&zR=neilbaner%2Fip%5Bmaster%5D&zACS=88.38133547868061&zS=2020-08-14&zFS=&zU=2020-09-10&zMG=false&zFTF=commit&zFGS=groupByAuthors), [GitHub for my iP](https://github.com/NeilBaner/ip/commits/master)
+</panel>
+
+<panel  header="**5. :fas-info-circle: Using * wildcard for imports**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36" expanded>
+
+Is it ever acceptable to use the * wildcard in an import statement? For example, I have a package called "task" with some different classes, all of which are accessed by my main Duke class in another package. Is it necessary to import every single class separately, or may I use, say, `import com.neilbaner.duke.task.*` ?
+
+Thank you!
+</panel>
+
+<panel  header="**6. :fas-info-circle: Policy on use of this keyword**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27" expanded>
+
+Can I clarify when we are expected to use the "this" keyword to access member variables in a class? Personally, I prefer to use "this" at all times to be explicit, but I seem to remember being told (either in lecture or in tutorial, can't seem to recall which) not to use it when not required to cut down on clutter. I couldn't find anything on this in the Java coding standard guide. The notes on the website on the use of the "this" keyword don't cover this either. 
+
+I just wanted to confirm if I should always use it or not?
+
+Thank you!
+</panel>
+
+<panel  header="**7. :fas-info-circle: 💡[repl.it] Replit Java version**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/16" expanded>
+
+Note that repl.it uses Java version 1.8.0, aka Java 8, NOT Java 11 as we are using for class normally. This may or may not have implications for one of the exercises, due to differences in the String class (eg. Java 11 having some very convenient additions not present in Java 8...)
+</panel>
+
+<panel  header="**8. :fas-info-circle: [Week 3 Ex3] Instructions slightly unclear**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15" expanded>
+
+https://nus-cs2113-ay2021s1.github.io/website/schedule/week3/topics.html#key-exercise-pass-objects-to-move-method
+
+The instructions for creating the move method specifies the following behaviour:
+
+>* Returns null and does nothing if either p or r is null
+>* Returns a new Point object that has attributes x and y that match those of r
+>* Does not modify p
+>* Updates r so that its attributes x and y match those of p
+
+I think the instructions do not make clear whether the returned Point object should have attributes x and y matching those of r before the modification or after. 
+
+The expected output seems to indicate that it is the former; that is, the method returns the previous/initial position of the rectangle as a Point. There's also little point (no pun intended) in directly returning one of the parameters. 
+
+Perhaps the written instructions could be made slightly more explicit in mentioning this? 
+</panel>
+
+<panel  header="**9. :fas-info-circle: [Week 3 Ex2] Using Accessors/Getters vs directly accessing member variables**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/14" expanded>
+
+Hi Prof,
+
+Week 3 Ex2 on repl.it requires us to calculate the area of a rectangle object, by multiplying its height and width together. Is it recommended to use the getter methods for the dimensions of the rectangle, or to just directly access the height and width variables? I noticed the model solution used the latter approach, but I used the getter methods myself. 
+
+The comments in the skeleton code suggest using the setter for changing the dimensions rather than directly modifying the member variables, so I'm wondering why the model solution accessed the member variables directly rather than using the getters. 
+
+Thank you, have a great day!
+</panel>
+
+<panel  header="**10. :fas-info-circle: 💡AdoptOpenJDK - potential solution to JDK installation issues?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/12" expanded>
+
+I hear a lot of my friends having issues with installing Java - specifically, the part about getting it to show up in their PATH as expected - so I thought I'd share what worked for me.
+
+I installed OpenJDK using the AdoptOpenJDK installer, linked [here](https://adoptopenjdk.net/). I chose OpenJDK 11 and Hotspot JVM. 
+
+Simply downloading and running the installer should, in theory, configure everything as necessary. By default, the installer will add the JDK to the PATH, so you should not need to perform any additional setup, except configuring your IDE (IntelliJ IDEA or whatever you might be using) to use the appropriate JDK. 
+
+Has anyone else had success using this particular installer?
+</panel>
+
+<panel  header="**11. :fas-info-circle: Individual Project Repo: Public or Private?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/3" expanded>
+
+Hi Prof, should our repository for the individual project be made public or private? If the latter, then who should we add as collaborators? 
+
+Thank you!
+</panel>
+
+<panel  header="**12. :fas-info-circle: Glitter link broken**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2" expanded>
+
+Good day :)
+
+I might be getting ahead of myself, but I was trying to access the class Gitter chat, and can't seem to do so. 
+The first link on [this](https://nus-cs2113-ay2021s1.github.io/website/admin/tools.html) page, which appears to link to https://nus-cs2113-ay2021s1.github.io/website/admin/urt_gitter, leads me to a 404 page on GitHub, while the other link https://gitter.im/nus-cs2113-AY2021S1/community takes me to a 404 on the Gitter website. 
+
+Is the chat just not up yet?
+</panel>
+
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2#issuecomment-670808653" expanded>
+
+Ah, thank you. I suspected I was being a bit eager. I'll check back later. 
+</panel>
+
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678306177" expanded>
+
+Agreed, I'm fairly sure indentation counts towards the limit. 
+
+Don't ask me what happens if you have 30 levels of nested indentation though. 
+</panel>
+
+<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15#issuecomment-678749094" expanded>
+
+Ah, I didn't look at the hint. I figured it out when I saw the expected output. Thank you!
+</panel>
+
+<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683349638" expanded>
+
+If it makes you feel any better @farice9  I did the same thing. Whoops. A bit more care while reading the instructions would go a long way I guess :P
+</panel>
+
+<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683482929" expanded>
+
+Ah, thank you @hughjazzman don't know how I missed that. 
+</panel>
+
+<panel  header="**18 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683483096" expanded>
+
+I appear to have received the invite a few hours ago. 
+</panel>
+
+<panel  header="**19 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-689915299" expanded>
+
+Sorry for the late response. Understood. Thank you. 
+</panel>
+
+<panel  header="**20 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40#issuecomment-690295153" expanded>
+
+@wangqinNick Ahhh I think I see the problem then. Thank you. I also just double checked that all my tags were pushed because some of my tags this morning were only on my local repo :/ I was just very confused since no one else seemed to have this issue; perhaps they already merged their branches. 
+
+@okkhoy The user.name seems to be fine. I'll wait for the reposense to update tomorrow. 
+
+Thank you to everyone :)
+</panel>
+
+<panel  header="**21 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40#issuecomment-690921483" expanded>
+
+Update: All is well, the latest changes have been picked up. 
+</panel>
+
+<panel  header="**22 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44#issuecomment-691655008" expanded>
+
+Thank you for the helpful insight. When you say PR workflow, are there any significant advantages or disadvantages to creating forks vs. branches? I imagine forks keep the production repository cleaner, but branches are a bit easier to manage? 
+</panel>
+
+<panel  header="**23 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-691655985" expanded>
+
+Interesting update: If I use IntelliJ to automatically import each class (i.e. delete my import com.neilbaner.duke.exceptions.* and then Alt-Enter on each exception manually), then by the time I import every single exception (eg. import com.neilbaner.duke.exceptions.TaskIndexOutOfBoundsException, com.neilbaner.duke.exceptions.UnknownCommandException etc. etc, IntelliJ decides that it should combine them all back into com.neilbaner.duke.exceptions.*. This does throw a bit of a spanner in the works. 
+</panel>
+
+<panel  header="**24 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44#issuecomment-691673146" expanded>
+
+I see. I guess I need to try all the different approaches before settling on one. Thanks for your advice. It was very helpful. I'll close this issue now. 
+</panel>
+
+<panel  header="**25 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692393580" expanded>
+
+I, too, am facing something similar. The same path that works in IntelliJ no longer works when I create a JAR and test it using`java -jar`. I handled the exception, but the feature doesn't work as expected which is a bit of a shame. 
+</panel>
+
+<panel  header="**26 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692430567" expanded>
+
+For mine, there are some text files containing lists of application data (i.e. not user generated data) that I want to bundle with the application. I made sure that those text files are inside the jar, but the same path that works when running in IntelliJ don't work with the jar. Can I ask how we can access files within the jar? Should the path be something like ./ip.jar/... ?
+</panel>
+
+<panel  header="**27 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/16#issuecomment-699479241" expanded>
+
+Since we no longer need Replit, I guess this issue can be closed.
+</panel>
+
+<panel  header="**28 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/64#issuecomment-699479352" expanded>
+
+Ah yes, very useful for those of us who won't be lucky enough to win the weekly pollev and also the subsequent wheel spin... Thanks. 
+</panel>
+
+<panel  header="**29 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/74#issuecomment-702621083" expanded>
+
+It does this for me too intermittently, and it seems to go away by itself after a while or when I restart IntelliJ. For a program whose name is derived from "intelligent", it can be quite dense at times...
+</panel>
+
+<panel  header="**30 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-704917483" expanded>
+
+> A possible issue is that your Manifest may have been edited/not included in the JAR. So try to rebuild the JAR.
+
+> Some leads here: https://stackoverflow.com/questions/7559072/corrupt-jar-file
+
+Chiming in to say that I faced this same issue and this was indeed the problem. For me it was because I was working on the project across multiple computers, and the default .gitignore didn't push the manifest, and somehow somewhere along the line it got deleted.  
+</panel>
+
+<panel  header="**31 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-705467809" expanded>
+
+@HengFuYuen The error would be produced when running the .jar file produced with java -jar or double clicking. If you download the jar file you published and you can run it, then you needn't worry. 
+</panel>
+
+<panel  header="**32 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/83#issuecomment-708355806" expanded>
+
+Hi, how were you able to solve this? 
+</panel>
+
+<panel  header="**33 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/87#issuecomment-708373699" expanded>
+
+I think prof mentioned in lecture, assertions are for when the programmer causes the error, and exceptions are for when the user or the environment causes the error. The main issue with assertions for errors that can be caused by the user is that ideally they should be disabled for production builds...
+
+In this case, I'd say num can conceivably be null if the user enters, say "omae wa mou shindeiru", so I'm going to go against the grain and say an exception would be the appropriate choice here.
+</panel>
+
+<panel  header="**34 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/88#issuecomment-708700353" expanded>
+
+Sorry, I'm not 100% sure what you mean @hughjazzman . Am I right to say that, according to the link you sent, my Ui class should be the only one printing messages anyway? 
+</panel>
+
+<panel  header="**35 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48#issuecomment-709067047" expanded>
+
+I had a bit of an idea on how to resolve this. What if, instead of using the dos2unix command, we simply create the EXPECTED_UNIX file manually? I believe many text editors, and indeed, IntelliJ, allow the user to choose between CRLF and LF...
+</panel>
+
+<panel  header="**36 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48#issuecomment-709138250" expanded>
+
+Update: I FIXED IT!!
+
+I've managed to figure out a workaround for this issue, involving getting rid of the dos2unix command entirely. 
+
+How I found this fix:
+
+I tested on my own machine on Ubuntu (with WSL, didn't feel like rebooting multiple times), and I faced the same error with dos2unix. One `sudo apt install dos2unix` later, it worked fine. I suspect dos2unix isn't included on the CI system. 
+
+How I fixed:
+
+First, I removed the lines 
+
+```sh
+cp EXPECTED.TXT EXPECTED-UNIX.TXT
+dos2unix EXPECTED-UNIX.TXT input.txt
+```
+
+Then, I manually created a copy of EXPECTED.TXT and named it EXPECTED-UNIX.txt. (Remember to update the .gitignore to push this file as well!)
+
+Finally, I used the button at the bottom right on IntelliJ 
+![image](https://user-images.githubusercontent.com/30567828/96112323-02c31000-0f15-11eb-9969-9860170fb152.png)
+to change the EXPECTED-UNIX.txt to use LF instead of CRLF
+
+et voila!
+
+![image](https://user-images.githubusercontent.com/30567828/96112493-47e74200-0f15-11eb-8c6d-f731fe696920.png)
+
+hi prof pls giv me a plus grade thank u
+
+(NB. This method does require you to update 2 different files every time you need to update your tests, but it's not too bad since you can simply copy and paste it, or you can use dos2unix on your own machine to do it for you even though copy and paste and changing the format is probably fewer keystrokes/clicks)
+
+@TomLBZ @Lee-Juntong @okkhoy 
+
+</panel>
+
+<panel  header="**37 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/89#issuecomment-709149458" expanded>
+
+Does this mean that if our program uses, say, usernames and passwords, the passwords must also be stored in plaintext? What about API keys?
+</panel>
+
+<panel  header="**38 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48#issuecomment-709282848" expanded>
+
+It was certainly very satisfying seeing the green tick finally :D
+</panel>
+
+<panel  header="**39 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/89#issuecomment-709283514" expanded>
+
+I was thinking for logging into online services, such as GitHub perhaps. 
+</panel>
+
+<panel  header="**40 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/88#issuecomment-709607628" expanded>
+
+I see what you mean. How would you suggest I do this for exceptions though? java.lang.Exception, for example, includes a printStackTrace method which means the exception, not the UI class is responsible for printing error messages. For my ip I (not knowing better until much too late) used a static messages class and called it's methods everywhere I needed to print something, including in my DukeException.printErrorMessage(). 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 2. WANG.. QIN `@wangqinNick` (29 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: How long should the UG be and what is the weight of UG for IP?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/70" expanded>
@@ -254,261 +592,73 @@ Thanks for the explanation!
 </panel>
 
 
-<panel type="info" header="### 2. NEIL..RJEE `@neilbaner` (29 posts) "  collapsed>
+<panel type="info" header="### 3. WIRA..HMAD `@hughjazzman` (25 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: How to add resources to your Java project💡**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/73" expanded>
+<panel  header="**1. :fas-info-circle: Assertion and Exception**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/87" expanded>
 
-In my iP, I wanted to use some text files as resources, containing some (not user-generated) data for my program. In the IDE, I was able to do so using the normal Files method, but this doesn't work with accessing files within a jar, as seen in #51 . 
+So given the following code
 
-I followed the tutorials online, but I couldn't seem to get the IDE to package the resources folder inside my jar, no matter what I tried. Finally, after poking around in the project settings, here's what I found out you have to do:
+```Java
+class A() {
+    private Integer a;
 
-0. Create a resources folder under `src/main`, and put the resources you will need in that directory. 
+    A(int a) { 
+        assert a != null; // Method 1 - assert in constructor
+        if (a == null) {  
+            throw new SpecialException(); // Method 2 - throw Exception to be caught
+        }
+        this.a = a;
+    }
+}
 
-1. Go to File -> Project Structure
+public class Main() {
+    private static final Scanner IN = new Scanner(System.in);
 
-2. Go to Modules on the left
+    public static void main(String[] args) {
+        String line = IN.nextLine().strip();
+        Integer num = null;
+        try {
+            num = Integer.parseInt(line);
+        } catch (NumberFormatException e) {} // Is exception handling here enough?
 
-3. Go to the Sources tab on the right
+        assert num != null; // Method 3 - assert before initialising
+        try {
+            A objA = new A(num);
+        } catch (SpecialException e) {} // Method 2 - catch Exception thrown
+    }
+}
+```
 
-4. Find your resources folder
+If we want to prevent `A.a` from being initialised as `null`, should I
 
-5. Select the resources folder, and then click on "Mark as: Resources"
+1. `assert` within the constructor (Method 1)?
+1. catch `Exception` while initialising (Method 2)?
+1. `assert` before initialising (Method 3)?
 
-6. Click OK
+The use of assertions and exceptions depends whether the input is from the user or the programmer, so if it's parsed properly would it be considered from the user or the programmer after parsing?
 
-Now whenever you build the project, or build a JAR, it will also include the resources folder and you can use it correctly. 
+Thanks to TA @nishanthelango for the following input as well:
 
-(NB. This might be super obvious but it sure wasn't to me yesterday when I spent four hours trying to figure it out)
+> I think if you want `num` to be never `null` at any point of the code then method 3 makes sense
+> But if you just don't want any instance of Class `A` to have a `null` variable `a` then you could use method 1
 </panel>
 
-<panel  header="**2. :fas-info-circle: [General] Forking vs Branching for group projects**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44" expanded>
+<panel  header="**2. :fas-info-circle: 💡 Tables, Emojis in GitHub pages**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/61" expanded>
 
-As NUS SoC students, we all have to do many group projects, most of which involve collaborating on code. I've used GitHub in the past for this, but mostly in the very simple "everyone just commits to master" style. Of course, with CS2113T, we're all now more familiar with advanced git and revision control strategies. 
+If you made a User Guide with tables, you might be wondering why the formatting for the tables works in GitHub but breaks in GitHub pages. Following the advice at this link - https://github.com/pages-themes/cayman/issues/82 - you just need to change the `_config.yml` file to render with `GFM` (GitHub Flavored Markdown). [More details found here.](https://help.github.com/en/github/working-with-github-pages/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll)
 
-Prof, can I ask, in your opinion, for the type of small group project that we often undertake, what's the best approach of these:
-
-- Creating a GitHub Organisation for the project and creating a repository under the organisation that everyone contributes to via forks and PRs. 
-- One member making a repository on their account and everyone making a fork and submitting PRs. 
-- One member making a repository on their account and everyone making a separate branch and submitting PRs. 
-- One member making a repository on their account and everyone committing to a separate "development" branch, and then submitting PRs to master.
-- Committing directly to master. 
-
-While PRs are very good for organising code, I think they can be a bit of a hassle for smaller projects where speed is more important than code quality (as long as there are no bugs, which should be tested before committing). I wonder if Prof has any advice on choosing an approach? Or maybe any of my classmates have any ideas/stories/suggestions? 
-
-Thank you all in advance, have a lovely weekend!
-</panel>
-
-<panel  header="**3. :fas-info-circle: [iP] Progress very out of date on the Code Dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40" expanded>
-
-Hi Prof and everyone,
-
-I was looking through the RepoSense dashboard with all of our iPs, and I noticed that my iP is quite behind (the last commit was on 4th September). However, I have made more commits to my iP since then (including on the same day) but those don't seem to be picked up by RepoSense. I noticed others' commits as new as today are being picked up; is there something I'm doing wrong? Have I perhaps messed up a branch or something?
-
-Thank you!
-
-EDIT: Links for reference: [RepoSense for my iP](https://nus-cs2113-ay2021s1.github.io/ip-dashboard/#sort=totalCommits%20dsc&groupSelect=groupByAuthors&search=neilbaner&sortWithin=title&since=2020-08-14&timeframe=commit&mergegroup=&breakdown=false&tabOpen=true&tabType=zoom&zA=neilbaner&zR=neilbaner%2Fip%5Bmaster%5D&zACS=88.38133547868061&zS=2020-08-14&zFS=&zU=2020-09-10&zMG=false&zFTF=commit&zFGS=groupByAuthors), [GitHub for my iP](https://github.com/NeilBaner/ip/commits/master)
-</panel>
-
-<panel  header="**4. :fas-info-circle: Using * wildcard for imports**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36" expanded>
-
-Is it ever acceptable to use the * wildcard in an import statement? For example, I have a package called "task" with some different classes, all of which are accessed by my main Duke class in another package. Is it necessary to import every single class separately, or may I use, say, `import com.neilbaner.duke.task.*` ?
-
-Thank you!
-</panel>
-
-<panel  header="**5. :fas-info-circle: Policy on use of this keyword**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27" expanded>
-
-Can I clarify when we are expected to use the "this" keyword to access member variables in a class? Personally, I prefer to use "this" at all times to be explicit, but I seem to remember being told (either in lecture or in tutorial, can't seem to recall which) not to use it when not required to cut down on clutter. I couldn't find anything on this in the Java coding standard guide. The notes on the website on the use of the "this" keyword don't cover this either. 
-
-I just wanted to confirm if I should always use it or not?
-
-Thank you!
-</panel>
-
-<panel  header="**6. :fas-info-circle: 💡[repl.it] Replit Java version**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/16" expanded>
-
-Note that repl.it uses Java version 1.8.0, aka Java 8, NOT Java 11 as we are using for class normally. This may or may not have implications for one of the exercises, due to differences in the String class (eg. Java 11 having some very convenient additions not present in Java 8...)
-</panel>
-
-<panel  header="**7. :fas-info-circle: [Week 3 Ex3] Instructions slightly unclear**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15" expanded>
-
-https://nus-cs2113-ay2021s1.github.io/website/schedule/week3/topics.html#key-exercise-pass-objects-to-move-method
-
-The instructions for creating the move method specifies the following behaviour:
-
->* Returns null and does nothing if either p or r is null
->* Returns a new Point object that has attributes x and y that match those of r
->* Does not modify p
->* Updates r so that its attributes x and y match those of p
-
-I think the instructions do not make clear whether the returned Point object should have attributes x and y matching those of r before the modification or after. 
-
-The expected output seems to indicate that it is the former; that is, the method returns the previous/initial position of the rectangle as a Point. There's also little point (no pun intended) in directly returning one of the parameters. 
-
-Perhaps the written instructions could be made slightly more explicit in mentioning this? 
-</panel>
-
-<panel  header="**8. :fas-info-circle: [Week 3 Ex2] Using Accessors/Getters vs directly accessing member variables**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/14" expanded>
-
-Hi Prof,
-
-Week 3 Ex2 on repl.it requires us to calculate the area of a rectangle object, by multiplying its height and width together. Is it recommended to use the getter methods for the dimensions of the rectangle, or to just directly access the height and width variables? I noticed the model solution used the latter approach, but I used the getter methods myself. 
-
-The comments in the skeleton code suggest using the setter for changing the dimensions rather than directly modifying the member variables, so I'm wondering why the model solution accessed the member variables directly rather than using the getters. 
-
-Thank you, have a great day!
-</panel>
-
-<panel  header="**9. :fas-info-circle: 💡AdoptOpenJDK - potential solution to JDK installation issues?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/12" expanded>
-
-I hear a lot of my friends having issues with installing Java - specifically, the part about getting it to show up in their PATH as expected - so I thought I'd share what worked for me.
-
-I installed OpenJDK using the AdoptOpenJDK installer, linked [here](https://adoptopenjdk.net/). I chose OpenJDK 11 and Hotspot JVM. 
-
-Simply downloading and running the installer should, in theory, configure everything as necessary. By default, the installer will add the JDK to the PATH, so you should not need to perform any additional setup, except configuring your IDE (IntelliJ IDEA or whatever you might be using) to use the appropriate JDK. 
-
-Has anyone else had success using this particular installer?
-</panel>
-
-<panel  header="**10. :fas-info-circle: Individual Project Repo: Public or Private?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/3" expanded>
-
-Hi Prof, should our repository for the individual project be made public or private? If the latter, then who should we add as collaborators? 
-
-Thank you!
-</panel>
-
-<panel  header="**11. :fas-info-circle: Glitter link broken**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2" expanded>
-
-Good day :)
-
-I might be getting ahead of myself, but I was trying to access the class Gitter chat, and can't seem to do so. 
-The first link on [this](https://nus-cs2113-ay2021s1.github.io/website/admin/tools.html) page, which appears to link to https://nus-cs2113-ay2021s1.github.io/website/admin/urt_gitter, leads me to a 404 page on GitHub, while the other link https://gitter.im/nus-cs2113-AY2021S1/community takes me to a 404 on the Gitter website. 
-
-Is the chat just not up yet?
-</panel>
-
-<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/2#issuecomment-670808653" expanded>
-
-Ah, thank you. I suspected I was being a bit eager. I'll check back later. 
-</panel>
-
-<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678306177" expanded>
-
-Agreed, I'm fairly sure indentation counts towards the limit. 
-
-Don't ask me what happens if you have 30 levels of nested indentation though. 
-</panel>
-
-<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/15#issuecomment-678749094" expanded>
-
-Ah, I didn't look at the hint. I figured it out when I saw the expected output. Thank you!
-</panel>
-
-<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683349638" expanded>
-
-If it makes you feel any better @farice9  I did the same thing. Whoops. A bit more care while reading the instructions would go a long way I guess :P
-</panel>
-
-<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683482929" expanded>
-
-Ah, thank you @hughjazzman don't know how I missed that. 
-</panel>
-
-<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683483096" expanded>
-
-I appear to have received the invite a few hours ago. 
-</panel>
-
-<panel  header="**18 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-689915299" expanded>
-
-Sorry for the late response. Understood. Thank you. 
-</panel>
-
-<panel  header="**19 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40#issuecomment-690295153" expanded>
-
-@wangqinNick Ahhh I think I see the problem then. Thank you. I also just double checked that all my tags were pushed because some of my tags this morning were only on my local repo :/ I was just very confused since no one else seemed to have this issue; perhaps they already merged their branches. 
-
-@okkhoy The user.name seems to be fine. I'll wait for the reposense to update tomorrow. 
-
-Thank you to everyone :)
-</panel>
-
-<panel  header="**20 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/40#issuecomment-690921483" expanded>
-
-Update: All is well, the latest changes have been picked up. 
-</panel>
-
-<panel  header="**21 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44#issuecomment-691655008" expanded>
-
-Thank you for the helpful insight. When you say PR workflow, are there any significant advantages or disadvantages to creating forks vs. branches? I imagine forks keep the production repository cleaner, but branches are a bit easier to manage? 
-</panel>
-
-<panel  header="**22 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-691655985" expanded>
-
-Interesting update: If I use IntelliJ to automatically import each class (i.e. delete my import com.neilbaner.duke.exceptions.* and then Alt-Enter on each exception manually), then by the time I import every single exception (eg. import com.neilbaner.duke.exceptions.TaskIndexOutOfBoundsException, com.neilbaner.duke.exceptions.UnknownCommandException etc. etc, IntelliJ decides that it should combine them all back into com.neilbaner.duke.exceptions.*. This does throw a bit of a spanner in the works. 
-</panel>
-
-<panel  header="**23 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/44#issuecomment-691673146" expanded>
-
-I see. I guess I need to try all the different approaches before settling on one. Thanks for your advice. It was very helpful. I'll close this issue now. 
-</panel>
-
-<panel  header="**24 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692393580" expanded>
-
-I, too, am facing something similar. The same path that works in IntelliJ no longer works when I create a JAR and test it using`java -jar`. I handled the exception, but the feature doesn't work as expected which is a bit of a shame. 
-</panel>
-
-<panel  header="**25 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51#issuecomment-692430567" expanded>
-
-For mine, there are some text files containing lists of application data (i.e. not user generated data) that I want to bundle with the application. I made sure that those text files are inside the jar, but the same path that works when running in IntelliJ don't work with the jar. Can I ask how we can access files within the jar? Should the path be something like ./ip.jar/... ?
-</panel>
-
-<panel  header="**26 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/16#issuecomment-699479241" expanded>
-
-Since we no longer need Replit, I guess this issue can be closed.
-</panel>
-
-<panel  header="**27 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/64#issuecomment-699479352" expanded>
-
-Ah yes, very useful for those of us who won't be lucky enough to win the weekly pollev and also the subsequent wheel spin... Thanks. 
-</panel>
-
-<panel  header="**28 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/74#issuecomment-702621083" expanded>
-
-It does this for me too intermittently, and it seems to go away by itself after a while or when I restart IntelliJ. For a program whose name is derived from "intelligent", it can be quite dense at times...
-</panel>
-
-<panel  header="**29 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-704917483" expanded>
-
-> A possible issue is that your Manifest may have been edited/not included in the JAR. So try to rebuild the JAR.
-
-> Some leads here: https://stackoverflow.com/questions/7559072/corrupt-jar-file
-
-Chiming in to say that I faced this same issue and this was indeed the problem. For me it was because I was working on the project across multiple computers, and the default .gitignore didn't push the manifest, and somehow somewhere along the line it got deleted.  
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 3. WIRA..HMAD `@hughjazzman` (20 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: 💡 Tables, Emojis in GitHub pages**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/61" expanded>
-
-If you made a User Guide with tables, you might be wondering why the formatting for the tables works in GitHub but breaks in GitHub pages. Following the advice at this link - https://github.com/pages-themes/cayman/issues/82 - you just need to change the '_config.yml' file to render with 'GFM' (GitHub Flavored Markdown). [More details found here.](https://help.github.com/en/github/working-with-github-pages/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll)
-
-As for adding emojis  like seen at [this link](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to your GitHub pages, there is an extra step explained at [this link](https://docs.github.com/en/enterprise/2.13/user/articles/emoji-on-github-pages) for the change needed in the '_config.yml' file.
+As for adding emojis  like seen at [this link](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to your GitHub pages, there is an extra step explained at [this link](https://docs.github.com/en/enterprise/2.13/user/articles/emoji-on-github-pages) for the change needed in the `_config.yml` file.
 
 For example, if you were using the Cayman theme, you could do something like this:
-''' yml
+``` yml
 theme: jekyll-theme-cayman
 markdown: GFM
 plugins:
   - jemoji
-'''
+```
 
-The '_config.yml' file should be automatically created in the 'docs' folder and committed when you choose a theme for your User Guide, but you'll have to add the extra stuff yourself.
+The `_config.yml` file should be automatically created in the `docs` folder and committed when you choose a theme for your User Guide, but you'll have to add the extra stuff yourself.
 
 Also, here's a use of the emoji and table combination - nice informational boxes:
 
@@ -521,14 +671,14 @@ Also, here's a use of the emoji and table combination - nice informational boxes
 Source: https://stackoverflow.com/questions/58737436/how-to-create-a-good-looking-notification-or-warning-box-in-github-flavoured-mar
 </panel>
 
-<panel  header="**2. :fas-info-circle: Automated Text UI Testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22" expanded>
+<panel  header="**3. :fas-info-circle: Automated Text UI Testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22" expanded>
 
 OS: Windows 10
-Increment: ['A-TextUiTesting'](https://nus-cs2113-ay2021s1.github.io/website/schedule/week4/project.html#a-textuitesting)
-File: 'runtest.bat'
+Increment: [`A-TextUiTesting`](https://nus-cs2113-ay2021s1.github.io/website/schedule/week4/project.html#a-textuitesting)
+File: `runtest.bat`
 
-While working on the increment, I find an issue when using file compare ('FC') for the special characters '✓' and '✘'. In the output file 'ACTUAL.TXT', the corresponding characters seem to get converted to '?' (question mark), and the follow lines will be shown in the diff:
-'''
+While working on the increment, I find an issue when using file compare (`FC`) for the special characters `✓` and `✘`. In the output file `ACTUAL.TXT`, the corresponding characters seem to get converted to `?` (question mark), and the follow lines will be shown in the diff:
+```
 Comparing files ACTUAL.TXT and EXPECTED.TXT
 ***** ACTUAL.TXT
  Got it. I've added this task:
@@ -549,19 +699,19 @@ Comparing files ACTUAL.TXT and EXPECTED.TXT
  [T][Γ£ô] read book
 ------------------------------------------------------------
 *****
-'''
-To fix it, I basically had to change the the expected character to be a '?' in 'EXPECTED.TXT' and it will give me that no differences were encountered. However, this would mean that the test cannot check for '✓' and '✘' characters being different.
+```
+To fix it, I basically had to change the the expected character to be a `?` in `EXPECTED.TXT` and it will give me that no differences were encountered. However, this would mean that the test cannot check for `✓` and `✘` characters being different.
 
-I guess that the error probably comes from the special characters being unicode characters which is an issue if 'FC' isn't expecting it. From the [docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fc), there is an option for unicode, but it will be on the whole file and not just a single character.
+I guess that the error probably comes from the special characters being unicode characters which is an issue if `FC` isn't expecting it. From the [docs](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fc), there is an option for unicode, but it will be on the whole file and not just a single character.
 
 I also note that in [Updating test as the program evolves](https://se-education.org/guides/tutorials/textUiTesting.html#updating-tests-as-the-program-evolves), "we accept that the actual behavior should be the new expected behavior".
 
 Is there any way for the test to check for those characters, or should I just stick with the question marks?
 </panel>
 
-<panel  header="**3. :fas-info-circle: Week 3 Tutorial Exercise - Coding Standard Violations**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/20" expanded>
+<panel  header="**4. :fas-info-circle: Week 3 Tutorial Exercise - Coding Standard Violations**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/20" expanded>
 
-'''Java
+```Java
 import java.util.*;
 
 public class Task {
@@ -586,35 +736,35 @@ public class Task {
     @Override
     public String toString() { return descriptionPrefix + description; }
 }
-'''
-Other than the given ones regarding 'descriptionPrefix', 'printingDescription()', and 'important', these should be the other ones:
+```
+Other than the given ones regarding `descriptionPrefix`, `printingDescription()`, and `important`, these should be the other ones:
 
-- 'import java.util.*' should be 'import java.util.ArrayList' to be explicit
-- 'pastDescription' should be 'pastDescriptions' to indicate collection
-- 'this.description = d' can just be 'description = d' to reduce noise
-- 'if' statement should be in wrapped in brackets 
-- 'getAsXML()' should be 'getAsXml()' - lowercase
+- `import java.util.*` should be `import java.util.ArrayList` to be explicit
+- `pastDescription` should be `pastDescriptions` to indicate collection
+- `this.description = d` can just be `description = d` to reduce noise
+- `if` statement should be in wrapped in brackets 
+- `getAsXML()` should be `getAsXml()` - lowercase
 
 Did I miss anything?
 
 </panel>
 
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678271798" expanded>
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/11#issuecomment-678271798" expanded>
 
 I assume since the wrapped lines is about the layout to improve readability, it is so that the code is easily viewable on smaller widths. Then this means the spaces would be part of the limit.
 </panel>
 
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-680952533" expanded>
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-680952533" expanded>
 
 I would assume all the input we get is completely ideal, and that we will learn about catching errors in future weeks.
 </panel>
 
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-681765124" expanded>
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-681765124" expanded>
 
 Nice! It works, thanks @wangqinNick.
 </panel>
 
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683380238" expanded>
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/27#issuecomment-683380238" expanded>
 
 It’s here: https://se-education.org/guides/conventions/java/index.html#variables
 
@@ -624,73 +774,73 @@ It’s here: https://se-education.org/guides/conventions/java/index.html#variabl
 
 </panel>
 
-<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683398093" expanded>
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683398093" expanded>
 
 Assuming the data from the classrooms follows what's said here - https://docs.repl.it/classrooms/exports - then that's probably why they can't use our repl.it usernames. If only repl.it gave the data with usernames.
 </panel>
 
-<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683418650" expanded>
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683418650" expanded>
 
 @adinata15 What's your OS? The forward/backslash seems like something to do with using the right file on the right OS.
 </panel>
 
-<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683440611" expanded>
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683440611" expanded>
 
-@adinata15 Hmm then maybe not. Looking at your package structure, because you packaged Duke in 'main.java' I believe these should work:
+@adinata15 Hmm then maybe not. Looking at your package structure, because you packaged Duke in `main.java` I believe these should work:
 
-'''bash
+```bash
 javac -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\Duke.java
 java -Dfile.encoding=UTF-8 -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT
-'''
+```
 </panel>
 
-<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-683806460" expanded>
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-683806460" expanded>
 
-@kaijiel24 Yep, since they are special characters you would need to change the console code page as well as the font to print them. Of the fonts available in my 'cmd', only MS Gothic, NSimSun, SimSun-ExtB could display them.
-'''
+@kaijiel24 Yep, since they are special characters you would need to change the console code page as well as the font to print them. Of the fonts available in my `cmd`, only MS Gothic, NSimSun, SimSun-ExtB could display them.
+```
 chcp 65001
-'''
+```
 
 Sources:
 https://ss64.com/nt/chcp.html
 https://github.com/rrrene/credo/issues/422
 </panel>
 
-<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31#issuecomment-684621953" expanded>
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31#issuecomment-684621953" expanded>
 
 Answered in #22 
 </panel>
 
-<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-687758900" expanded>
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-687758900" expanded>
 
 It's in the Coding Standard: https://se-education.org/guides/conventions/java/basic.html#package-and-import-statements
 
 > Imported classes should always be listed explicitly.
 </panel>
 
-<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56#issuecomment-696215594" expanded>
+<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56#issuecomment-696215594" expanded>
 
 https://stackoverflow.com/questions/47457105/class-has-been-compiled-by-a-more-recent-version-of-the-java-environment
 
 Yup it looks like Java 14 was used to compile, and Java 8 is being used to run.
 </panel>
 
-<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-696216763" expanded>
+<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-696216763" expanded>
 
 For reference, this goes as far back as #22.
 </panel>
 
-<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56#issuecomment-696499236" expanded>
+<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56#issuecomment-696499236" expanded>
 
 @okkhoy Whoops yep.
 </panel>
 
-<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-696696914" expanded>
+<panel  header="**18 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/36#issuecomment-696696914" expanded>
 
 Follow this: https://www.jetbrains.com/help/idea/creating-and-optimizing-imports.html#disable-wildcard-imports
 </panel>
 
-<panel  header="**18 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697296576" expanded>
+<panel  header="**19 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697296576" expanded>
 
 From the page:
 
@@ -699,14 +849,67 @@ From the page:
 Looks like your commits were all after then. (The grading scripts have to be run, they aren’t automatic.)
 </panel>
 
-<panel  header="**19 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/65#issuecomment-699666886" expanded>
+<panel  header="**20 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/65#issuecomment-699666886" expanded>
 
 Hi, try tips from #61.
 </panel>
 
-<panel  header="**20 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/72#issuecomment-701894770" expanded>
+<panel  header="**21 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/72#issuecomment-701894770" expanded>
 
 Try tips in #61, was also asked in #65.
+</panel>
+
+<panel  header="**22 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/87#issuecomment-708471147" expanded>
+
+@AndreWongZH Good point, I've changed the example to `Integer`.
+</panel>
+
+<panel  header="**23 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/88#issuecomment-708482154" expanded>
+
+If we were to take https://se-education.org/addressbook-level3/DeveloperGuide.html#architecture as an example, then the navigability shows that `Ui` should be the one aware of the `Logic` and `Model` of the application instead of the other way round. I haven't implemented this, but if I were to guess, you could initialise the `Ui` in the main app class and check the other 2 components in the `while` loop.
+</panel>
+
+<panel  header="**24 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/88#issuecomment-708931178" expanded>
+
+Let me see if I can try to illustrate. Suppose we have a `Command` class.
+
+```Java
+public class Duke {
+    /** Instances of class objects for UI. **/
+    private final Ui ui;
+    private final Parser parser;
+
+    private Duke() {
+        ui = new Ui();
+        parser = new Parser();
+    }
+
+    public void run() {
+        boolean isExit = false;
+        while (!isExit) {
+            String line = ui.readLine();
+            Command c = parser.parse(line);
+            c.execute();
+            isExit = c.isExit();
+            ui.printCommand(c); // here, we could try have the Command c as input to the Ui instance
+        }
+    }
+
+    /**
+     * Main entry-point for the java.duke.Duke application.
+     */
+    public static void main(String[] args) {
+        new Duke().run();
+    }
+}
+```
+
+Maybe the `Command` class might have an overridden `toString()` method? This leaves the `Logic` not having to deal with `Ui` as well.
+</panel>
+
+<panel  header="**25 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/91#issuecomment-709206672" expanded>
+
+Not necessarily. If you have proper abstraction within the `Parser` class, a new command could simply use an existing method to prepare the arguments. If your `Parser`, `Command`, `Messages` don't need to be aware of `Ui` as discussed in #88, then a new command would just be a new `Command` subclass, with `Messages` being associated with the `Command`.
 </panel>
 
 </panel>
@@ -896,7 +1099,7 @@ After implementing the `Date` on `Level-8`, can we assume the user can only regi
 <panel  header="**3. :fas-info-circle: FileNotFoundException in JAR file implementation**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/51" expanded>
 
 When implementing the JAR file, I encounter the FileNotFoundException. When I tried on the normal java terminal everything works, with or without the duke.txt. Is this something we need to fix or is this ok? My code is as follows:
-'''
+```
 public static final String filepath = "./data/duke.txt";//file path from root file
 private static void handlePastData() {
         File pastFile = new File(filepath); // create a File for the given file path
@@ -908,7 +1111,7 @@ private static void handlePastData() {
         //convert file entry to tasks
         parseFile(wholeDoc);
     }
-'''
+```
 This is the error:
 ![image](https://user-images.githubusercontent.com/48993548/93128552-3e926c00-f702-11ea-8674-08daea052c59.png)
 </panel>
@@ -916,16 +1119,16 @@ This is the error:
 <panel  header="**4. :fas-info-circle: Automated Text-UI Testing Issue : Cannot find file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29" expanded>
 
 I am still a bit confused about automated testing. After following the guide on the cs2113 website and changing the path, I still get the error:
-'''
+```
 Error: Could not find or load main class Duke
 Caused by: java.lang.NoClassDefFoundError: main/java/Duke (wrong name: Duke)
-'''
+```
 ![image](https://user-images.githubusercontent.com/48993548/91651424-13333e80-eabf-11ea-807b-10f801ebb4f8.png)
 These are my java and javac command lines:
-'''
+```
 javac  -cp ..\src\main\java -Xlint:none -d ..\bin ..\src\main\java\*.java
 java -Dfile.encoding=UTF-8 -classpath ..\bin\main\java Duke < input.txt > ACTUAL.TXT
-'''
+```
 Does anyone know how to solve this error? Thank you!
 </panel>
 
@@ -967,7 +1170,7 @@ I am not sure where to find the file Duke.java but my main class is still Duke. 
 
 <panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683404671" expanded>
 
-> > > > @zhixiangteoh When 'java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT' is used, it still gives the same error.
+> > > > @zhixiangteoh When `java -Dfile.encoding=UTF-8 -classpath ..\bin Duke < input.txt > ACTUAL.TXT` is used, it still gives the same error.
 > > > > @wangqinNick Regarding file location, I do not create another package nor more the file from src/main/java.
 > > > > @AndreWongZH For the uninitialised value, I declared some variable without assigning a value for them at first (only assign when user input data) but everything works fine when I tried running it on the console.
 > > > 
@@ -980,26 +1183,26 @@ I am not sure where to find the file Duke.java but my main class is still Duke. 
 > 
 > Hey, i think perhaps this will work:
 > 
-> 'java -Dfile.encoding=UTF-8 -classpath ..\bin main\java\Duke < input.txt > ACTUAL.TXT'
+> `java -Dfile.encoding=UTF-8 -classpath ..\bin main\java\Duke < input.txt > ACTUAL.TXT`
 > 
-> It seems that because your compilation destination is \bin but the package main.java was compiled and not the files, the classpath is ..\bin but you need to execute the '<package>.<subpackage>.<main class>'.
+> It seems that because your compilation destination is \bin but the package main.java was compiled and not the files, the classpath is ..\bin but you need to execute the `<package>.<subpackage>.<main class>`.
 > 
 > See also: https://stackoverflow.com/questions/7509295/noclassdeffounderror-wrong-name/13697239
 > 
 > If this still doesn't work, try changing your javac command in runtest.bat to:
 > 
-> 'javac -verbose -cp ..\src\main\java -Xlint:none -d ..\bin ..\src\main\java\*.java'
+> `javac -verbose -cp ..\src\main\java -Xlint:none -d ..\bin ..\src\main\java\*.java`
 > 
 > to see what files or packages are being loaded.
 
 I try changing it to:
-'''
+```
 java -Dfile.encoding=UTF-8 -classpath ..\bin main\java\Duke < input.txt > ACTUAL.TXT
-'''
+```
 The same error still comes out. However, when I change it to:
-'''
+```
 java -Dfile.encoding=UTF-8 -classpath ../bin main/java/Duke < input.txt > ACTUAL.TXT
-'''
+```
 It works :D. I then try to change all backslash to slash in the runtime.bat file and it also works. I am not really sure why this works, but could this lead to a problem in the future?
 </panel>
 
@@ -1067,7 +1270,7 @@ Thank you for the advice! @okkhoy. I will leave this open for future questions.
 </panel>
 
 
-<panel type="info" header="### 6. HENG..YUEN `@HengFuYuen` (13 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 6. HENG..YUEN `@HengFuYuen` (15 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Table formatting for User Guide**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/65" expanded>
@@ -1166,13 +1369,25 @@ Oh! Thanks so much for the tips!
 
 <panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-704924011" expanded>
 
-Hi! Sorry, may I know where did your get this error message? Was it via email? Because I actually didn't push my manifest files to my repo but when I checked, it seems to be included in my JAR file (?). So I'm worried that I might have the same error but don't know where to check to see if my JAR passed the smoke test.  Also, do I need to push my manifest.mf file? Thank you!
+Hi! Sorry, may I know where did your get this error message? Was it via email? Because I actually didn't push my manifest files to my repo but when I checked, it seems to be included in my JAR file (?). So I'm worried that I might have the same error but don't know where to check to see if my JAR passed the smoke test.  Also, do I need to push my manifest.mf file? If so, do I have to resubmit my JAR file again? Thank you!
+</panel>
+
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76#issuecomment-705469625" expanded>
+
+I see! Thank you so much @NeilBaner !
+</panel>
+
+<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/87#issuecomment-708304870" expanded>
+
+Personally, I would use method 1 because if it was an invalid input from the user I would assume that the parser/main class caught the error as an exception perhaps while parsing. Therefore, if class A was initialised with null it would be a programmer error. For example, in my tp I actually worked on a person class and the age of a person cannot be < 0 and I used assertion in my constructor rather than an exception because I assumed that the parser class would have caught the error as an exception. However, I am not sure if I'm right either...
+
+Regarding method 3, I think it can still be used, however, I would still prefer method 1 because I am assuming that having num == null in main is fine but num == null in Class A is not. 
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 7. KING..IANG `@kstonekuan` (11 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 7. KING..IANG `@kstonekuan` (12 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Requesting Permission to use JSON.simple**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/79" expanded>
@@ -1258,56 +1473,15 @@ If your gif files are only for the README I think you can place them in the docs
 I think you can refer to #30 
 </panel>
 
-</panel>
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/91#issuecomment-709041814" expanded>
 
-
-<panel type="info" header="### 8. FELI..ALIM `@felixhalim` (8 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10#issuecomment-677465756" expanded>
-
-Please refer to #5 
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-680960994" expanded>
-
-Error-handling is not necessary for Level-3. Based on #17
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/7#issuecomment-682308726" expanded>
-
-I believe that this issue has been resolved and ready to be closed.
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683301227" expanded>
-
-Same case here
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683305749" expanded>
-
-Noted. Thanks prof.
-</panel>
-
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31#issuecomment-684625922" expanded>
-
-To prevent repeated question regarding this, it would be better if the solution is added to the documentation. @okkhoy 
-</panel>
-
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/64#issuecomment-698906155" expanded>
-
-Thanks for your information!
-</panel>
-
-<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/69#issuecomment-700662075" expanded>
-
-I agree with @zhixiangteoh. There is no strict rule regarding that, hence, you might implement any variant but remember to provide relevant information on the user guide. 
+I think this is a very valid concern and my team has also faced this issue with many merge conflicts over the Ui class. However, I think putting a lot of logic into the Command classes would start to violate SRP and as a result the code becomes more procedural in nature rather that being object-oriented.
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 9. DANI..OONG `@daniellimws` (7 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 8. DANI..OONG `@daniellimws` (8 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35#issuecomment-687739348" expanded>
@@ -1354,10 +1528,143 @@ Double check if you deleted the correct file? Because it does look like the prog
 Might be issue with nus WiFi. Happened to my team also.
 </panel>
 
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/87#issuecomment-708280134" expanded>
+
+As I was considering whether I should throw/catch an exception for this, I wondered how would I handle this exception. I will most likely need to print an error message to the user. But I don't see any good way of letting the user know what went wrong, and how to correct it in this situation, since this is almost certainly a problem with the code itself. So, I don't think using an exception is useful. 
+
+I would prefer Method 1 so that this assertion is always made. If I do Method 3 I may forget to assert when doing `new A(num)` somewhere else.
+
+Oh but I guess `num` will be `null` when there is a `NumberFormatException` so I think Method 2 could just be done in the `catch` clause for that?
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### 10. ZHAN..UKAI `@zsk612` (6 posts) "  collapsed>
+<panel type="info" header="### 9. FELI..ALIM `@felixhalim` (8 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/10#issuecomment-677465756" expanded>
+
+Please refer to #5 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21#issuecomment-680960994" expanded>
+
+Error-handling is not necessary for Level-3. Based on #17
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/7#issuecomment-682308726" expanded>
+
+I believe that this issue has been resolved and ready to be closed.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683301227" expanded>
+
+Same case here
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25#issuecomment-683305749" expanded>
+
+Noted. Thanks prof.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31#issuecomment-684625922" expanded>
+
+To prevent repeated question regarding this, it would be better if the solution is added to the documentation. @okkhoy 
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/64#issuecomment-698906155" expanded>
+
+Thanks for your information!
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/69#issuecomment-700662075" expanded>
+
+I agree with @zhixiangteoh. There is no strict rule regarding that, hence, you might implement any variant but remember to provide relevant information on the user guide. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. NG N..OLIN `@Colin386` (7 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Junit marker on Progress Dashboard not shown**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/80" expanded>
+
+Hi, I would like to ask if there is a specific way of tagging Junit code contributions. I have committed Junit code alongside my other code for my team project. But I noticed that when the dashboard updated recently, my Junit code is not shown to have been completed. 
+Thank you
+</panel>
+
+<panel  header="**2. :fas-info-circle: Assistance needed for rewinding Git commits**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62" expanded>
+
+Is there anyway for one to rewind the commits made on the repository. I have mistakenly forgot to make parallel branches for the JavaDoc branch and the dashboard did not seem to have detected my commits for the other assignments though I have tag them correctly. Thanks
+
+![image](https://user-images.githubusercontent.com/60383990/94004781-c72e9d80-fdcf-11ea-9b64-e167d9c929f0.png)
+![image](https://user-images.githubusercontent.com/60383990/94004817-d281c900-fdcf-11ea-98b9-72a2b77eb28e.png)
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685022185" expanded>
+
+Hi there!
+How does your file structure look like in the project?
+![image](https://user-images.githubusercontent.com/60383990/91886910-9c639480-ecbc-11ea-8b07-f4480383a7aa.png)
+If yours looks like this where you have a main.java folder with all the classes inside it, you may need to change the runtest.bat file:
+
+instead of writing:
+`java -classpath ..\bin Duke < input.txt > ACTUAL.TXT`
+you will need to write:
+`java -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT`
+Im not sure if this will help, but it did help me resolve the issue of missing classes. Do let me know how it goes
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697297723" expanded>
+
+> 
+> 
+> From the page:
+> 
+> > [This page was last updated on Sep 21 2020]
+> 
+> Looks like your commits were all after then. (The grading scripts have to be run, they aren’t automatic.)
+
+Oh... I see I see. No wonder the tags were not updated... Thanks for the help :).
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697298962" expanded>
+
+> 
+> 
+> Maybe you can make some edits and create a branch to push for that?
+
+I guess I can try making a separate branch for the JavaDoc section. My concern is that it will no longer be in order with the other parts of the assignments such as the User Guide
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697304436" expanded>
+
+Thanks prof.
+
+I would like to clarify on how do we "cherry pick" the commits? Also, if I were to merge the branch will it end up merging at the very top of my master branch?
+
+![image](https://user-images.githubusercontent.com/60383990/94006995-51c4cc00-fdd3-11ea-8706-a21410a6330c.png)
+
+
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697313666" expanded>
+
+Thanks for the help Prof. And thanks for the help everyone.
+
+I have successfully created the parallel A-JavaDoc branch and produced the tag as shown.
+![image](https://user-images.githubusercontent.com/60383990/94008966-5dfe5880-fdd6-11ea-9da0-748fb88ad47b.png)
+
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 11. ZHAN..UKAI `@zsk612` (6 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: methods in other classes greyed out by intelliJ**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/74" expanded>
@@ -1407,79 +1714,54 @@ Hahaha alrite
 </panel>
 
 
-<panel type="info" header="### 11. NG N..OLIN `@Colin386` (6 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 12. LOW ..NING `@ninggggx99` (6 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: Assistance needed for rewinding Git commits**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62" expanded>
+<panel  header="**1. :fas-info-circle: branch-Level-5 not detected in dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39" expanded>
 
-Is there anyway for one to rewind the commits made on the repository. I have mistakenly forgot to make parallel branches for the JavaDoc branch and the dashboard did not seem to have detected my commits for the other assignments though I have tag them correctly. Thanks
+Hi, I have pushed the branch-Level-5 but it is not detected by the iP dashboard. May I know if there's anything I merged wrong?
 
-![image](https://user-images.githubusercontent.com/60383990/94004781-c72e9d80-fdcf-11ea-9b64-e167d9c929f0.png)
-![image](https://user-images.githubusercontent.com/60383990/94004817-d281c900-fdcf-11ea-98b9-72a2b77eb28e.png)
+![image](https://user-images.githubusercontent.com/20852776/92601861-e7466300-f2df-11ea-9632-948cc64082ab.png)
 
 </panel>
 
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33#issuecomment-685022185" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689551174" expanded>
 
-Hi there!
-How does your file structure look like in the project?
-![image](https://user-images.githubusercontent.com/60383990/91886910-9c639480-ecbc-11ea-8b07-f4480383a7aa.png)
-If yours looks like this where you have a main.java folder with all the classes inside it, you may need to change the runtest.bat file:
+> I believe the dashboard is only updated once a week.
 
-instead of writing:
-`java -classpath ..\bin Duke < input.txt > ACTUAL.TXT`
-you will need to write:
-`java -classpath ..\bin main.java.Duke < input.txt > ACTUAL.TXT`
-Im not sure if this will help, but it did help me resolve the issue of missing classes. Do let me know how it goes
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697297723" expanded>
-
-> 
-> 
-> From the page:
-> 
-> > [This page was last updated on Sep 21 2020]
-> 
-> Looks like your commits were all after then. (The grading scripts have to be run, they aren’t automatic.)
-
-Oh... I see I see. No wonder the tags were not updated... Thanks for the help :).
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697298962" expanded>
-
-> 
-> 
-> Maybe you can make some edits and create a branch to push for that?
-
-I guess I can try making a separate branch for the JavaDoc section. My concern is that it will no longer be in order with the other parts of the assignments such as the User Guide
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697304436" expanded>
-
-Thanks prof.
-
-I would like to clarify on how do we "cherry pick" the commits? Also, if I were to merge the branch will it end up merging at the very top of my master branch?
-
-![image](https://user-images.githubusercontent.com/60383990/94006995-51c4cc00-fdd3-11ea-8706-a21410a6330c.png)
+I don't think so. The dashboard detected my Level-5 tag but not the branch
 
 
 </panel>
 
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697313666" expanded>
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689559262" expanded>
 
-Thanks for the help Prof. And thanks for the help everyone.
+> I think the script runs once a day, and its probably a good idea to try having your final merge as branch-Level-5.
 
-I have successfully created the parallel A-JavaDoc branch and produced the tag as shown.
-![image](https://user-images.githubusercontent.com/60383990/94008966-5dfe5880-fdd6-11ea-9da0-748fb88ad47b.png)
-
+but its pushed to github already how do I leave the the final merge as branch-Level-5?
+</panel>
 
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689565931" expanded>
+
+> so your branch-A-Packages is found but not branch-Level-5? Might it be due to a small typo in the uppercase 'L', given that the name technically should be `branch-level-5`? Don't know if they accounted for typos like this
+
+branch-A-Packages is not checked on the dashboard. um its an upper case 'L' and my friends did with upper case 'L' worked but mine didn't
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697297193" expanded>
+
+Maybe you can make some edits and create a branch to push for that?
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/80#issuecomment-705335322" expanded>
+
+I faced the same issue. Do we need to tag our codes?
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 12. SHRE..UMAR `@shreytheshreyas` (6 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 13. SHRE..UMAR `@shreytheshreyas` (6 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Question Regarding iP increment A-MoreOOP**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/66" expanded>
@@ -1517,7 +1799,7 @@ Alright Prof thanks for the clarification :)
 </panel>
 
 
-<panel type="info" header="### 13. CHAN..IANG `@scjx123` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 14. CHAN..IANG `@scjx123` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689558468" expanded>
@@ -1558,49 +1840,65 @@ the file i have does not resemble this, let me email you a copy!
 </panel>
 
 
-<panel type="info" header="### 14. LOW ..NING `@ninggggx99` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 15. WONG.. WEI `@keke101` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: branch-Level-5 not detected in dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39" expanded>
+<panel  header="**1. :fas-info-circle: Request Permission to Use Dozer**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/90" expanded>
 
-Hi, I have pushed the branch-Level-5 but it is not detected by the iP dashboard. May I know if there's anything I merged wrong?
+## Library
 
-![image](https://user-images.githubusercontent.com/20852776/92601861-e7466300-f2df-11ea-9632-948cc64082ab.png)
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689551174" expanded>
-
-> I believe the dashboard is only updated once a week.
+[Dozer](https://github.com/DozerMapper/dozer)
 
-I don't think so. The dashboard detected my Level-5 tag but not the branch
+## Purpose
 
-
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689559262" expanded>
-
-> I think the script runs once a day, and its probably a good idea to try having your final merge as branch-Level-5.
+To map JSON to Java object.
 
-but its pushed to github already how do I leave the the final merge as branch-Level-5?
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689565931" expanded>
-
-> so your branch-A-Packages is found but not branch-Level-5? Might it be due to a small typo in the uppercase 'L', given that the name technically should be `branch-level-5`? Don't know if they accounted for typos like this
+## License
 
-branch-A-Packages is not checked on the dashboard. um its an upper case 'L' and my friends did with upper case 'L' worked but mine didn't
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/62#issuecomment-697297193" expanded>
-
-Maybe you can make some edits and create a branch to push for that?
-</panel>
+Apache 2.0
 
 </panel>
 
+<panel  header="**2. :fas-info-circle: Requesting Permission to use json-simple 3.1.1**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/82" expanded>
 
-<panel type="info" header="### 15. ZHAO..IANG `@e0426051` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+## Library
+
+[json-simple](https://cliftonlabs.github.io/json-simple/)
+
+## Purpose
+
+Load and store persistent data as JSON. This library has a similar name as the other library that was requested [here](https://github.com/nus-cs2113-AY2021S1/forum/issues/79), but it is different.
+
+## License
+
+Apache 2.0
+
+</panel>
+
+<panel  header="**3. :fas-info-circle: On magic numbers**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37" expanded>
+
+Hello, can I check if the following array indexes used are deemed as magic numbers?
+```
+String name = arguments[0];
+String date = arguments[1];
+```
+My understanding is that this is pretty straight forward as I'm assigning them directly to two variables which have descriptive names.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37#issuecomment-688591278" expanded>
+
+That's what I thought so too, thanks for the clarification!
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/82#issuecomment-706481036" expanded>
+
+I believe this is the successor of the previous JSON simple, the other JSON simple is authored by a single person (Yidong). For this JSON simple it is merged with the old JSON simple and maintained under Clifton Labs. I was confused by it as well haha.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 16. ZHAO..IANG `@e0426051` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Not sure how to redo circus activity in lecture**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/35" expanded>
@@ -1651,7 +1949,7 @@ I was mistaken that the `https://github.com/nus-cs2113-AY2021S1/circus` project 
 </panel>
 
 
-<panel type="info" header="### 16. GUNI..TTAL `@gmit22` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 17. GUNI..TTAL `@gmit22` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated Text-UI Testing Issue : Cannot find file and symbol**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/33" expanded>
@@ -1693,7 +1991,7 @@ I am facing the same issue and cannot resolve it. Tried using chcp 65001 and jav
 </panel>
 
 
-<panel type="info" header="### 17. MUHA..WALA `@MuhammadHoze` (4 posts) "  collapsed>
+<panel type="info" header="### 18. MUHA..WALA `@MuhammadHoze` (4 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Exercise: [Key Exercise] getMultipleGradeCaps Method**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/7" expanded>
@@ -1733,7 +2031,7 @@ Alright thanks
 </panel>
 
 
-<panel type="info" header="### 18. CHEN.. JUN `@iamchenjiajun` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 19. CHEN.. JUN `@iamchenjiajun` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Do we add the data files generated to .gitignore?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/54" expanded>
@@ -1761,7 +2059,7 @@ i.e. by adding ```../src/main/java/duke/task/*.java``` into the end of the line 
 </panel>
 
 
-<panel type="info" header="### 19. LI B..ZHAO `@TomLBZ` (4 posts) "  collapsed>
+<panel type="info" header="### 20. LI B..ZHAO `@TomLBZ` (4 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: [Urgent] Broken runtest.sh during the tp pull requests online automated testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48" expanded>
@@ -1807,23 +2105,23 @@ This problem has been occuring forever. The only way to pass is to print nothing
 </panel>
 
 
-<panel type="info" header="### 20. TANG..TING `@t170815518` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 21. TANG..TING `@t170815518` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Repl.it Error: Note: Recompile with -Xlint:unchecked for details.**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/18" expanded>
 
-I am attempting 'Week 3 Ex9: filterEmails method', using 'java.util.ArrayList'; however, repl.it prompts the message in output like:
-'''
+I am attempting `Week 3 Ex9: filterEmails method`, using `java.util.ArrayList`; however, repl.it prompts the message in output like:
+```
 Note: Main.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint: unchecked for details.
 []
 []
 [adam@example.com, john@example.com, some@]
 [@bee.com]
-'''
+```
 where the first 2 lines make the output different from the expected and thus the solution cannot be accepted.
 My full code:
-'''java
+```java
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -1853,8 +2151,8 @@ public class Main {
         printItems(filterEmails(new String[]{"xyz", "@bee.com", "aab"}));
     }
 } 
-'''
-How can I solve the issue, especially the one that ' Recompile with -Xlint: unchecked for details.'? (I tried searching from StackOverflow but failed to understand the answers there. :( )
+```
+How can I solve the issue, especially the one that ` Recompile with -Xlint: unchecked for details.`? (I tried searching from StackOverflow but failed to understand the answers there. :( )
 
 Any help will be appreciated. :) 
 </panel>
@@ -1883,7 +2181,40 @@ Same issue here
 </panel>
 
 
-<panel type="info" header="### 21. DANI..-JIE `@daniellimzj` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 22. ANDR.. HUA `@AndreWongZH` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: 5 checks instead of 3 during PR**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/81" expanded>
+
+![image](https://user-images.githubusercontent.com/21986187/95603296-9f565f80-0a88-11eb-9388-c4c5f5abaebf.png)
+
+Is it okay to disable the page build and github/pages check?
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683378099" expanded>
+
+![image](https://user-images.githubusercontent.com/21986187/91651800-a53d4600-eac3-11ea-809f-b56cf0302e4b.png)
+
+Maybe you did not initialize a value and called it?
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/49#issuecomment-692152142" expanded>
+
+It seems like your version 1.0 is listed as a pre-release or maybe the progress dashboard is not updated yet.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/87#issuecomment-708389872" expanded>
+
+I think there is no need for assertions or exceptions to check if num is null. Since int is a primitive type and not an object, the programmer will get a compile time error if they happen to do `int num = null`. All primitive types have a default value, so if the parsing of user input into an integer fails, we can assume that num will be initialized into 0.
+
+However if you are asking for other object types, my answer would be method 1. Because it lets the programmer know that the program had tried to initialize with a null value. Prompting the programmer to look for instances of where this was called.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 23. DANI..-JIE `@daniellimzj` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: For the increment A-MoreOOP, why do we use instances of classes instead of static methods?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/59" expanded>
@@ -1919,7 +2250,7 @@ Okay! Thank you for the clarifications.
 </panel>
 
 
-<panel type="info" header="### 22. LIM ..BING `@farice9` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 24. LIM ..BING `@farice9` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Did not fulfill participation requirement on Week 2/3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26" expanded>
@@ -1954,7 +2285,35 @@ I'll keep this issue open, hopefully affected people will notice this.
 </panel>
 
 
-<panel type="info" header="### 23. NEO .. ERN `@neojiaern` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 25. MARC..YONG `@Reinbowl` (4 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Git push changed commit time on Github**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/58" expanded>
+
+I wanted to amend a commit message, and after I did that I push to github. This however caused the commit timing on my repo to all become today's date. Is this going to be an issue!? The commit date is remains unchanged, but the day I pushed to github changed.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689556437" expanded>
+
+I believe when creating branch-A-Packages later on, it might have messed up the branches as it shows the package branching from the level 5 branch and not from master.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/58#issuecomment-695232922" expanded>
+
+Okay thank you for verifying!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/80#issuecomment-705338339" expanded>
+
+On the site it shows:
+![image](https://user-images.githubusercontent.com/60181391/95418309-cf5b1100-0969-11eb-8e73-f688814e777f.png)
+It says "the test class is in the same package as the SUT" is that how the script checks?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 26. NEO .. ERN `@neojiaern` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Undo fast foward merge**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/50" expanded>
@@ -1986,7 +2345,7 @@ Thank you! It is working now.
 </panel>
 
 
-<panel type="info" header="### 24. TAN ..ELIA `@AmeliaTYR` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 27. TAN ..ELIA `@AmeliaTYR` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: branch-Level-5 not detected in dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/41" expanded>
@@ -2026,7 +2385,7 @@ Thank you @okkhoy and @ChanJianHao for your help!
 </panel>
 
 
-<panel type="info" header="### 25. R RA..MANA `@R-Ramana` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 28. R RA..MANA `@R-Ramana` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: iP: Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/21" expanded>
@@ -2047,7 +2406,73 @@ Or if you don't want to restart the program, I tend to just right-click to creat
 </panel>
 
 
-<panel type="info" header="### 26. RIAZ..AMED `@riazaham` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 29. CHON..IANG `@Chongjx` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/86#issuecomment-709041588" expanded>
+
+@dojh111 I am trying to use this library as well but apparently windows terminal does not support ansi escape codes. So the output became [0m(string)[0m instead. I am wondering if its working for you.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/86#issuecomment-709058993" expanded>
+
+Yeah, I found the reg command for enabling colored output but I'm trying to leave it as the last resort. I tried running with powershell but the output is similar as the command prompt.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/86#issuecomment-709481154" expanded>
+
+After some more searching, I have found a way (not sure if it's the correct one). Calling SetConsoleMode() to enable virtual terminal processing. The sample code in the first link gives the desired output, however when I try to digest and simplify it I could not the same output.
+
+1. https://stackoverflow.com/questions/52767585/how-can-you-use-vt100-escape-codes-in-java-on-windows
+2. https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 30. ALVI.. JUN `@trolommonm` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Request to use wrapper for stock price api**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/85" expanded>
+
+## Library
+
+[alphavantage4j](https://github.com/patriques82/alphavantage4j)
+
+## Purpose
+
+{A Java wrapper to get stock data and stock indicators from the Alpha Vantage API. We use it to fetch stock prices for our program}
+
+## License
+
+{Apache License 2.0}
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/85#issuecomment-707716318" expanded>
+
+Hi Sir @okkhoy , 
+
+There is not many alternatives that we could find. Although it's no longer maintained, we tried it and found it to be the most intuitive to use.
+
+Regards,
+Alvin
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/85#issuecomment-708159534" expanded>
+
+Hi Sir, 
+
+Thanks. Will take note of the limits.
+
+Regards,
+Alvin
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 31. RIAZ..AMED `@riazaham` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-687695109" expanded>
@@ -2082,7 +2507,39 @@ Oh wow it works now.... :/ idk what changed but it works now! Thanks for the hel
 </panel>
 
 
-<panel type="info" header="### 27. CHAN.. HAO `@ChanJianHao` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 32. DANZ..HERN `@dojh111` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Request permission to use JColor library**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/86" expanded>
+
+## Library
+
+[JColor](https://github.com/dialex/JColor)
+
+## Purpose
+
+We intend to use this library to see if it will help with allowing colours for text outputs in the windows CMD terminal. If it does not work, we will be removing it from the project.
+
+## License
+
+MIT License - https://github.com/dialex/JColor/blob/main/LICENSE
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/86#issuecomment-709054288" expanded>
+
+@Chongjx I did some research and I think the issue is the windows command terminal (cmd) just does not enable ANSI escape codes by default. As such I think the only way to get coloured outputs in windows cmd would be to get the user to enable it on their terminal window, or ask them to use powershell instead
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/86#issuecomment-709243447" expanded>
+
+I'll continue taking a look to find something that can enable colors on windows cmd, and update here if I find any. Don't want to resort to reg commands also.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 33. CHAN.. HAO `@ChanJianHao` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Requesting Permission to use JSON Path**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/78" expanded>
@@ -2132,41 +2589,20 @@ Hello, I believe you could try to revert the merge. Check [this](https://communi
 </panel>
 
 
-<panel type="info" header="### 28. MARC..YONG `@Reinbowl` (3 posts) "  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Git push changed commit time on Github**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/58" expanded>
-
-I wanted to amend a commit message, and after I did that I push to github. This however caused the commit timing on my repo to all become today's date. Is this going to be an issue!? The commit date is remains unchanged, but the day I pushed to github changed.
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/39#issuecomment-689556437" expanded>
-
-I believe when creating branch-A-Packages later on, it might have messed up the branches as it shows the package branching from the level 5 branch and not from master.
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/58#issuecomment-695232922" expanded>
-
-Okay thank you for verifying!
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 29. LAM ..ROLD `@jerroldlam` (3 posts) "  collapsed>
+<panel type="info" header="### 34. LAM ..ROLD `@jerroldlam` (3 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Gradle Check style flagging constants naming as error**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/77" expanded>
 
 As per coding standards, constants should be in all caps separated by an underscore "_". However, for my team's tp, the checkstyle has flagged all our constants as error with the following 
-'''
+```
 Abbreviation in name 'STARTING_SEMESTER_INDEX' must contain no more than '2' consecutive capital letters.
-'''
+```
 
 Inside the code it looks like this 
-'''
+```
 private final int STARTING_SEMESTER_INDEX = 1;
-'''
+```
 
 I have tried running the script again when I have deleted the private and it is still appearing as an error. Unsure of how to proceed, whether to change the names for constants to fit the check style or ignore the check style warnings.
 </panel>
@@ -2196,7 +2632,31 @@ Thank you Zhi You! That solved the problem!
 </panel>
 
 
-<panel type="info" header="### 30. LOW ..LEON `@leonlowzd` (2 posts) "  collapsed>
+<panel type="info" header="### 35. YU G..GENG `@gy716` (3 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Request to modify the workflow files**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/84" expanded>
+
+Are we allowed to modify the gradle.yml files? The file gradle.yml provided uses runtest file which we don't want to use.
+</panel>
+
+<panel  header="**2. :fas-info-circle: Java CI tests for building on different OS last too long**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/83" expanded>
+
+When I create a pull request to the upstream, it will be automatically tested for building on  ubuntu, windows and MacOs.
+But I don't know why this process lasts too long like more than 1 hour. Are there any possible reasons casusing this?
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/83#issuecomment-708389414" expanded>
+
+In our case, I changed the gradle.yml file that teacher provided in the workflow.  This file will let github automatically test runtest.bat/sh, which has some problems that will make our program keep running for hours. So we just delete that part of code in the file to not test it.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 36. LOW ..LEON `@leonlowzd` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Bye World problem issue**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/9" expanded>
@@ -2217,7 +2677,7 @@ Ohh.. I've reloaded the website, alls good :)
 </panel>
 
 
-<panel type="info" header="### 31. PRAC..ENKA `@prachi2023` (2 posts) "  collapsed>
+<panel type="info" header="### 37. PRAC..ENKA `@prachi2023` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Tick and Cross characters not appearing when doing text ui testing**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/31" expanded>
@@ -2238,25 +2698,35 @@ Sorry I might have missed that. Thanks guys
 </panel>
 
 
-<panel type="info" header="### 32. ANDR.. HUA `@AndreWongZH` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 38. JAZH..SHEN `@jazhten` (2 posts) "  collapsed>
 
 
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/29#issuecomment-683378099" expanded>
+<panel  header="**1. :fas-info-circle: Request permission to use crypto and security library**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/89" expanded>
 
-![image](https://user-images.githubusercontent.com/21986187/91651800-a53d4600-eac3-11ea-809f-b56cf0302e4b.png)
+## Library
 
-Maybe you did not initialize a value and called it?
+[Crypto] (https://docs.oracle.com/javase/8/docs/api/javax/crypto/Cipher.html)
+
+## Purpose
+
+Encrypt the saved data file so it is not saved in plaintext to protect the privacy of users.
+
+## License
+
+Oracle? Sorry not sure if there's one.
+
+
 </panel>
 
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/49#issuecomment-692152142" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/89#issuecomment-709235010" expanded>
 
-It seems like your version 1.0 is listed as a pre-release or maybe the progress dashboard is not updated yet.
+Ah okay, then I guess we won't be using this
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 33. BRYA.. JUN `@Bryanbeh1998` (2 posts) "  collapsed>
+<panel type="info" header="### 39. BRYA.. JUN `@Bryanbeh1998` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Unable to run gradle file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/71" expanded>
@@ -2279,28 +2749,7 @@ Nevermind. There was a problem with the NUS Wifi
 </panel>
 
 
-<panel type="info" header="### 34. WONG.. WEI `@keke101` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: On magic numbers**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37" expanded>
-
-Hello, can I check if the following array indexes used are deemed as magic numbers?
-'''
-String name = arguments[0];
-String date = arguments[1];
-'''
-My understanding is that this is pretty straight forward as I'm assigning them directly to two variables which have descriptive names.
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/37#issuecomment-688591278" expanded>
-
-That's what I thought so too, thanks for the clarification!
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### 35. NGUY..LONG `@longngng` (2 posts) "  collapsed>
+<panel type="info" header="### 40. NGUY..LONG `@longngng` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated testing after dividing classes into packages**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/68" expanded>
@@ -2326,7 +2775,7 @@ I see. Thanks guys!
 </panel>
 
 
-<panel type="info" header="### 36. WU Y..UXIN `@Lezn0` (2 posts) "  collapsed>
+<panel type="info" header="### 41. WU Y..UXIN `@Lezn0` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Automated runtest issues: cannot find symbol**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/30" expanded>
@@ -2344,7 +2793,7 @@ Thank you so much! It works now.
 </panel>
 
 
-<panel type="info" header="### 37. LIU ..FENG `@LIU-YiFeng-1` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 42. LIU ..FENG `@LIU-YiFeng-1` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: [Urgent] JAR file cannot run on Mac due to DateTimeParseException**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/67" expanded>
@@ -2370,7 +2819,7 @@ Thanks! I found the issue, there was a pre-existing txt.file.
 </panel>
 
 
-<panel type="info" header="### 38. LIM ..G LE `@limgl1998` (2 posts) "  collapsed>
+<panel type="info" header="### 43. LIM ..G LE `@limgl1998` (2 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Unable to access JAR file**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/55" expanded>
@@ -2388,7 +2837,7 @@ For some reasons, I had to rebase my commit history to merge 2 different branche
 </panel>
 
 
-<panel type="info" header="### 39. ANG ..YANG `@acyang97` (1 posts) "  collapsed>
+<panel type="info" header="### 44. ANG ..YANG `@acyang97` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: IP Level-3**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/19" expanded>
@@ -2399,7 +2848,7 @@ Hi prof, for Level-3 of the IP, are we free to use anything we want in the squar
 </panel>
 
 
-<panel type="info" header="### 40. TAN .. WEI `@TanLeeWei` (1 posts) "  collapsed>
+<panel type="info" header="### 45. TAN .. WEI `@TanLeeWei` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Error: Invalid or corrupt jarfile ip.jar**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/76" expanded>
@@ -2419,24 +2868,24 @@ Anyone know what causes this errors? I tried running this jar file on my windows
 </panel>
 
 
-<panel type="info" header="### 41. LIAU.. JIE `@kaijiel24` (1 posts) "  collapsed>
+<panel type="info" header="### 46. LIAU.. JIE `@kaijiel24` (1 posts) "  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/22#issuecomment-683693127" expanded>
 
-I faced the same issue and after implementing @wangqinNick solution, the terminal will still show '''Γ£ÿ''' and '''Γ£ô''' instead of '''✘''' and '''✓''' when I have yet to change the '''EXPECTED.txt''' to match '''ACTUAL.txt'''. But when I open '''ACTUAL.txt''' it shows '''✘''' and '''✓''' correctly. 
-After I changed '''EXPECTED.txt''' to match '''ACTUAL.txt''', no differences will be detected when I run runtest.bat so I believe it is the terminal that is not able to show the correct symbol rather than java.
-'''
+I faced the same issue and after implementing @wangqinNick solution, the terminal will still show ```Γ£ÿ``` and ```Γ£ô``` instead of ```✘``` and ```✓``` when I have yet to change the ```EXPECTED.txt``` to match ```ACTUAL.txt```. But when I open ```ACTUAL.txt``` it shows ```✘``` and ```✓``` correctly. 
+After I changed ```EXPECTED.txt``` to match ```ACTUAL.txt```, no differences will be detected when I run runtest.bat so I believe it is the terminal that is not able to show the correct symbol rather than java.
+```
 Comparing files ACTUAL.TXT and EXPECTED.TXT
 FC: no differences encountered
-'''
+```
 
 </panel>
 
 </panel>
 
 
-<panel type="info" header="### 42. ANG .. JUN `@Ang-Cheng-Jun` (1 posts) "  collapsed>
+<panel type="info" header="### 47. ANG .. JUN `@Ang-Cheng-Jun` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Table display on github pages**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/72" expanded>
@@ -2450,7 +2899,7 @@ Anyone encounter this problem in your github pages ?
 </panel>
 
 
-<panel type="info" header="### 43. YEOW..NDON `@brandonywl` (1 posts) "  collapsed>
+<panel type="info" header="### 48. YEOW..NDON `@brandonywl` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: No Invitation to nus-cs2113-AY2021S1**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/25" expanded>
@@ -2465,7 +2914,7 @@ I just made the pull request a couple of hours earlier. Is that a factor?
 </panel>
 
 
-<panel type="info" header="### 44. CHAN..JING `@shaojingle` (1 posts) "  collapsed>
+<panel type="info" header="### 49. CHAN..JING `@shaojingle` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: A-Jar .JAR File Error**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/56" expanded>
@@ -2487,7 +2936,57 @@ Shao Jing
 </panel>
 
 
-<panel type="info" header="### 45. TANG.. YOU `@Zhi-You` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 50. SEAN..I AN `@thatseant` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Top-Down OOP increases coupling?**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/91" expanded>
+
+It has been frequently suggested during the course that output be extracted out to Ui and messages class and parsing functionalities be extracted to Parser class. 
+
+Doesn't this approach mean for every command added, we need to change Ui, Parser, Command, Messages and object classes extensively? Does this indicate high coupling? As most of our development are adding commands over time, are we changing too many classes every time we do that?
+
+Would a better approach be to put most of the logic for every command in Command classes? Then, adding a command would mostly require changes only to that specific command class. Other teammates can work on other commands with lesser conflicts.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 51. THEO..INTO `@theopin` (1 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Request to use default text editor to edit files**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/94" expanded>
+
+Are we allowed to use a default text editor such as notepad to edit files by calling methods from the import java.awt. library?
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 52. SEAN..IANG `@Aseanseen` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Requesting Permission to use NUSMods API**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/92" expanded>
+
+## Library
+
+[NUSMods API](https://api.nusmods.com/v2/)
+
+## Purpose
+
+We would like to use NUSMods API to check the existence of the module that is entered by the user.
+
+## License
+
+MIT License
+https://github.com/nusmodifications/nusmods
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 53. TANG.. YOU `@Zhi-You` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/77#issuecomment-703232723" expanded>
@@ -2504,7 +3003,7 @@ Below are some useful information I found about what static does and I hope this
 </panel>
 
 
-<panel type="info" header="### 46. SIM .. YOU `@f0fz` (1 posts) "  collapsed>
+<panel type="info" header="### 54. SIM .. YOU `@f0fz` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Progress Dashboard not detecting A-Jar tag/release**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/49" expanded>
@@ -2517,7 +3016,7 @@ For context, I made the Level-6, Level-7, and A-Collections increments on the sa
 </panel>
 
 
-<panel type="info" header="### 47. JERI..QUAN `@jerichochua` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 55. JERI..QUAN `@jerichochua` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/52#issuecomment-693130427" expanded>
@@ -2529,7 +3028,18 @@ Maybe you can try the following? So instead of using `Duke`, it's `duke.Duke` in
 </panel>
 
 
-<panel type="info" header="### 48. TAN ..BIAS `@tobiasceg` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 56. MARC.. TAN `@marcursor` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/80#issuecomment-705337573" expanded>
+
+Does it have anything to do with our tests being packaged in another command folder
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 57. TAN ..BIAS `@tobiasceg` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/26#issuecomment-683304118" expanded>
@@ -2540,7 +3050,40 @@ the prof mentioned that theres a possibility that ur repl account name was set u
 </panel>
 
 
-<panel type="info" header="### 49. MATT..GANI `@matthewgani` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 58. ENER..ILLA `@johan9se` (1 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Request permission to use Jansi**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/93" expanded>
+
+## Library
+
+[Jansi](https://github.com/fusesource/jansi)
+
+## Purpose
+
+To allow colourisation for text outputs in the windows CMD terminal.
+
+## License
+
+Apache-2.0 License - https://github.com/fusesource/jansi
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 59. ZHUA..GJIN `@Lee-Juntong` (1 posts) "  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/48#issuecomment-708495452" expanded>
+
+I faced the same problem. The expected is the same as the actual, so quite confusing
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 60. MATT..GANI `@matthewgani` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: IP Level-3 Question**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/17" expanded>
@@ -2554,7 +3097,7 @@ Thank you!
 </panel>
 
 
-<panel type="info" header="### 50. NI Y..ILUN `@lunzard` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 61. NI Y..ILUN `@lunzard` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Individual Project: updates in iP progress dashboard**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/6" expanded>
@@ -2566,7 +3109,7 @@ I have made my first commit to the forked project, with a summary "Update Level-
 </panel>
 
 
-<panel type="info" header="### 51. MOOI..CENE `@chuckiex3` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+<panel type="info" header="### 62. MOOI..CENE `@chuckiex3` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/47#issuecomment-694308866" expanded>
@@ -2577,7 +3120,18 @@ I have made my first commit to the forked project, with a summary "Update Level-
 </panel>
 
 
-<panel type="info" header="### 52. WANG..SONG `@wgzesg` (1 posts) "  collapsed>
+<panel type="info" header="### 63. YEN ..FANG `@pinfang` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/80#issuecomment-706470309" expanded>
+
+My Junit is still not updated on the dashboard...
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 64. WANG..SONG `@wgzesg` (1 posts) "  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Use a .csv file to store data**" popup-url="https://github.com/nus-cs2113-AY2021S1/forum/issues/46" expanded>

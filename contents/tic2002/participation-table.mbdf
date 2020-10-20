@@ -1,27 +1,27 @@
-%%[This page was last updated on Oct 06 2020]%% 
+%%[This page was last updated on Oct 12 2020]%% 
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., participation status of each week → total weeks in which you met the participation bar">Weeks participated</tooltip>
 -------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------
-A0052630_ %%<trigger trigger="click" for="modal:pD-A0052630">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">~~5~~</span><span class="badge badge-warning mr-1">~~6~~</span> → **4**
-A0094621_ %%<trigger trigger="click" for="modal:pD-A0094621">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0177726_ %%<trigger trigger="click" for="modal:pD-A0177726">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0177803_ %%<trigger trigger="click" for="modal:pD-A0177803">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0177808_ %%<trigger trigger="click" for="modal:pD-A0177808">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0177919_ %%<trigger trigger="click" for="modal:pD-A0177919">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-danger mr-1">~~2~~</span><span class="badge badge-danger mr-1">~~3~~</span><span class="badge badge-danger mr-1">~~4~~</span><span class="badge badge-danger mr-1">~~5~~</span><span class="badge badge-danger mr-1">~~6~~</span> → **0**
-A0177959_ %%<trigger trigger="click" for="modal:pD-A0177959">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194107_ %%<trigger trigger="click" for="modal:pD-A0194107">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194111_ %%<trigger trigger="click" for="modal:pD-A0194111">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194139_ %%<trigger trigger="click" for="modal:pD-A0194139">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194166_ %%<trigger trigger="click" for="modal:pD-A0194166">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194175_ %%<trigger trigger="click" for="modal:pD-A0194175">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194217_ %%<trigger trigger="click" for="modal:pD-A0194217">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194229_ %%<trigger trigger="click" for="modal:pD-A0194229">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194244_ %%<trigger trigger="click" for="modal:pD-A0194244">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194255_ %%<trigger trigger="click" for="modal:pD-A0194255">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194263_ %%<trigger trigger="click" for="modal:pD-A0194263">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">~~5~~</span><span class="badge badge-warning mr-1">~~6~~</span> → **4**
-A0194275_ %%<trigger trigger="click" for="modal:pD-A0194275">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194282_ %%<trigger trigger="click" for="modal:pD-A0194282">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
-A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span> → **6**
+A0052630_ %%<trigger trigger="click" for="modal:pD-A0052630">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">~~5~~</span><span class="badge badge-warning mr-1">~~6~~</span><span class="badge badge-success mr-1">7</span> → **5**
+A0094621_ %%<trigger trigger="click" for="modal:pD-A0094621">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-danger mr-1">~~7~~</span> → **6**
+A0177726_ %%<trigger trigger="click" for="modal:pD-A0177726">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0177803_ %%<trigger trigger="click" for="modal:pD-A0177803">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0177808_ %%<trigger trigger="click" for="modal:pD-A0177808">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0177919_ %%<trigger trigger="click" for="modal:pD-A0177919">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-danger mr-1">~~2~~</span><span class="badge badge-danger mr-1">~~3~~</span><span class="badge badge-danger mr-1">~~4~~</span><span class="badge badge-danger mr-1">~~5~~</span><span class="badge badge-danger mr-1">~~6~~</span><span class="badge badge-danger mr-1">~~7~~</span> → **0**
+A0177959_ %%<trigger trigger="click" for="modal:pD-A0177959">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194107_ %%<trigger trigger="click" for="modal:pD-A0194107">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194111_ %%<trigger trigger="click" for="modal:pD-A0194111">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194139_ %%<trigger trigger="click" for="modal:pD-A0194139">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194166_ %%<trigger trigger="click" for="modal:pD-A0194166">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-danger mr-1">~~7~~</span> → **6**
+A0194175_ %%<trigger trigger="click" for="modal:pD-A0194175">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194217_ %%<trigger trigger="click" for="modal:pD-A0194217">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194229_ %%<trigger trigger="click" for="modal:pD-A0194229">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194244_ %%<trigger trigger="click" for="modal:pD-A0194244">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194255_ %%<trigger trigger="click" for="modal:pD-A0194255">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
+A0194263_ %%<trigger trigger="click" for="modal:pD-A0194263">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">~~5~~</span><span class="badge badge-warning mr-1">~~6~~</span><span class="badge badge-success mr-1">7</span> → **5**
+A0194275_ %%<trigger trigger="click" for="modal:pD-A0194275">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-danger mr-1">~~7~~</span> → **6**
+A0194282_ %%<trigger trigger="click" for="modal:pD-A0194282">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-danger mr-1">~~7~~</span> → **6**
+A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span> → **7**
 
 <modal large header="A0052630_: Participation Details" id="modal:pD-A0052630">
 
@@ -44,6 +44,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-warning mr-1">~~6~~</span>: <small>2/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `87%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `78%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -70,6 +72,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~7~~</span>: <small>0/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
 </div>
     
 </modal>
@@ -95,6 +99,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
@@ -122,6 +128,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `87%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -148,6 +156,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>4/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `60%` %%(1/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -171,6 +181,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
 ##### Week <span class="badge badge-danger mr-1">~~6~~</span>: <small>0/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+* **Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~7~~</span>: <small>0/3 points</small>
 * **Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
 </div>
     
@@ -198,6 +210,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -223,6 +237,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
@@ -250,6 +266,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>4/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `60%` %%(1/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -276,6 +294,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `93%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -302,6 +322,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>3/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `50%` %%(2/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~7~~</span>: <small>0/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
 </div>
     
 </modal>
@@ -327,6 +349,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
@@ -354,6 +378,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `87%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `94%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -380,6 +406,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>4/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -405,6 +433,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
@@ -432,6 +462,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `78%` %%(2/3 points)%%
 </div>
     
 </modal>
@@ -457,6 +489,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
 ##### Week <span class="badge badge-warning mr-1">~~6~~</span>: <small>2/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `0%` %%(0/3 points)%%
+* **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
 </div>
     
@@ -484,6 +518,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~7~~</span>: <small>0/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
 </div>
     
 </modal>
@@ -510,6 +546,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~7~~</span>: <small>0/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
 </div>
     
 </modal>
@@ -536,6 +574,8 @@ A0194284_ %%<trigger trigger="click" for="modal:pD-A0194284">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">6</span>: <small>5/6 points</small>
 * **Repl exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%
 * **Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">7</span>: <small>2/3 points</small>
+* **Quiz(zes)**: percentage of correct answers: `82%` %%(2/3 points)%%
 </div>
     
 </modal>
