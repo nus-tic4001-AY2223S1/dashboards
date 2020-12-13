@@ -6,7 +6,7 @@ title: "Participation dashboard"
 
 <box>
 
-* Details about participation marks calculations are [here]({{ url_module_website }}{{ '/#assessment' if tic2002 else '/admin/participation.html' }}).
+* Details about participation marks calculations are [here]({{ url_module_website }}{{ '/admin/index.html#assessment' if tic2002 else '/admin/participation.html' }}).
 * The important column of the table below is the <span class="text-monospace">==Weeks participated==</span> column. It tells you how many weeks in which you have met _participation bar_ %%(i.e., scored more than half of the participation points)%%.
 * Meaning of colors/icons:
   * %%{{ icon_info }}%% : you can click on this icon to find more info
