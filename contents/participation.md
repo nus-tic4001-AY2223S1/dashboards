@@ -12,8 +12,10 @@ title: "Participation dashboard"
   * %%{{ icon_info }}%% : you can click on this icon to find more info
   * <span class="badge badge-success">N</span> : you reached the participation bar for week `N`
   * <span class="badge badge-warning">~~N~~</span> : you earned _some_ participation points in the week `N` but fell short of the participation bar for that week (these _tried-but-fell-short_ weeks are not normally counted for participation, but they could be given _some_ consideration if you failed to earn full participation marks at the end)
-  * <span class="badge badge-danger">~~N~~</span> : you did not earn _any_ participation points for week `N`
+  * <span class="badge badge-danger">~~N~~</span> : you did not earn _any_ participation points for week `N`{% if cs2103 %}
+* Note: The LumiNUS quiz percentage can exceed `100%` if the quiz contains bonus questions %%(they are not penalized for incorrect answers, but given credit for correct answers)%%.{% endif %}
 * If you have queries about the participation marks, please email `{{ module | lower }}@comp.nus.edu.sg`.
+* This dashboard is **updated weekly**.
 </box>
 
 <include src="{{ module | lower }}/participation-table.mbdf" />

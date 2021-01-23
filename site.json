@@ -1,6 +1,9 @@
 {
   "baseUrl": "/dashboards",
   "titlePrefix": "CS2103",
+  "style": {
+    "codeTheme": "light"
+  },
   "timeZone": "Asia/Singapore",
   "ignore": [
     "_markbind/layouts/*",

@@ -18,6 +18,7 @@ title: "tP progress dashboard"
   * <span class="badge badge-secondary">~~ABC~~</span> : optional item due soon, not done yet.
   * The [?] suffix (e.g., <span class="badge badge-dark">ABC [?]</span>) indicates there are no data for that item yet. It will be updated in a later time when the relevant data are available.
 * If you have queries about the data shown in this page, please email `{{ module | lower }}@comp.nus.edu.sg`.
+* This dashboard is **updated daily**.
 </box>
 
 <include src="{{ module | lower }}/tp-progress-table.mbdf" />

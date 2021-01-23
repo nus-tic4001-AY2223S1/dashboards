@@ -5,4 +5,6 @@ pageNav: 4
 
 <h1 class="display-4">iP review comments dashboard</h1>
 
+This dashboard is **updated weekly**.
+
 <include src="{{ module | lower }}/ip-review-comments-panels.mbdf" />
