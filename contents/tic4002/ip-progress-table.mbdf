@@ -1,24 +1,24 @@
-%%[This page was last updated on Feb 11 2021]%% 
+%%[This page was last updated on Mar 03 2021]%% 
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., weeks in which some code was committed to the repo">Weekly progress</tooltip>|<tooltip content="i.e., iP increments as indicated by the git tags in your fork">Increments</tooltip>|<tooltip content="i.e., other iP-related admin tasks">Admin tasks</tooltip>
 -------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------
-A0120420_ %%<trigger trigger="click" for="modal:ipPD-A0120420">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-danger mr-1">!~~A-CheckStyle~~</span><span class="badge badge-danger mr-1">!~~Level-10~~</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0137851_ %%<trigger trigger="click" for="modal:ipPD-A0137851">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-danger mr-1">!~~3~~</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-danger mr-1">!~~A-Gradle~~</span><span class="badge badge-danger mr-1">!~~A-CheckStyle~~</span><span class="badge badge-danger mr-1">!~~Level-10~~</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-danger mr-1">!~~PR Creation~~</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0150565_ %%<trigger trigger="click" for="modal:ipPD-A0150565">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-success mr-1">JAR released</span>
-A0177716_ %%<trigger trigger="click" for="modal:ipPD-A0177716">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177727_ %%<trigger trigger="click" for="modal:ipPD-A0177727">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-danger mr-1">!~~3~~</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-danger mr-1">!~~PR Creation~~</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177732_ %%<trigger trigger="click" for="modal:ipPD-A0177732">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177740_ %%<trigger trigger="click" for="modal:ipPD-A0177740">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-success mr-1">JAR released</span>
-A0177754_ %%<trigger trigger="click" for="modal:ipPD-A0177754">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-success mr-1">JAR released</span>
-A0177784_ %%<trigger trigger="click" for="modal:ipPD-A0177784">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177802_ %%<trigger trigger="click" for="modal:ipPD-A0177802">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177807_ %%<trigger trigger="click" for="modal:ipPD-A0177807">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-danger mr-1">!~~A-Gradle~~</span><span class="badge badge-danger mr-1">!~~A-CheckStyle~~</span><span class="badge badge-danger mr-1">!~~Level-10~~</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177809_ %%<trigger trigger="click" for="modal:ipPD-A0177809">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-success mr-1">JAR released</span>
-A0177810_ %%<trigger trigger="click" for="modal:ipPD-A0177810">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-danger mr-1">!~~Level-10~~</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177820_ %%<trigger trigger="click" for="modal:ipPD-A0177820">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177968_ %%<trigger trigger="click" for="modal:ipPD-A0177968">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177971_ %%<trigger trigger="click" for="modal:ipPD-A0177971">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
-A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-dark mr-1">!~~6~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-dark mr-1">!~~Ui.png~~</span><span class="badge badge-dark mr-1">!~~JAR released~~</span>
+A0120420_ %%<trigger trigger="click" for="modal:ipPD-A0120420">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0137851_ %%<trigger trigger="click" for="modal:ipPD-A0137851">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-danger mr-1">!~~3~~</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-danger mr-1">!~~A-CheckStyle~~</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-danger mr-1">!~~PR Creation~~</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0150565_ %%<trigger trigger="click" for="modal:ipPD-A0150565">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177716_ %%<trigger trigger="click" for="modal:ipPD-A0177716">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-dark mr-1">!~~7~~</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177727_ %%<trigger trigger="click" for="modal:ipPD-A0177727">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-danger mr-1">!~~PR Creation~~</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-danger mr-1">!~~Ui.png~~</span><span class="badge badge-success mr-1">JAR released</span>
+A0177732_ %%<trigger trigger="click" for="modal:ipPD-A0177732">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177740_ %%<trigger trigger="click" for="modal:ipPD-A0177740">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-success mr-1">5</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177754_ %%<trigger trigger="click" for="modal:ipPD-A0177754">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-success mr-1">5</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177784_ %%<trigger trigger="click" for="modal:ipPD-A0177784">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177802_ %%<trigger trigger="click" for="modal:ipPD-A0177802">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177807_ %%<trigger trigger="click" for="modal:ipPD-A0177807">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-danger mr-1">!~~A-Gradle~~</span><span class="badge badge-danger mr-1">!~~A-CheckStyle~~</span><span class="badge badge-danger mr-1">!~~Level-10~~</span><span class="badge badge-danger mr-1">!~~A-CI~~</span><span class="badge badge-danger mr-1">!~~BCD-Extension~~</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177809_ %%<trigger trigger="click" for="modal:ipPD-A0177809">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177810_ %%<trigger trigger="click" for="modal:ipPD-A0177810">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177820_ %%<trigger trigger="click" for="modal:ipPD-A0177820">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">!~~2~~</span><span class="badge badge-success mr-1">3</span><span class="badge badge-danger mr-1">!~~4~~</span><span class="badge badge-success mr-1">5</span><span class="badge badge-danger mr-1">!~~6~~</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177968_ %%<trigger trigger="click" for="modal:ipPD-A0177968">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177971_ %%<trigger trigger="click" for="modal:ipPD-A0177971">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-danger mr-1">!~~JAR with GUI~~</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
+A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-danger mr-1">!~~5~~</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span>|<span class="badge badge-success mr-1">A-Gradle</span><span class="badge badge-success mr-1">A-CheckStyle</span><span class="badge badge-success mr-1">Level-10</span><span class="badge badge-success mr-1">A-CI</span><span class="badge badge-success mr-1">BCD-Extension</span><span class="badge badge-success mr-1">A-HigherCodingQuality</span>|<span class="badge badge-success mr-1">Forking</span><span class="badge badge-success mr-1">Tracker</span><span class="badge badge-success mr-1">PR Creation</span><span class="badge badge-success mr-1">JAR with GUI</span><span class="badge badge-success mr-1">Published UG</span><span class="badge badge-success mr-1">Ui.png</span><span class="badge badge-success mr-1">JAR released</span>
 
 <modal large header="A0120420_: iP Progress Details" id="modal:ipPD-A0120420">
 
@@ -30,7 +30,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`2` commits**
 * **Week <span class="badge badge-danger mr-1">!~~4~~</span>** [Jan 29 2021 - Feb 04 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-danger mr-1">!~~5~~</span>** [Feb 05 2021 - Feb 11 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`1` commit**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`19` commits**
 </div>
     
 #### iP Increments
@@ -38,10 +39,10 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 <div class="indented">
 
 * <span class="badge badge-success mr-1">A-Gradle</span>: [Due in Week 2]: Tag `A-Gradle` found in the fork
-* <span class="badge badge-danger mr-1">!~~A-CheckStyle~~</span>: [Due in Week 2]: Tag `A-CheckStyle` not found in the fork
-* <span class="badge badge-danger mr-1">!~~Level-10~~</span>: [Due in Week 3]: Tag `Level-10` not found in the fork
-* <span class="badge badge-danger mr-1">!~~A-CI~~</span>: [Due in Week 4]: Tag `A-CI` not found in the fork
-* <span class="badge badge-danger mr-1">!~~BCD-Extension~~</span>: [Due in Week 4]: Tag `BCD-Extension` not found in the fork
+* <span class="badge badge-success mr-1">A-CheckStyle</span>: [Due in Week 2]: Tag `A-CheckStyle` found in the fork
+* <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
+* <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
+* <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
 * <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
 </div>
     
@@ -54,8 +55,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -71,17 +72,18 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-danger mr-1">!~~3~~</span>** [Jan 22 2021 - Jan 28 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-danger mr-1">!~~4~~</span>** [Jan 29 2021 - Feb 04 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-danger mr-1">!~~5~~</span>** [Feb 05 2021 - Feb 11 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`9` commits**
 </div>
     
 #### iP Increments
 
 <div class="indented">
 
-* <span class="badge badge-danger mr-1">!~~A-Gradle~~</span>: [Due in Week 2]: Tag `A-Gradle` not found in the fork
+* <span class="badge badge-success mr-1">A-Gradle</span>: [Due in Week 2]: Tag `A-Gradle` found in the fork
 * <span class="badge badge-danger mr-1">!~~A-CheckStyle~~</span>: [Due in Week 2]: Tag `A-CheckStyle` not found in the fork
-* <span class="badge badge-danger mr-1">!~~Level-10~~</span>: [Due in Week 3]: Tag `Level-10` not found in the fork
-* <span class="badge badge-danger mr-1">!~~A-CI~~</span>: [Due in Week 4]: Tag `A-CI` not found in the fork
+* <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
+* <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
 * <span class="badge badge-danger mr-1">!~~BCD-Extension~~</span>: [Due in Week 4]: Tag `BCD-Extension` not found in the fork
 * <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
 </div>
@@ -95,8 +97,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-danger mr-1">!~~PR Creation~~</span>: Have not created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -111,8 +113,9 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-danger mr-1">!~~2~~</span>** [Jan 15 2021 - Jan 21 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`7` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`2` commits**
-* **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`2` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`4` commits**
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`3` commits**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`5` commits**
 </div>
     
 #### iP Increments
@@ -123,8 +126,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">A-CheckStyle</span>: [Due in Week 2]: Tag `A-CheckStyle` found in the fork
 * <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
 * <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
-* <span class="badge badge-danger mr-1">!~~BCD-Extension~~</span>: [Due in Week 4]: Tag `BCD-Extension` not found in the fork
-* <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
+* <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
+* <span class="badge badge-success mr-1">A-HigherCodingQuality</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` found in the fork
 </div>
     
 #### iP Admin Tasks
@@ -136,8 +139,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -153,7 +156,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`7` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`16` commits**
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`11` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`22` commits**
+* **Week <span class="badge badge-dark mr-1">!~~7~~</span>** [Feb 19 2021 - Mar 04 2021]: Did not push any commits :far-frown:
 </div>
     
 #### iP Increments
@@ -177,8 +181,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -191,10 +195,11 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 <div class="indented">
 
 * **Week <span class="badge badge-danger mr-1">!~~2~~</span>** [Jan 15 2021 - Jan 21 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-danger mr-1">!~~3~~</span>** [Jan 22 2021 - Jan 28 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`2` commits**
 * **Week <span class="badge badge-danger mr-1">!~~4~~</span>** [Jan 29 2021 - Feb 04 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-danger mr-1">!~~5~~</span>** [Feb 05 2021 - Feb 11 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`5` commits**
 </div>
     
 #### iP Increments
@@ -204,8 +209,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">A-Gradle</span>: [Due in Week 2]: Tag `A-Gradle` found in the fork
 * <span class="badge badge-success mr-1">A-CheckStyle</span>: [Due in Week 2]: Tag `A-CheckStyle` found in the fork
 * <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
-* <span class="badge badge-danger mr-1">!~~A-CI~~</span>: [Due in Week 4]: Tag `A-CI` not found in the fork
-* <span class="badge badge-danger mr-1">!~~BCD-Extension~~</span>: [Due in Week 4]: Tag `BCD-Extension` not found in the fork
+* <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
+* <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
 * <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
 </div>
     
@@ -218,8 +223,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-danger mr-1">!~~PR Creation~~</span>: Have not created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-danger mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -235,7 +240,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`6` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`6` commits**
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`1` commit**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`6` commits**
 </div>
     
 #### iP Increments
@@ -259,8 +265,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -276,7 +282,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`4` commits**
 * **Week <span class="badge badge-danger mr-1">!~~4~~</span>** [Jan 29 2021 - Feb 04 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`16` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`7` commits**
 </div>
     
 #### iP Increments
@@ -300,8 +307,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -317,7 +324,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`11` commits**
 * **Week <span class="badge badge-danger mr-1">!~~4~~</span>** [Jan 29 2021 - Feb 04 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`11` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`11` commits**
 </div>
     
 #### iP Increments
@@ -341,8 +349,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -358,7 +366,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`7` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`13` commits**
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`3` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`8` commits**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`14` commits**
 </div>
     
 #### iP Increments
@@ -382,8 +391,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -399,7 +408,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`6` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`13` commits**
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`4` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`20` commits**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`6` commits**
 </div>
     
 #### iP Increments
@@ -409,7 +419,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">A-Gradle</span>: [Due in Week 2]: Tag `A-Gradle` found in the fork
 * <span class="badge badge-success mr-1">A-CheckStyle</span>: [Due in Week 2]: Tag `A-CheckStyle` found in the fork
 * <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
-* <span class="badge badge-danger mr-1">!~~A-CI~~</span>: [Due in Week 4]: Tag `A-CI` not found in the fork
+* <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
 * <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
 * <span class="badge badge-success mr-1">A-HigherCodingQuality</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` found in the fork
 </div>
@@ -423,8 +433,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -438,9 +448,10 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 * **Week <span class="badge badge-danger mr-1">!~~2~~</span>** [Jan 15 2021 - Jan 21 2021]: Did not push any commits :far-frown:
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`1` commit**
-* **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`3` commits**
+* **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`5` commits**
 * **Week <span class="badge badge-danger mr-1">!~~5~~</span>** [Feb 05 2021 - Feb 11 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`3` commits**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`24` commits**
 </div>
     
 #### iP Increments
@@ -464,8 +475,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -481,7 +492,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`3` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`5` commits**
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`4` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`9` commits**
 </div>
     
 #### iP Increments
@@ -505,8 +517,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -519,10 +531,11 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 <div class="indented">
 
 * **Week <span class="badge badge-success mr-1">2</span>** [Jan 15 2021 - Jan 21 2021]: Pushed **`2` commits**
-* **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`3` commits**
-* **Week <span class="badge badge-danger mr-1">!~~4~~</span>** [Jan 29 2021 - Feb 04 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-danger mr-1">!~~5~~</span>** [Feb 05 2021 - Feb 11 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`4` commits**
+* **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`1` commit**
+* **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`1` commit**
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`20` commits**
 </div>
     
 #### iP Increments
@@ -531,10 +544,10 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 
 * <span class="badge badge-success mr-1">A-Gradle</span>: [Due in Week 2]: Tag `A-Gradle` found in the fork
 * <span class="badge badge-success mr-1">A-CheckStyle</span>: [Due in Week 2]: Tag `A-CheckStyle` found in the fork
-* <span class="badge badge-danger mr-1">!~~Level-10~~</span>: [Due in Week 3]: Tag `Level-10` not found in the fork
-* <span class="badge badge-danger mr-1">!~~A-CI~~</span>: [Due in Week 4]: Tag `A-CI` not found in the fork
-* <span class="badge badge-danger mr-1">!~~BCD-Extension~~</span>: [Due in Week 4]: Tag `BCD-Extension` not found in the fork
-* <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
+* <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
+* <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
+* <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
+* <span class="badge badge-success mr-1">A-HigherCodingQuality</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` found in the fork
 </div>
     
 #### iP Admin Tasks
@@ -546,8 +559,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -560,10 +573,11 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 <div class="indented">
 
 * **Week <span class="badge badge-danger mr-1">!~~2~~</span>** [Jan 15 2021 - Jan 21 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`3` commits**
+* **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`4` commits**
 * **Week <span class="badge badge-danger mr-1">!~~4~~</span>** [Jan 29 2021 - Feb 04 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-danger mr-1">!~~5~~</span>** [Feb 05 2021 - Feb 11 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`16` commits**
+* **Week <span class="badge badge-danger mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`39` commits**
 </div>
     
 #### iP Increments
@@ -573,9 +587,9 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">A-Gradle</span>: [Due in Week 2]: Tag `A-Gradle` found in the fork
 * <span class="badge badge-success mr-1">A-CheckStyle</span>: [Due in Week 2]: Tag `A-CheckStyle` found in the fork
 * <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
-* <span class="badge badge-danger mr-1">!~~A-CI~~</span>: [Due in Week 4]: Tag `A-CI` not found in the fork
-* <span class="badge badge-danger mr-1">!~~BCD-Extension~~</span>: [Due in Week 4]: Tag `BCD-Extension` not found in the fork
-* <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
+* <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
+* <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
+* <span class="badge badge-success mr-1">A-HigherCodingQuality</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` found in the fork
 </div>
     
 #### iP Admin Tasks
@@ -587,8 +601,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -604,7 +618,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`12` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`23` commits**
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`9` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`16` commits**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`29` commits**
 </div>
     
 #### iP Increments
@@ -616,7 +631,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
 * <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
 * <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
-* <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
+* <span class="badge badge-success mr-1">A-HigherCodingQuality</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` found in the fork
 </div>
     
 #### iP Admin Tasks
@@ -628,8 +643,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -645,7 +660,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`1` commit**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`13` commits**
 * **Week <span class="badge badge-success mr-1">5</span>** [Feb 05 2021 - Feb 11 2021]: Pushed **`2` commits**
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`13` commits**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`2` commits**
 </div>
     
 #### iP Increments
@@ -657,7 +673,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
 * <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
 * <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
-* <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
+* <span class="badge badge-success mr-1">A-HigherCodingQuality</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` found in the fork
 </div>
     
 #### iP Admin Tasks
@@ -667,10 +683,10 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">Forking</span>: **Forked?** Yes. 
 * <span class="badge badge-success mr-1">Tracker</span>: **Issue tracker enabled?** Yes
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
-* <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
+* <span class="badge badge-danger mr-1">!~~JAR with GUI~~</span>: The JAR file was not released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>
@@ -686,7 +702,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * **Week <span class="badge badge-success mr-1">3</span>** [Jan 22 2021 - Jan 28 2021]: Pushed **`6` commits**
 * **Week <span class="badge badge-success mr-1">4</span>** [Jan 29 2021 - Feb 04 2021]: Pushed **`12` commits**
 * **Week <span class="badge badge-danger mr-1">!~~5~~</span>** [Feb 05 2021 - Feb 11 2021]: Did not push any commits :far-frown:
-* **Week <span class="badge badge-dark mr-1">!~~6~~</span>** [Feb 12 2021 - Feb 18 2021]: Did not push any commits :far-frown:
+* **Week <span class="badge badge-success mr-1">6</span>** [Feb 12 2021 - Feb 18 2021]: Pushed **`3` commits**
+* **Week <span class="badge badge-success mr-1">7</span>** [Feb 19 2021 - Mar 04 2021]: Pushed **`10` commits**
 </div>
     
 #### iP Increments
@@ -698,7 +715,7 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">Level-10</span>: [Due in Week 3]: Tag `Level-10` found in the fork
 * <span class="badge badge-success mr-1">A-CI</span>: [Due in Week 4]: Tag `A-CI` found in the fork
 * <span class="badge badge-success mr-1">BCD-Extension</span>: [Due in Week 4]: Tag `BCD-Extension` found in the fork
-* <span class="badge badge-danger mr-1">!~~A-HigherCodingQuality~~</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` not found in the fork
+* <span class="badge badge-success mr-1">A-HigherCodingQuality</span>: [Due in Week 5]: Tag `A-HigherCodingQuality` found in the fork
 </div>
     
 #### iP Admin Tasks
@@ -710,8 +727,8 @@ A0177989_ %%<trigger trigger="click" for="modal:ipPD-A0177989">{{ icon_info }}</
 * <span class="badge badge-success mr-1">PR Creation</span>: Created a PR from own fork to upstream repo
 * <span class="badge badge-success mr-1">JAR with GUI</span>: The JAR file was released via GitHub releases in the period 2021-01-21 00:00:00+08:00 to 2021-02-05 00:00:00+08:00
 * <span class="badge badge-success mr-1">Published UG</span>: Updated User Guide  available at `https://[github_username].github.io/ip`
-* <span class="badge badge-dark mr-1">!~~Ui.png~~</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
-* <span class="badge badge-dark mr-1">!~~JAR released~~</span>: The JAR file was not released via GitHub releases in the period 2021-02-05 00:00:01+08:00 to 2021-03-10 00:00:00+08:00
+* <span class="badge badge-success mr-1">Ui.png</span>: Ui.png  available at `https://[github_username].github.io/ip/Ui.png`
+* <span class="badge badge-success mr-1">JAR released</span>: The JAR file was released via GitHub releases in the period 2021-02-11 00:00:00+08:00 to 2021-03-10 00:00:00+08:00
 </div>
     
 </modal>

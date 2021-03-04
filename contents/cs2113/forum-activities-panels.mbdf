@@ -1,1 +1,1214 @@
-%%[No data yet]%%
+%%[This page was last updated on Feb 21 2021]%% [**<span class="text-warning">:octicon-eye:</span> indicates those _watching_ the forum** (kudos :+1:)]
+
+
+<panel type="info" header="### 1. CHON.. HAO `@8kdesign` (12 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/2#issuecomment-761064997" expanded>
+
+Not sure about the grading thing, but you have to push the changes from sourcetree (after you commit) in order to see it on GitHub.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/2#issuecomment-761762118" expanded>
+
+On GitHub, go to the Actions tab. You should see your latest revision getting checked. If it is correct, you should see a green tick once it is done.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-762087833" expanded>
+
+The test case is when null is given instead of the 2 names. You have to check for null. (And do nothing if null)
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762261452" expanded>
+
+What is the link that you used?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-762263023" expanded>
+
+You should directly use != for comparison with null instead. Null is not an empty string, but the lack of one, so you can't check its length.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762265884" expanded>
+
+Try without .git behind
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762269315" expanded>
+
+Hmm strange. You managed to do the other exercises?
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762272176" expanded>
+
+Could it be that your Github account is not set up properly on Sourcetree?
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762791237" expanded>
+
+You need to add a configuration by clicking on the "Add Configuration" button beside the run button. A window will pop up, then click on "+" on the top left and select application. Select Java 11 for the first input, and Duke class for the main class. Press ok and you should see the run button turn green.
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762814945" expanded>
+
+Yep it is the Corretto 11 option. (By the way, you need to select "Application" in the screenshot)
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762864783" expanded>
+
+Click on the icon on the right of the input box. Something should pop up and you should be able to select from there.
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/27#issuecomment-770360930" expanded>
+
+For expected.txt, you only want to include the parts that the program outputs and exclude what the user is supposed to input.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 2. LEE ..PENG `@Leeyp` (11 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Build failed on autograder but works fine on my computer**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/4" expanded>
+
+I'm not sure why the Github Classroom autograder is rejecting my work, even though my code works fine on my local machine. 
+
+I've pushed the entire thing to the Github Classroom, so I don't see why there would be a build error.
+
+Therefore, I am stuck on Week 2 Ex 2. Why is this?
+</panel>
+
+<panel  header="**2. :fas-info-circle: Do we push the iP weekly homeworks to our public github account?**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/2" expanded>
+
+In Week 2, the iP weekly homework instructs us to complete "Level-0: Greet", and commit it. But, I believe that my sourcetree only commits to my local repository, rather than my public Github account for some reason. To do so, I need to push the commit to my account. Is this the correct way?
+
+Does the automatic grading script check our accounts at 00:00 before our tutorial and grades us accordingly?
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/2#issuecomment-761517989" expanded>
+
+Sorry, could I ask, what are the tags thing you just mentioned? I was not aware of that feature. 
+
+I’m happy to say that I have managed to push my commit to my online GitHub fork for the first implementation :) 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-761588529" expanded>
+
+Very nasty to give us invalid inputs so early in the course! Is this the expectation we should have for future encounters in the module? If I recall correctly, it was mentioned that the "Practical Exam" would be other students attempting to break our software, isn't it?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/4#issuecomment-761593228" expanded>
+
+Update: I have completed Week 2 Ex 3 and Ex 4 with no issue, it is only Ex 2 that is having issue. I'm confused at why this is the case, could it be because of the risk of invalid input in args?
+
+Thanks for viewing.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/4#issuecomment-761596422" expanded>
+
+> as prof said in the other thread, try checking for null and return nothing
+
+I did that, but it seems like my autograder is still rejecting my answer, for some reason. :&gt;
+
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/4#issuecomment-761597713" expanded>
+
+> as prof said in the other thread, try checking for null and return nothing
+
+Okay, did a bit more googling and managed to solve it. Apparently, in Java, having null arguments is not equivalent to having 0 arguments. 👎  Learnt something new about Java today!
+
+Though, it is a bit too tricky to be the second testcase overall for this course :(
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-762286714" expanded>
+
+> > @Leeyp it was not done intentionally.
+> > Hopefully, no such encounters in the future 🤞
+> > PE is a different matter entirely. We will talk about it when it is the right time!
+> 
+> Hi, would like to clarify on this task too. Is it expected to observe a "Autograding fail" result (Points 0/1) in the Git autograding status upon pushing?
+> 
+> Expansion of the error message states testMain failed.
+> But the code runs fine on local terminal upon manual insertion of the names.
+
+The test case can be completed assuming adversarial inputs. If you solved it, you will get a green tick like for Ex 3 and 4 (arguably a lot easier!). Good luck.
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/13#issuecomment-766746435" expanded>
+
+Dear Prof,
+
+I'm unclear about the requirements for Task 3.
+
+![image](https://user-images.githubusercontent.com/2010527/105699369-32d17480-5f42-11eb-9c14-8d7965668ec9.png)
+
+The prompt from Task 3 expects this, when a task is marked as done, with [x], and if its not done, it is [ ].
+
+But, the partial code generously provided by the prompt using "A-Classes" gives us a [tick] and [x] instead:
+
+![image](https://user-images.githubusercontent.com/2010527/105699490-67ddc700-5f42-11eb-8d4a-4f5e7a51fffb.png)
+
+
+So, which style of "done" is expected of us?
+
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/13#issuecomment-766747481" expanded>
+
+A secondary question - do we need to include tags for special increments like A-CodingStandard and Extension: A-Classes? I don't think I really need to code anything for those since they seem about 'style' and 'good coding practices'. :/
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/13#issuecomment-766749214" expanded>
+
+Lastly, may I clarify what it means to commit for A-CodingStandards or A-Classes? Are those compulsory for the project, or for students to "get "A"" ? How do we submit or fulfill those extensions?
+
+Thank you!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 3. ZHON..UHAO `@Rye98` (11 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Error when executing runtest.bat**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/34" expanded>
+
+I am getting the error below when attempting to execute runtest.bat in IntelliJ.  (I have already changed the directory of the folder to the one that my current project is located in.)
+Any suggestions to fix this?
+
+![image](https://user-images.githubusercontent.com/74185161/108075813-c0b60080-70a5-11eb-9105-5f9e5d88d3b5.png)
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Failing testcases on IntelliJ**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/25" expanded>
+
+I am failing every testcase on IntelliJ when I try to run TestMain, but I get the correct output on my console when I run Main. The error message is shown below, how should I interpret it?
+![image](https://user-images.githubusercontent.com/74185161/105943095-83101a00-609b-11eb-827f-992853169a05.png)
+
+:bulb: You can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format your text
+
+</panel>
+
+<panel  header="**3. :fas-info-circle: SourceTree not showing commits from IntelliJ**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/20" expanded>
+
+After I have edited the "Duke.java" code in IntelliJ, and committed in IntelliJ, my SourceTree sensed that it is the readme.md file that got changed? 
+
+![image](https://user-images.githubusercontent.com/74185161/105704338-a034d380-5f49-11eb-8fcc-9595aa0d2779.png)
+
+</panel>
+
+<panel  header="**4. :fas-info-circle: Unable to run Duke.java (and confusion with admin isses)**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11" expanded>
+
+Hi, my IDE seems to be unable to run the Duke.java file.  (There is no "run" button available.) Attached is the screenshot of how the IDE page.  
+Also, Im very lost at how I should be downloading the files for the exercises and submitting my answers using sourcetree. 
+<img width="960" alt="Capture" src="https://user-images.githubusercontent.com/74185161/105029032-c3b0d780-5a8c-11eb-86d3-7e6726086513.PNG">
+
+
+
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762802549" expanded>
+
+> Have you configured the JDK?
+
+My IDE's homescreen looks different from the one shown in the video. Any advice on how to select the JDK?
+![image](https://user-images.githubusercontent.com/74185161/105033020-851e1b80-5a92-11eb-9f77-471b5025cd04.png)
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762814130" expanded>
+
+> You need to add a configuration by clicking on the "Add Configuration" button beside the run button. A window will pop up, then click on "+" on the top left and select application. Select Java 11 for the first input, and Duke class for the main class. Press ok and you should see the run button turn green.
+
+There doesnt seem to be a Java11 option under configuration... (My SDK is selected as: "11 Amazon Corretto version 11.0.9", is this the correct version to be used?)
+![image](https://user-images.githubusercontent.com/74185161/105035354-d24fbc80-5a95-11eb-952a-ed9fe7c9fde6.png)
+
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762859750" expanded>
+
+> Yep it is the Corretto 11 option. (By the way, you need to select "Application" in the screenshot)
+
+Thanks, found the java 11 option.  However, the code is still unable to run. (Attached error message below). I have tried changing "Duke class" to "Duke" and "class Duke", similar error message is shown for both.
+![image](https://user-images.githubusercontent.com/74185161/105044867-2eb8d900-5aa2-11eb-9405-d51d608095fc.png)
+![image](https://user-images.githubusercontent.com/74185161/105045008-5d36b400-5aa2-11eb-8cf8-c0b84d90b752.png)
+
+
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762992808" expanded>
+
+> I suspect this is not imported properly.
+> Why is the folder named Duke.java on the left side of your second screen shot? Can you expand that and show what you have?
+
+The only item under the folder is "Duke.java". (No other visible files)
+
+
+
+
+> Click on the icon on the right of the input box. Something should pop up and you should be able to select from there.
+
+Nothing shows up when I search for "Duke".
+![image](https://user-images.githubusercontent.com/74185161/105069938-93356180-5abd-11eb-9d54-65980e95a8bd.png)
+
+
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-763012104" expanded>
+
+> I suspect this is not imported properly.
+> Why is the folder named Duke.java on the left side of your second screen shot? Can you expand that and show what you have?
+
+Update: Seems that it is indeed a problem with my importing. I failed to import the entire folder. Sorry for the troubles.
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/25#issuecomment-768030743" expanded>
+
+Thanks prof! (Didnt realise it was the same problem)
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/34#issuecomment-779927760" expanded>
+
+> You need to set the Java path. The command prompt is unable to fetch the Java compiler.
+> The error message is : `'javac' is not recognized as an internal or external command ...`
+
+Sorry I don't really understand. The main file is able to run with no problem. Are the following settings correct? I cant seem to find an option asking for Java path
+![image](https://user-images.githubusercontent.com/74185161/108086755-b00b8780-70b1-11eb-8fea-ef7c26fddba1.png)
+![image](https://user-images.githubusercontent.com/74185161/108086781-ba2d8600-70b1-11eb-86d5-53815d8a322d.png)
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 4. JOVA..CHUN `@jovanhuang` (9 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Difficulty cloning from Github Classroom**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9" expanded>
+
+I am having some difficulties cloning from GitHub Classroom. 
+When I try to clone using HTTPS on source tree, this error below came up. Please assist, thanks!
+
+![Sourcetree error](https://user-images.githubusercontent.com/46647400/104918369-9d793200-59cf-11eb-994c-2dbe38d1fdbc.PNG)
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762262619" expanded>
+
+I used this link: 
+https://github.com/cs2113-AY2021S2/week-2-ex3-jovanhuang.git
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762268890" expanded>
+
+The page is valid when I click on the link using my github account though. 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762269828" expanded>
+
+The same happens for the other exercises.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762273274" expanded>
+
+I followed @okkhoy tutorial on connecting SourceTree with Github closely though. Are there any ways to check if that is set up properly?
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762274843" expanded>
+
+I tried cloning using command line, but this error persists. 
+
+![Commandline error](https://user-images.githubusercontent.com/46647400/104925634-0d8cb580-59da-11eb-99ff-0d32d51056b1.PNG)
+
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762310943" expanded>
+
+> try this:
+> https://stackoverflow.com/a/62145210
+> 
+> Sourcetree doesnt have all the required credentials for private repo
+
+This works! Thank you so much to Prof and all the others who helped! 👍  :)
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762811292" expanded>
+
+It is the right place to add your account.
+
+This is what I did - 
+Under authentication, try deleting the old account and add again. This time round, add using your github username and for the password, use generated token.
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/15#issuecomment-766307360" expanded>
+
+> It's because Windows has a different line ending (`\r\n`) compared to Linux (`\n`) which is used by the platform for running the test cases.
+> Try replacing each `System.out.println(thingToPrint)` call with `System.out.print(thingToPrint + '\n')` instead as a temporary workaround... trying to find a more permanent one too myself.
+
+Thank you so much for this workaround solution. I was having the same problem where the test cases failed on my local computer but passed on github. Tried this solution and it works! 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 5. CAO ..UWEN `@cswbibibi` (9 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: IP-Tracker**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/35" expanded>
+
+Hi Im trying to finish the "Tracker" task at the IP dashboard. I have followed the instruction on week 2 ip to tick the "Issue" check box to enabled the issue tracker of my fork. However in my ip progress dashboard, the Tracker task is still in red meaning not done yet. 
+
+I can access the URL for issues so i guess my tracker has been enabled successfully, and i also waited for more than a day for the dashboard website to update. However its still mark as undone. Can somebody help why?
+</panel>
+
+<panel  header="**2. :fas-info-circle: Enquirers on ip**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/13" expanded>
+
+For different increment level, do we need to ensure the feature for the previous level can work simultaneously with the new level feature? For example when I'm done with level 2 increment, which is to add task to a tasks list. And then for level-3 do I still need to keep this feature in the code, or I just need to rewrite the code to satisfy the level3 requirement only?
+
+
+Besides, there are 3 tasks(read book, return book and buy bread) given in the level 3 example for list output, so my question is that when we are designing our code, do we need to set the list and program output the same as given in the example?  That is only task 2 needs to be done. 
+
+Thank you.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/13#issuecomment-765910348" expanded>
+
+Thank you for answering my first questions prof. My second question is regarding level3 “mark as done” increment. Do we need to design our own task list and can choose which ever task to be done and undone? Or do we have to run our code to give same output as the website level-3 example? @okkhoy 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/13#issuecomment-765911805" expanded>
+
+Got it thank you very much:) @okkhoy 
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/21#issuecomment-770318429" expanded>
+
+hey prof my wk4 ex 1 passed the test locally but when i pushed it to Github classroom it always faild. Is it bcz the github classroom auto-grading is still not available？ @okkhoy 
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/25#issuecomment-770321986" expanded>
+
+Sorry prof but my output is correct when i run Main, and i changed all println in Main to print( + "\n"), i still failed the test case. My error message is the same as shown in the screenshot above. :( @okkhoy 
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/25#issuecomment-770323211" expanded>
+
+![image](https://user-images.githubusercontent.com/66739292/106374464-abab5300-63be-11eb-91e4-5fc36b74fe4c.png)
+![image](https://user-images.githubusercontent.com/66739292/106374486-cd0c3f00-63be-11eb-971a-e48f857026e2.png)
+Yea... i think there's no problem with the letter cases... @okkhoy 
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/25#issuecomment-771586117" expanded>
+
+omg thanks for the tips, after changing all the println to print + "\n" and line separator to "\n", it finally passed the test locally :)
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/35#issuecomment-782837793" expanded>
+
+@okkhoy hi prof can you help to take a look at this? Thank you!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 6. RYAN..KWOK `@kwokyto` (8 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Formatting of exceptions without exceeding line limit**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/30" expanded>
+
+I have to define a function that may throw several exceptions, but that makes the function definition line very long. I remember that there is a "hard limit" on how long a line can be. If this function definition line exceeds this limit, how do I format the layout? Thank you!
+</panel>
+
+<panel  header="**2. :fas-info-circle: Pushing and deleting tags**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/23" expanded>
+
+I have pushed a "Level-1" tag on a commit for my ip, but i found some bugs, fixed them, committed and push again. From what i understand, i cannot assign 2 commits with the same tag. How do i delete tags and re-tag the correct commit? will the tags be used to trace which commit will be graded? thanks!
+</panel>
+
+<panel  header="**3. :fas-info-circle: week 2 ex 2**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3" expanded>
+
+i dont quite understand what we are supposed to do with this. i understand that we are required to take in 2 values and compare them, but in the test file, null is passed into main, are we also expected to be managing the error handling for "wrong" arguments passed into the function? thanks
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-761576274" expanded>
+
+i see, so on github it will be alright for it to be left as failed?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/4#issuecomment-761593422" expanded>
+
+as prof said in the other thread, try checking for null and return nothing
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-764428681" expanded>
+
+> Adding this if statement to check for null works for me.
+> Also, would like to know if `|| args.length &gt; 1` is redundant in this case? Thank anyone in advance.
+> `if (args == null || args.length &gt; 1) { return; }`
+
+its the length that is redundant, you cannot check length of null
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-764430005" expanded>
+
+no problem, actually you can check it out by running each condition individually, i believe only args==null will work
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/23#issuecomment-767276595" expanded>
+
+edit: i realised there are differences between local and remote tags, i have deleted remote tags via github browser, but local tags tripped me a bit. using this command in cmd in your repo folder works
+git tag -d tagname
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 7. NG M..SING `@NgManSing` (6 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: About text-ui-test**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/27" expanded>
+
+I am trying to use the batch file which is for text-ui testing. I have put some inputs into input.txt and have written the expected output into EXPECTED.TXT.
+
+input.txt
+![image](https://user-images.githubusercontent.com/77456180/106376574-9d1a6700-63d1-11eb-8d25-fb7ccd24a705.png)
+
+EXPECTED.TXT
+![image](https://user-images.githubusercontent.com/77456180/106376576-ae637380-63d1-11eb-840a-5508d06d49eb.png)
+
+However, the program only takes the first line in the input.txt and ignored other lines. The compiler replied "Exception in thread "main" java.util.NoSuchElementException: No line found".
+![image](https://user-images.githubusercontent.com/77456180/106376596-e23e9900-63d1-11eb-8626-f06d5fa54869.png)
+
+Where have I made mistakes?
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Is previous version editable in Sourcetree (Git)?**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/22" expanded>
+
+If I have completed programming up to Level-3 (tag) but I found a typo in Level-1 (tag). Is it possible to edit Level-1 (tag)?
+</panel>
+
+<panel  header="**3. :fas-info-circle: Regarding encountering an error during running tests in Exercises**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/14" expanded>
+
+My computer setup:
+  - IntelliJ Idea version 2020.2.2
+  - Java 11.0.9_12
+
+Exercise: Create Rectangle objects
+Expected output: "java.awt.Rectangle[x=0,y=0,width=5,height=10]"
+
+I failed to run the tests althought my actual output is the same as the expected output.
+![image](https://user-images.githubusercontent.com/77456180/105569787-b42cd980-5d7f-11eb-8609-35bbb380c6e1.png)
+
+The IDE keeps reporting that "contents have differences only in line separators".
+
+What am I doing wrongly? :(
+
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/22#issuecomment-767415726" expanded>
+
+What if I found a bug in my Level-1 but I have already working on Level-3? Is it OK to correct the bug in Level-3 only?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/22#issuecomment-767455302" expanded>
+
+I made big changes between Level-1 and Level-2. Will it be problematic?
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/27#issuecomment-774632384" expanded>
+
+I find out that if I declare the Scanner object outside a static method (i.e. declare the static final Scanner object globally) can solve the problem.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 8. CHUA.. WEI `@heyjinwei` (5 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Coding Standards to Follow**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/10" expanded>
+
+May I know where we can find the coding standards that we are to follow? I can't seem to find it through the slides or the website.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-762396896" expanded>
+
+Hi, when I don't input an argument the code exits cleanly when i run Main. However, when running TestMain I encounter a NullPointe Exception and I am unable to figure out why.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/10#issuecomment-762410208" expanded>
+
+Thank you!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-762410951" expanded>
+
+oh right, I referred to @Leeyp 's closed post for the answer. Thank you!
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/14#issuecomment-765892459" expanded>
+
+I'm not sure if it's the right way to correct this issue, but I solved the problem by printing a '\n' character instead of a println.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 9. SONG..G YU `@Song0180` (5 posts) "  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-763702871" expanded>
+
+Ensure the correct version of JDK is selected in File -&gt; Project Structure...
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-764427938" expanded>
+
+Adding this if statement to check for null works for me.
+Also, would like to know if '|| args.length &gt; 1' is redundant in this case? Thank anyone in advance.
+'if (args == null || args.length &gt; 1) {
+            return;
+        }'
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-764429255" expanded>
+
+> > Adding this if statement to check for null works for me.
+> > Also, would like to know if `|| args.length &gt; 1` is redundant in this case? Thank anyone in advance.
+> > `if (args == null || args.length &gt; 1) { return; }`
+> 
+> its the length that is redundant, you cannot check length of null
+
+Thank you
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/15#issuecomment-766289009" expanded>
+
+May I know how to see if the result is passed on GitHub?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/15#issuecomment-766300867" expanded>
+
+> you will see a green tick next to the commit like this:
+> ![image](https://user-images.githubusercontent.com/1023494/105623030-5d8fd000-5e51-11eb-97c1-eb9de1180480.png)
+
+Thank you!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. LEE ..ANDY `@LeeHanYongAndy` (5 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Java Exercises (Week 4 Exercise 3)**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/26" expanded>
+
+Can I clarify if this is intended?
+
+In Circle.Java and Rectangle.Java, line 1 was written as "public class Circle implements Shape{" and "public class Rectangle implements Shape{".
+
+Was the use of "implements" intended as I could not get my program to produce the expected output unless I change the implement to extends.
+</panel>
+
+<panel  header="**2. :fas-info-circle: Enquirers on iP: Creating Additional File**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/16" expanded>
+
+I completed the Level-2 iP by creating a new Class and realized that if commit and push to GitHub, I will have 2 files in src/main/java/. 
+
+My questions are:
+1. Can I check whether we are allowed to create a new class (.java file)? 
+2. If we are allowed to, would having such additional files affects the grading? (be it manual or auto-grading in the future)
+(Edit) 3. Do we assign the tag (Level-2) to Duke.java or Task.java?
+
+Thank you. :)
+<img width="925" alt="iP Level 2" src="https://user-images.githubusercontent.com/59407923/105621903-654a7700-5e47-11eb-826f-1ab074602b07.png">
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/16#issuecomment-766300922" expanded>
+
+> 1. You are allowed to create new classes. Just please don't change the folder structure inside
+> 2. Additional java files are necessary for many of the increments, so it is OK to create them appropriately. It won't adversely affect the grading.
+> 3. Tag the commit, not the file. One way to go about it to tag the latest commit which has the feature completed, irrespective of what files are updated in that commit.
+
+Hi Professor, understood with much thanks. :)
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/26#issuecomment-770168689" expanded>
+
+> ![Extends](https://user-images.githubusercontent.com/66361650/106349268-b6ef7780-6307-11eb-8d84-2212728d2653.png)
+> 
+> I believe we have to use "implements" if we are accessing an interface method and use "extends" to access a class. So since Circle is a class, extends should be used here. Not sure tho.
+
+Yes, I have googled it as well. You're absolutely correct on using "implements" for interfaces.
+Similarly, I believe that it should be "extends" since it's referring to a superclass but I'm lost too haha. 
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/26#issuecomment-770170368" expanded>
+
+> This is an oversight on my part. I did not remove the `implements` from the template.
+> 
+> For this one,
+> 
+> 1. If you wish to continue with `implements`, please make `Shape `an `interface `(Interfaces are covered in Week 5 material).
+> 2. If not, you can change `implements `to `extends `and make `Shape `a `class`.
+> 
+> in both cases, the polymorphic behavior of the area method is apparent.
+
+Hi Professor, Understood. Thank you for the clarification! 👍🏼 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 11. JONA..YANG `@JonathanKhooTY` (4 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Invitation for Week 2 Assignment 4 disabled**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/7" expanded>
+
+The link for Week 2 Ex 4 states that "Invitations for this assignment have been disabled", upon clicking "Accept this assignment".
+
+Would like to check if there's an "Ex 4" task to be completed for Week 2?
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/7#issuecomment-761965259" expanded>
+
+It now works, thanks.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-762065576" expanded>
+
+> 
+> 
+> @Leeyp it was not done intentionally.
+> Hopefully, no such encounters in the future 🤞
+> PE is a different matter entirely. We will talk about it when it is the right time!
+
+Hi, would like to clarify on this task too. Is it expected to observe a "Autograding fail" result (Points 0/1) in the Git autograding status upon pushing?
+
+Expansion of the error message states testMain failed.
+But the code runs fine on local terminal upon manual insertion of the names.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/3#issuecomment-762233391" expanded>
+
+> 
+> 
+> The test case is when null is given instead of the 2 names. You have to check for null. (And do nothing if null)
+
+I did some googling, and apparently passing a "null" string into main is highly unusual. However, I still attempted to insert a checker for null by checking for the length of the string input, and exiting Main in the event of a null input, but still failing testMain. Any ideas where I'm going wrong?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 12. JONA..LONG `@jonahtwl` (4 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Issues with text-ui-tests**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/32" expanded>
+
+Am wondering if anyone has faced the same issue as I can't seem to understand where the issue lies.
+
+- Prior to implementing Level-5, running the runtest was simple as no exceptions were raised 
+- Adding exception handlers caused the following to happen (Figure 1) during the text-ui-test 
+
+![image](https://user-images.githubusercontent.com/77423978/107473557-dad67700-6bab-11eb-9cf4-896aee8bcc7b.png)
+_(Figure 1. Using text-ui test showed this)_
+
+![image](https://user-images.githubusercontent.com/77423978/107473633-f80b4580-6bab-11eb-8569-bb346fbdc5c3.png)
+_(Figure. 2 Doing manual testing will show this)_
+
+This (Figure 2) was printed in System.err.println if anyone is wondering. Have tried changing it back to System.out.println but the issue still remains that the exception was caught and the program was terminated ONLY in the text-ui and not manual.
+</panel>
+
+<panel  header="**2. :fas-info-circle: SourceTree Cloning Error**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/19" expanded>
+
+Anyone had faced this error when cloning?
+
+I have finished from ex 1 to 8 without issues then left for awhile, upon returning, I can't seem to clone the file as this error was shown.
+
+![image](https://user-images.githubusercontent.com/77423978/105700575-028ad580-5f44-11eb-8b31-82088407d4a2.png)
+
+Can't seem to find any fixes on the internet either.
+
+Update: Have tried the solutions from the other threads but none seems to work for me
+Update 2: Apparently the cause was the changing of the credentials manager. Have revert it back to nothing and it works!
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/32#issuecomment-777583139" expanded>
+
+I have traced all my data, methods and objects but then I realized that somehow the text-ui test on intellij is having some issues that I can't find answers on the internet. 
+
+These are some new issues that I found that shows more issues with the exception and text-ui testing
+
+![image](https://user-images.githubusercontent.com/77423978/107658896-93daa580-6cc1-11eb-8f49-450d37362632.png)
+
+![image](https://user-images.githubusercontent.com/77423978/107659094-bff62680-6cc1-11eb-8614-29be63fdb315.png)
+
+![image](https://user-images.githubusercontent.com/77423978/107659165-d0a69c80-6cc1-11eb-9485-7a275cd06224.png)
+
+It somehow throws an exception when I do manual testing for having insufficient parameters, but it allows it when using text-ui testing? Both of which i did the exact same inputs of a (space) after the todo
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/32#issuecomment-778628886" expanded>
+
+Thanks for the help Prof @okkhoy,  I realized it was a logical error on my end when handling the exceptions itself. Apologies for the confusion. 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 13. OSCA.. LAI `@oscarlai1998` (4 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: When I push my code from IntelliJ to Github, tabsize is automatically size 8**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/24" expanded>
+
+Hello,
+
+When I push my code to Github, the tabsize is automatically size 8. So I manually edit and change the tab size on github to size 4 and commit again but it is still size 8.
+
+Please advise. Thanks
+
+![Screenshot 2021-01-26 at 10 02 49 PM](https://user-images.githubusercontent.com/77140576/105854900-6aafe900-6022-11eb-90fa-e110022c373f.png)
+![Screenshot 2021-01-26 at 10 03 35 PM](https://user-images.githubusercontent.com/77140576/105854923-713e6080-6022-11eb-8832-50f22b6f51ac.png)
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/24#issuecomment-767581812" expanded>
+
+Hello Prof, My tab space is 4 on intellJ and my indentation is correct on intellJ but when i push to github it becomes 8.
+![Screenshot 2021-01-26 at 10 29 06 PM](https://user-images.githubusercontent.com/77140576/105858085-e8c1bf00-6025-11eb-863b-15eb320b8d2d.png)
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/24#issuecomment-767609398" expanded>
+
+Hello Prof,
+
+I am using the same directory to edit/commit and push, also only using IntelliJ and I did not change any settings and did not install any plugins.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/24#issuecomment-767716278" expanded>
+
+Hello Prof, I have fixed it by just reformatting the entire code again. 
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 14. YEUN..SENG `@JoviYeung92` (3 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Teamwork submission link for TP this week**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/28" expanded>
+
+Submission: Submit your product name, target user profile, the value proposition, and the public link to your collaborative project notes via TEAMMATES. You'll receive an email from TEAMMATES with the submission link. Only one member needs to submit on behalf of the team. All members can view/update the submission.
+
+Hi prof, 
+When will the submission link be avail? Thank You
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/2#issuecomment-761759859" expanded>
+
+If i don't push my file from source tree i can also edit it directly from the main file inside github right? 
+How can we know our codes are 100% correct? Are there any checkers? 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/2#issuecomment-761824863" expanded>
+
+> @JoviYeung92 just to be sure I answer correctly, are you talking about the individual project (iP) or the exercises on GitHub classroom?
+> 
+> For iP, each increment would add something new to the codebase you have developed so far. You need to test it on your machine to see if things are working. During the tutorials, you are required to show a quick demo to your tutors. So things get validated there.
+> 
+> If you are talking about the exercises on GitHub classrooms, there are tests that run via GitHub actions (as mentioned by @8kdesign ) if the test passes, you are doing the right thing.
+> I am preparing a video to demonstrate how to import the exercise to the IDE, do your development and testing; once your tests pass locally, you can push your code, which forms the submissions.
+
+okay prof, thanks for the information.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 15. LOK .. WEN `@kewenlok` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Request for permission to use Gson library**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/31" expanded>
+
+## Library
+
+Gson Library (https://github.com/google/gson)
+
+## Purpose
+
+This library is used for serializing and deserializing JSON data to and from Java objects when storing data in files.
+
+## License
+
+The library is released under the Apache-2.0 License and it could be found at https://github.com/google/gson.
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/27#issuecomment-770361996" expanded>
+
+I believe the NoSuchElementException error can be solved by checking if your scanner object has next line using hasNextLine() method before getting the nextLine() value or in the while loop.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/31#issuecomment-776411881" expanded>
+
+Thanks prof!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 16. CHOI..NJAE `@wjchoi0712` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/10#issuecomment-762407985" expanded>
+
+https://se-education.org/guides/conventions/java/basic.html
+
+It is under other links
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762790295" expanded>
+
+> Also, Im very lost at how I should be downloading the files for the exercises and submitting
+
+You should refer to the e-lecture videos like "W2-Admin-SubmittingExercisesOnGHClassroom" on luminous.  
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/1#issuecomment-766982980" expanded>
+
+"If you give it two different string objects that contain the same letters, it is supposed to yield **true** because they are two distinct objects even if they contain the same text. "(From W3.5 comparing strings)
+
+Shouldn't the "true" in the sentence be "false"?
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 17. LI K..XUAN `@Cocokkkk` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762809075" expanded>
+
+I followed the link above and created a personal token. Can I ask where to do step 9: click on sourceTree preference & Click add Account. I'm not sure if I am on the right track because I failed to add an account as the screenshot on StackOverflow shown, the comment is I already have a Github account. Maybe I found the wrong place to add the account? 
+<img width="698" alt="sourcetree" src="https://user-images.githubusercontent.com/77385307/105034398-628d0200-5a94-11eb-937e-24535c86f835.png">
+
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762814684" expanded>
+
+@jovanhuang Thanks! It successfully works now!
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762824056" expanded>
+
+@okkhoy Sure. Sorry about that, I will pay attention next time!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 18. IVAN..I EN `@ivanchongzhien` (3 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Build failed with an exception when testing exercises locally but passes on Github**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/15" expanded>
+
+**Setup:**
+IntelliJ 2020.3.1 (Community Version)
+Windows 10
+Java 11.0.9_12 (corretto-11, the one recommended by the module)
+
+Hi, I'm failing most of my test cases when testing locally on the IDE with these errors. 
+
+![image](https://user-images.githubusercontent.com/70261399/105573180-b2badb80-5d96-11eb-81ab-7161e94d2905.png)
+
+Its passing on Github however (green tick), anyone know the fix to this issue?
+
+Also, are my exercises considered to have passed (seeing that they passed on Github but failed when tested locally)?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/14#issuecomment-765877708" expanded>
+
+My IDE showed the same test case failed as yours but it passed on Github.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/15#issuecomment-765895991" expanded>
+
+Thanks @tehtea and @okkhoy ! It seems to fix the issue for now :)
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 19. ZHU ..IKUN `@zikunz` (3 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/5#issuecomment-761740680" expanded>
+
+Similar question here. I did not choose my identifier and skipped it to attempt the exercises directly.
+
+It seems like I cannot go back to choose my identifier now, could anyone advise me on how to do so or it does not matter since the submission of the work is associated to my GitHub account?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/5#issuecomment-761823911" expanded>
+
+@okkhoy Hi Prof, I just sent you an email with my student number and the associated Github username. Sorry for the inconvenience caused.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/35#issuecomment-782837499" expanded>
+
+I am able to visit https://github.com/cswbibibi/ip/issues as well. Perhaps you could contact the teaching team since the problem is not rectified after the daily update?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 20. FARM.. HAO `@FarmZH98` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Linking SourceTree to Github**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/8" expanded>
+
+I am having trouble linking sourcetree to Github. The details of error I am facing is exactly like what was described in the link below:
+https://community.atlassian.com/t5/Sourcetree-questions/Can-t-link-SourceTree-to-GitHub-account/qaq-p/1570763
+
+Any help is deeply appreciated, thank you so much!
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/8#issuecomment-762118977" expanded>
+
+Thanks all for the help. In the end, I think i managed to login by setting the following:
+
+![image](https://user-images.githubusercontent.com/77458324/104897509-6b59d700-59b3-11eb-9b6b-aed773536fce.png)
+
+Once i type in my username and click on "Refresh OAuth Token", it will lead me to a webpage and i just have to allow access.
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 21. WONG..HONG `@jadenwjh` (2 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: [Week 4] Waiting for invitation from module organization**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/29" expanded>
+
+As depicted, this week we are supposed to be accepting an invitation. However, I have yet to receive any of it + the link provided does not work. Has anyone managed to accept the invite?
+
+<img width="962" alt="Screenshot 2021-01-31 at 10 12 49 PM" src="https://user-images.githubusercontent.com/62279469/106386747-7c720180-6411-11eb-9b7c-6c9c924d1aa8.png">
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/29#issuecomment-770394774" expanded>
+
+Just received an invite
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 22. CHEW.. WEI `@tehtea` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/12#issuecomment-763549037" expanded>
+
+Nah, for each question repository you have to:
+1. Clone the repository
+2. Make changes to the code such that the tests in the repository can be passed
+3. Commit your changes and push it back to GitHub.
+
+Then, the Autograding workflow will run the test cases, and if your changes passed the test cases you'll get the tick.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/15#issuecomment-765892711" expanded>
+
+It's because Windows has a different line ending (`\r\n`) compared to Linux (`\n`) which is used by the platform for running the test cases.
+Try replacing each `System.out.println(thingToPrint)` call with `System.out.print(thingToPrint + '\n')` instead as a temporary workaround... trying to find a more permanent one too myself.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 23. GE Z..OYAN `@geezzzyyy` (2 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Unable to push using sourcetree**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/18" expanded>
+
+I am using sourcetree for macOs Catalina 10.15.6
+when I try to push to my forked repository, I get an error message like this:
+
+Pushing to https://github.com/geezzzyyy/lender.git
+remote: Permission to geezzzyyy/lender.git denied to geezzzyyy.
+fatal: unable to access 'https://github.com/geezzzyyy/lender.git/': The requested URL returned error: 403
+
+how should I solve this issue? thanks
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/18#issuecomment-766571532" expanded>
+
+I first realized this problem during last Friday's lecture, till now, still unable to push.
+
+> Could be a temporary issue, please try again?
+
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 24. HU W..ENQI `@Vinci-Hu` (2 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Cannot find my identifier when trying to join github classroom**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/5" expanded>
+
+I could not find my identifier when joining github classroom so I skipped that part and did wk2-ex1 directly. 
+May I ask if anyone has chosen the identifier #0230650_ ? Maybe we have a similar student number.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/5#issuecomment-765292365" expanded>
+
+Prof helped to manually match identifier to account.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 25. OWEN..G EN `@blank-bank` (2 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Usage of strip() vs trim()**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/17" expanded>
+
+Hi Prof, can i check if there are any preferences between the usage of strip() and trim() function? Ex 7 does not permit the usage of strip() from the result of my submissions. 
+
+Ive read
+
+https://www.journaldev.com/33291/java-string-trim-method-examples#:~:text=This%20method%20uses%20Unicode%20code,it%20uses%20the%20Unicode%20standard.
+
+and it suggests to use strip() instead of trim().
+Would like to ask for any guidance on this issue. Thank you!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/17#issuecomment-766506331" expanded>
+
+Thanks Prof! Appreciate the honesty :)
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 26. TAN ..XERN `@tzexern` (2 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Week6-Lecture-Part3**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/33" expanded>
+
+Hi,  
+I'd like to ask if part 3 of the week 6 lecture is intentionally left out as I don't seem to find it.
+
+Thanks in advance!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/33#issuecomment-778587005" expanded>
+
+Alright, thanks prof!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 27. JALV..IANG `@jalvinchan` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/9#issuecomment-762306888" expanded>
+
+try this:
+https://stackoverflow.com/a/62145210
+
+Sourcetree doesnt have all the required credentials for private repo
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 28. MUHA..AMAL `@Zufiqqar` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: GitHub Classroom Autograding Workflow**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/12" expanded>
+
+How do we get a tick for the GitHub Classroom Autograding Workflow component? Do we just attend the GitHub Classroom sessions during our respective tutorial sessions?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 29. LIU ..QIAN `@lowwilliam` (1 posts) "  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: I try to push commits to github but fail the grading**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/21" expanded>
+
+![image](https://user-images.githubusercontent.com/24670073/105708472-80081300-5f4f-11eb-8b14-ca26dde2f363.png)
+
+It keep saying: The job was not started because the spending limit for Actions and Packages has been exceeded.
+
+I am not sure if it is the problem of my code or a setting issue.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 30. BUND..RISH `@H-horizon` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/26#issuecomment-770166991" expanded>
+
+![Extends](https://user-images.githubusercontent.com/66361650/106349268-b6ef7780-6307-11eb-8d84-2212728d2653.png)
+
+I believe we have to use "implements" if we are accessing an interface method and use "extends" to access a class. So since Circle is a class, extends should be used here. Not sure tho.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 31. HAZE.. TAN `@hazelhedmine` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: sourcetree credential helper selector**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/6" expanded>
+
+Hi, whenever I use source tree to clone/push anything the credential helper selector keep popping up and I'm not sure what to select. Just clicking cancel works but it will still pop up the next time I use source tree. Does anyone know which option I should select or is there a way to get rid of it? Thank you!
+
+![image](https://user-images.githubusercontent.com/66232361/104836399-bf4bb980-58e8-11eb-84e8-0a71f2bd19b6.png)
+
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 32. QIU .. WEN `@e00426142` (1 posts) "  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/25#issuecomment-771490427" expanded>
+
+just change the line separator method to "\n" and it will be fine 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 33. XIA ..FUXI `@fupernova` (1 posts) <span class=text-warning>:octicon-eye:</span>"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2113-AY2021S2/forum/issues/11#issuecomment-762806531" expanded>
+
+Ctrl + Alt + Shift + S to open up the JDK selection screen
+</panel>
+
+</panel>

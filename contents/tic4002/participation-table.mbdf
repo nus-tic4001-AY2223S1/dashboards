@@ -1,24 +1,24 @@
-%%[This page was last updated on Feb 05 2021]%% 
+%%[This page was last updated on Feb 18 2021]%% 
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., participation status of each week → total weeks in which you met the participation bar">Weeks participated</tooltip>|<tooltip content="Activities participated in">Activities</tooltip>
 -------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------
-A0120420_ %%<trigger trigger="click" for="modal:pD-A0120420">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-warning mr-1">~~3~~</span> → **2** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%">Q</tooltip></span>
-A0137851_ %%<trigger trigger="click" for="modal:pD-A0137851">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-warning mr-1">~~2~~</span><span class="badge badge-warning mr-1">~~3~~</span> → **0** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%">Q</tooltip></span>
-A0150565_ %%<trigger trigger="click" for="modal:pD-A0150565">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **2** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(2/3 points)%%">Q</tooltip></span>
-A0177716_ %%<trigger trigger="click" for="modal:pD-A0177716">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span>
-A0177727_ %%<trigger trigger="click" for="modal:pD-A0177727">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `58%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `33%` %%(2/3 points)%%">Q</tooltip></span>
-A0177732_ %%<trigger trigger="click" for="modal:pD-A0177732">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `65%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(2/3 points)%%">Q</tooltip></span>
-A0177740_ %%<trigger trigger="click" for="modal:pD-A0177740">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span>
-A0177754_ %%<trigger trigger="click" for="modal:pD-A0177754">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span>
-A0177784_ %%<trigger trigger="click" for="modal:pD-A0177784">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `88%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span>
-A0177802_ %%<trigger trigger="click" for="modal:pD-A0177802">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `69%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span>
-A0177807_ %%<trigger trigger="click" for="modal:pD-A0177807">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-warning mr-1">~~3~~</span> → **2** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `62%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%">Q</tooltip></span>
-A0177809_ %%<trigger trigger="click" for="modal:pD-A0177809">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(2/3 points)%%">Q</tooltip></span>
-A0177810_ %%<trigger trigger="click" for="modal:pD-A0177810">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `96%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span>
-A0177820_ %%<trigger trigger="click" for="modal:pD-A0177820">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-warning mr-1">~~2~~</span><span class="badge badge-warning mr-1">~~3~~</span> → **0** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `42%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%">Q</tooltip></span>
-A0177968_ %%<trigger trigger="click" for="modal:pD-A0177968">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **2** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `88%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span>
-A0177971_ %%<trigger trigger="click" for="modal:pD-A0177971">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `77%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span>
-A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `65%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span>
+A0120420_ %%<trigger trigger="click" for="modal:pD-A0120420">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-warning mr-1">~~3~~</span><span class="badge badge-success mr-1">4</span><span class="badge badge-warning mr-1">~~5~~</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `75%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `82%` %%(2/3 points)%%">Q</tooltip></span>
+A0137851_ %%<trigger trigger="click" for="modal:pD-A0137851">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-warning mr-1">~~2~~</span><span class="badge badge-warning mr-1">~~3~~</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **2** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0150565_ %%<trigger trigger="click" for="modal:pD-A0150565">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **4** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0177716_ %%<trigger trigger="click" for="modal:pD-A0177716">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0177727_ %%<trigger trigger="click" for="modal:pD-A0177727">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-warning mr-1">~~4~~</span><span class="badge badge-warning mr-1">~~5~~</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `58%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `33%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `0%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `64%` %%(1/3 points)%%">Q</tooltip></span>
+A0177732_ %%<trigger trigger="click" for="modal:pD-A0177732">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-warning mr-1">~~5~~</span> → **4** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `65%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `91%` %%(2/3 points)%%">Q</tooltip></span>
+A0177740_ %%<trigger trigger="click" for="modal:pD-A0177740">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `91%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0177754_ %%<trigger trigger="click" for="modal:pD-A0177754">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `91%` %%(3/3 points)%%">Q</tooltip></span>
+A0177784_ %%<trigger trigger="click" for="modal:pD-A0177784">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `88%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `64%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0177802_ %%<trigger trigger="click" for="modal:pD-A0177802">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `69%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0177807_ %%<trigger trigger="click" for="modal:pD-A0177807">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-warning mr-1">~~3~~</span><span class="badge badge-danger mr-1">~~4~~</span><span class="badge badge-success mr-1">5</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `62%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4: :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `82%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0177809_ %%<trigger trigger="click" for="modal:pD-A0177809">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-warning mr-1">~~4~~</span><span class="badge badge-warning mr-1">~~5~~</span> → **3** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%">Q</tooltip></span>
+A0177810_ %%<trigger trigger="click" for="modal:pD-A0177810">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-warning mr-1">~~5~~</span> → **4** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `96%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%">Q</tooltip></span>
+A0177820_ %%<trigger trigger="click" for="modal:pD-A0177820">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-warning mr-1">~~2~~</span><span class="badge badge-warning mr-1">~~3~~</span><span class="badge badge-warning mr-1">~~4~~</span><span class="badge badge-warning mr-1">~~5~~</span> → **0** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `42%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `73%` %%(2/3 points)%%">Q</tooltip></span>
+A0177968_ %%<trigger trigger="click" for="modal:pD-A0177968">{{ icon_info }}</trigger>%%|<span class="badge badge-danger mr-1">~~1~~</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **4** | W1: :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `88%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
+A0177971_ %%<trigger trigger="click" for="modal:pD-A0177971">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `77%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%">Q</tooltip></span>
+A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span> → **5** | W1:<span class="badge badge-light text-success"><tooltip content="**Submit pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `65%` %%(2/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%">Q</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%">J</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%">Q</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%">T</tooltip></span>
 
 <modal large header="A0120420_: Participation Details" id="modal:pD-A0120420">
 
@@ -32,6 +32,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(2/3 points)%%
 ##### Week <span class="badge badge-warning mr-1">~~3~~</span>: <small>1/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` %%(2/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-warning mr-1">~~5~~</span>: <small>2/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `82%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -49,6 +55,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%
 ##### Week <span class="badge badge-warning mr-1">~~3~~</span>: <small>1/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -66,6 +78,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(2/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -83,6 +101,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -100,6 +124,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `58%` %%(2/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `33%` %%(2/3 points)%%
+##### Week <span class="badge badge-warning mr-1">~~4~~</span>: <small>1/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `0%` %%(1/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: not done %%(0/2 points)%%
+##### Week <span class="badge badge-warning mr-1">~~5~~</span>: <small>1/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `64%` %%(1/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -117,6 +147,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `65%` %%(2/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(2/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-warning mr-1">~~5~~</span>: <small>2/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `91%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -134,6 +170,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `91%` %%(3/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -151,6 +193,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>3/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: not done %%(0/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>3/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `91%` %%(3/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -168,6 +216,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `88%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `64%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -185,6 +239,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `69%` %%(2/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -202,6 +262,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `62%` %%(2/3 points)%%
 ##### Week <span class="badge badge-warning mr-1">~~3~~</span>: <small>1/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `67%` %%(1/3 points)%%
+##### Week <span class="badge badge-danger mr-1">~~4~~</span>: <small>0/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: not done %%(0/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `82%` %%(3/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -219,6 +285,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `85%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(2/3 points)%%
+##### Week <span class="badge badge-warning mr-1">~~4~~</span>: <small>2/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `0%` %%(0/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-warning mr-1">~~5~~</span>: <small>2/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -236,6 +308,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `96%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-warning mr-1">~~5~~</span>: <small>2/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -253,6 +331,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `42%` %%(1/3 points)%%
 ##### Week <span class="badge badge-warning mr-1">~~3~~</span>: <small>1/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%
+##### Week <span class="badge badge-warning mr-1">~~4~~</span>: <small>1/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `50%` %%(1/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: not done %%(0/2 points)%%
+##### Week <span class="badge badge-warning mr-1">~~5~~</span>: <small>2/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `73%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -270,6 +354,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `88%` %%(2/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
@@ -287,6 +377,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `77%` %%(3/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>5/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>3/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(3/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: not done %%(0/2 points)%%
 </div>
     
 </modal>
@@ -304,6 +400,12 @@ A0177989_ %%<trigger trigger="click" for="modal:pD-A0177989">{{ icon_info }}</tr
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `65%` %%(2/3 points)%%
 ##### Week <span class="badge badge-success mr-1">3</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(3/3 points)%%
+##### Week <span class="badge badge-success mr-1">4</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` %%(2/3 points)%%
+* **Accepted the invitation to join the module org on GitHub**: done %%(2/2 points)%%
+##### Week <span class="badge badge-success mr-1">5</span>: <small>4/5 points</small>
+* **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` %%(2/3 points)%%
+* **Submit practice peer evaluation on TEAMMATES**: done %%(2/2 points)%%
 </div>
     
 </modal>
