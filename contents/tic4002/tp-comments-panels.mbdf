@@ -1,1 +1,496 @@
-%%[No data yet]%%
+%%[This page was last updated on Mar 25 2021]%%
+
+
+<panel type="info" header="### 1. WANG ZHENQUAN `@Impala36` (13 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/33#discussion_r579808333" expanded>
+
+Same as the comment above.
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/33#discussion_r579808253" expanded>
+
+Perhaps the second NRIC field should be removed?
+</panel>
+
+<panel  header="**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/33#discussion_r579808509" expanded>
+
+Line 190: Perhaps the NRIC field could also be shifted to after Name?
+</panel>
+
+<panel  header="**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/34#discussion_r579818609" expanded>
+
+Perhaps S1111112B could be replaced with S1234567B so that it's easier to check the correct format?
+</panel>
+
+<panel  header="**5 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/34#discussion_r579818685" expanded>
+
+S12345678A has 8 numbers instead of the required 7.
+</panel>
+
+<panel  header="**6 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/43#discussion_r585530267" expanded>
+
+These extra newlines should be removed.
+</panel>
+
+<panel  header="**7 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588242638" expanded>
+
+There are two date fields.
+</panel>
+
+<panel  header="**8 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588242823" expanded>
+
+Same case as above.
+</panel>
+
+<panel  header="**9 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588243237" expanded>
+
+The example add dat is not in the second position.
+</panel>
+
+<panel  header="**10 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588243429" expanded>
+
+Edit and Find date field is not in the second position.
+</panel>
+
+<panel  header="**11 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/65#discussion_r589486234" expanded>
+
+There might be an issue with this.
+Previously it was getName AND (getNric OR getPhone).
+Now it is getName AND getNric AND getPhone AND getEmail.
+</panel>
+
+<panel  header="**12 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/75#discussion_r593113414" expanded>
+
+This should also check for leap years, it would be 29 days instead.
+</panel>
+
+<panel  header="**13 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/75#discussion_r597371182" expanded>
+
+Line 43 and 44 are the same.
+</panel>
+
+<panel  header="**14 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/5#issuecomment-775078344" expanded>
+
+I have added the remark command, field and tests in this [commit](https://github.com/TIC4002-F18-1/tp2/pull/6/commits/c6d1836755e58bac49e7e6f8c418efe3698c28ca).
+</panel>
+
+<panel  header="**15 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/71#issuecomment-794153459" expanded>
+
+Pushing from wrong branch.
+</panel>
+
+<panel  header="**16 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/52#issuecomment-797473041" expanded>
+
+Format: followup INDEX NUMBER_OF_DAYS
+</panel>
+
+<panel  header="**17 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/79#issuecomment-797490353" expanded>
+
+Show exclamation icon when person to be called is today
+
+Show number of days set for the call interval
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 2. CHAN WEIZHONG `@e0260222` (4 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/60#discussion_r591701671" expanded>
+
+Perhaps this should be `list all employees in Employee Tracker` instead to make it more consistent with our naming conventions?
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/60#discussion_r591703065" expanded>
+
+Perhaps `Employee Tracker` is more consistent with our naming convention than `address book`?
+</panel>
+
+<panel  header="**3 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/75#discussion_r594498284" expanded>
+
+Perhaps `[n/NAME]` should be removed? 
+</panel>
+
+<panel  header="**4 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/75#discussion_r594498814" expanded>
+
+Perhaps `[r/ROLE]` should be removed?
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/issues/27#issuecomment-782885120" expanded>
+
+Does not add value to both users and developers who are maintaining the code
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 3. ZHENG YIHENG `@Yiheng0410` (1 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on others PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/72#discussion_r592046579" expanded>
+
+ok
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588317754" expanded>
+
+done
+</panel>
+
+<panel  header="**3 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588317807" expanded>
+
+done
+</panel>
+
+<panel  header="**4 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588322944" expanded>
+
+removed the duplicated one
+</panel>
+
+<panel  header="**5 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/56#discussion_r588323068" expanded>
+
+corrected
+</panel>
+
+<panel  header="**6 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/75#discussion_r593146816" expanded>
+
+done
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 4. JANUARIUS JANG KHENG LIM `@JanuariusJang` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-3/tp2/issues/9#issuecomment-782064039" expanded>
+
+Finished Developers guide
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 5. CHI LAI PING `@Chilaiping` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/pull/17#issuecomment-787057175" expanded>
+
+For tutorial learning
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 6. OLIVIER CHEAH KUN DA `@skyventus` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/22#issuecomment-787452049" expanded>
+
+Done
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/36#issuecomment-792267823" expanded>
+
+Thanks!
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/pull/52#issuecomment-801773813" expanded>
+
+Good
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 7. DAI WEI `@daiweinus` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/60#discussion_r592019922" expanded>
+
+done
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/16#issuecomment-779658983" expanded>
+
+close #4,  close #8,  close #13
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/24#issuecomment-782143038" expanded>
+
+The PRs created for tutorials need not be merged.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 8. LIN TONG `@dgc5213` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/15#issuecomment-779206548" expanded>
+
+@e0260222 Hi Weizhong Please help to add Milestone and merge it. thanks
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/38#issuecomment-787267614" expanded>
+
+Please help merge. thanks @e0260222 
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/55#issuecomment-789697000" expanded>
+
+@e0260222 Hi Weizhong, Please help to add milestone and merge it. thanks
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/63#issuecomment-796664522" expanded>
+
+@e0260222 Please help merge it. thanks
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-2/tp2/pull/75#issuecomment-799521484" expanded>
+
+Hi @e0260222 , Please help merge it . thanks
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 9. TAY JUN WEN `@tototto` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-3/tp2/pull/3#issuecomment-777984294" expanded>
+
+no need to create PR to Team Repo for this tutorial-removing-field
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-3/tp2/pull/24#issuecomment-783847070" expanded>
+
+resolved merge conflict that was blocking CI
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-3/tp2/issues/11#issuecomment-784168733" expanded>
+
+invalid user story
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-3/tp2/issues/47#issuecomment-803363263" expanded>
+
+unable to replicate after merging multiple PRs was done.
+closing issue.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 10. HNGOI ZI WEN `@e0261618` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/pull/48#issuecomment-801098711" expanded>
+
+closing due to incorrect branch
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 11. LI YI `@timmyly7` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/pull/31#issuecomment-791352923" expanded>
+
+Merge code, add new feature for appointment
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/27#issuecomment-791354644" expanded>
+
+View appointment function is added to the app
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/27#issuecomment-791354816" expanded>
+
+Now can view appointment base on seach of the patient name
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 12. ADI KESAVA DAS S/O SUDARSANA DASA ADHIKARI `@adi-kd0021` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/pull/15#issuecomment-781825559" expanded>
+
+Reviewed. All good so far.
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/9#issuecomment-793880286" expanded>
+
+Page is updated
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/10#issuecomment-793881987" expanded>
+
+Page is updated
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/23#issuecomment-793887885" expanded>
+
+View Patient data function has been updated
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/25#issuecomment-793889012" expanded>
+
+Functionality exists
+</panel>
+
+<panel  header="**6 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-4/tp2/issues/26#issuecomment-793889467" expanded>
+
+Functionality exists
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 13. LIN BINHUI `@binbinhui` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/20#issuecomment-782806714" expanded>
+
+Done
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/17#issuecomment-782806767" expanded>
+
+Done
+</panel>
+
+<panel  header="**3 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/4#issuecomment-784257900" expanded>
+
+task done. 
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/59#issuecomment-792280018" expanded>
+
+Done
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/44#issuecomment-792280227" expanded>
+
+Done
+</panel>
+
+<panel  header="**6 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/52#issuecomment-805811269" expanded>
+
+Done
+</panel>
+
+<panel  header="**7 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/104#issuecomment-806717314" expanded>
+
+verified.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 14. LIN QING `@linqing42` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/33#discussion_r579808645" expanded>
+
+okay
+</panel>
+
+<panel  header="**2 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/33#discussion_r579808671" expanded>
+
+noted
+</panel>
+
+<panel  header="**3 :octicon-git-pull-request::octicon-comment:** (commented on own PR)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/34#discussion_r579818969" expanded>
+
+okay. i will update it and the IC code change to NRIC and the space between IC and phone
+</panel>
+
+<panel  header="**4 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/2#issuecomment-779810146" expanded>
+
+but cannot show in Address App
+</panel>
+
+<panel  header="**5 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/3#issuecomment-780515792" expanded>
+
+pls, ignore the commits as it is wrong reference to this issue. it supposes be issue add NRIC.
+</panel>
+
+<panel  header="**6 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/2#issuecomment-780516702" expanded>
+
+solve the issue regarding the show in Address app.
+</panel>
+
+<panel  header="**7 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/19#issuecomment-782033605" expanded>
+
+updated 
+</panel>
+
+<panel  header="**8 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/5#issuecomment-782033804" expanded>
+
+done 
+</panel>
+
+<panel  header="**9 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/2#issuecomment-782033912" expanded>
+
+done 
+</panel>
+
+<panel  header="**10 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/15#issuecomment-782034151" expanded>
+
+updated 
+</panel>
+
+<panel  header="**11 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/26#issuecomment-782600150" expanded>
+
+done
+</panel>
+
+<panel  header="**12 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/pull/29#issuecomment-782618112" expanded>
+
+pls help me review regarding update UG with NRIC
+</panel>
+
+<panel  header="**13 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/22#issuecomment-782895649" expanded>
+
+Hi, I  help you to close the issue
+</panel>
+
+<panel  header="**14 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/18#issuecomment-782895678" expanded>
+
+Hi, I help you to close the issue
+</panel>
+
+<panel  header="**15 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-1/tp2/issues/76#issuecomment-799424534" expanded>
+
+UML(addCommandSequence diagram)
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### 15. ZHENG SHIJIE `@ZhengShijieNUS` (0 comments)"  collapsed>
+
+
+<panel  header="**1 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-3/tp2/pull/4#issuecomment-780541557" expanded>
+
+Close due to more updates
+</panel>
+
+<panel  header="**2 :octicon-comment:** (other comment)" popup-url="https://github.com/AY2021S2-TIC4002-F18-3/tp2/issues/28#issuecomment-785517947" expanded>
+
+Change to: 
+![image](https://user-images.githubusercontent.com/43492731/109091415-b3f17680-774f-11eb-8a37-361df20e9761.png)
+
+</panel>
+
+</panel>
