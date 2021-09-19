@@ -1,1 +1,1060 @@
-%%[No data yet]%%
+
+<panel type="info" header="### 1. LI S..IHAO `@l-shihao` (17 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700171173" expanded>
+
+great, learn from you, always kinda unsure about how to encapsulate readin 👏 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700172025" expanded>
+
+I'm using `trim()`, after research, `strip()` is better 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700176711" expanded>
+
+How do you think a static property to store the `totalNumOfTask`?
+not sure if java properties can be computed properties, so that I hope to give each task a unique but dynamically changing `taskNo` property 🤔 
+now my `taskNo` is initiated by `= totalNumOfTask`, but it works only because there is no delete task function in Duke 
+
+also thinking about if the `totalNumOfTask` can be more dynamically mutated to be `totalNumOfUndoneTask` which is more useful 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700189961" expanded>
+
+not sure whether too overly done if instead of the String here, replace it with something like: 
+`Ui.dukeUnknownExceptionMessage()`? maybe a static method for simplicity
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700196719" expanded>
+
+first glance I thought this is a command for Add new commands, so that there will be a data structure that holds all the commands, and others programmer can create new sub class command and add to command map elsewhere. 🤔 
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700202064" expanded>
+
+this is why you put `isExit()` in abstract Command class, kinda nice! 
+I didn't use loop here, makes my life harder to use function to exit the recursive call 😮‍💨  
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700921102" expanded>
+
+I like the all caps for constant, good 😄  
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#pullrequestreview-743868747" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#pullrequestreview-744843344" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#discussion_r700927064" expanded>
+
+sorry, should package name such as `Duke`, `Task` to be all in lower case? like `duke`, `task`
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#discussion_r700929554" expanded>
+
+condition might be able to extract out as a method with a more readable name? 
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#discussion_r700930327" expanded>
+
+maybe could consider extract out the print screen to an ui package? 
+</panel>
+
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#discussion_r700930849" expanded>
+
+I like the boolean naming 👍 
+</panel>
+
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#discussion_r700932689" expanded>
+
+please enlighten me the reason a subclass extends to a superclass without any additional properties or methods
+</panel>
+
+<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#discussion_r700933781" expanded>
+
+if is better to have `@Override` on the line above? 
+</panel>
+
+<panel  header="**16 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#discussion_r700934308" expanded>
+
+I like the + sign ❤️ 
+</panel>
+
+<panel  header="**17 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/20#pullrequestreview-744851535" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 2. NG X..N YI `@Elxyng` (15 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#discussion_r701669403" expanded>
+
+Put inside a method to handle this else if block for readers to understand the flow clearly.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#discussion_r701669516" expanded>
+
+Put inside a method to handle this else if block for readers to understand the flow clearly.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#discussion_r701669837" expanded>
+
+Put inside a method to handle this else if block for readers to understand the flow clearly.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#discussion_r701669932" expanded>
+
+Put inside a method to handle this else if block for readers to understand the flow clearly.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#pullrequestreview-745814486" expanded>
+
+**Review Status:** COMMENTED
+
+Overall good coding practices!
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701630658" expanded>
+
+Names representing methods should be written in camelCase.
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701641714" expanded>
+
+Names representing methods should be written in camelCase.
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701641807" expanded>
+
+Names representing methods should be written in camelCase.
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701642656" expanded>
+
+Names representing methods should be written in camelCase.
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701643120" expanded>
+
+Names representing methods should be written in camelCase.
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701643392" expanded>
+
+Names representing methods should be written in camelCase.
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701643465" expanded>
+
+Names representing methods should be written in camelCase.
+</panel>
+
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r701647197" expanded>
+
+Move switch cases into the try block instead.
+</panel>
+
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#pullrequestreview-745763367" expanded>
+
+**Review Status:** COMMENTED
+
+Overall good coding practices!
+</panel>
+
+<panel  header="**15 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#pullrequestreview-745799985" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 3. GWEE..CHAI `@gweeyc` (12 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r700318533" expanded>
+
+I believe isDone is already assigned default value false by Java? So think can omit the setting of the variable again in the Task constructor?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r700322431" expanded>
+
+Think here one can simplify the logic statements further, as suggested in Maximise readability guidelines?
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r700329787" expanded>
+
+I believe digits 5,6,4 will be like magic numbers here in the codes? Perhaps can store them in constant variables instead?
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r700331530" expanded>
+
+The open resource Scanner is not closed? Maybe try-with-resource method can be a better help in such cases?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r700339055" expanded>
+
+I believe the line.contains(command) method cannot tell where the command begins in the user input string? If input string has "done" in it and the line.charAt(0) == 'd' is true, yet the first word can be e.g. "ddt"? The line logic seems not clear here?
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r700341994" expanded>
+
+The done method here seems convoluted a bit? Maybe some comments as to describe what the method does with the user input line would be great?
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r701893848" expanded>
+
+```
+public static void addSpaces(String text, Integer value) {
+        System.out.printf((text) + "%n", " ".repeat(value));
+    }
+```
+
+Oh, yes I was initially thrown off by the above addSpaces() code with the brackets (text) - so the numbers appear cryptic to me, but I look at the above code usage line 27 - 30 I see now how it is supposed to work.
+Kindly disregard my previous comment, thank you!
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#pullrequestreview-744072116" expanded>
+
+**Review Status:** COMMENTED
+
+I like the author had separated out the display content to a UI class, neat. Overall I think the code can still benefit from further simplifications as per the code standards promulgated in our course. I have attempted to highlight a few in my comments. Overall a good program!
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#pullrequestreview-746110482" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/11#discussion_r700298598" expanded>
+
+Since tasks field belongs to Duke class alone, perhaps can further enhance its security by prefixing it with private static final modifiers?
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/11#discussion_r700306892" expanded>
+
+The open Scanner resource should be closed after use? Maybe try-with-resource method Java is better in such cases? 
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/11#pullrequestreview-744044547" expanded>
+
+**Review Status:** COMMENTED
+
+Overall a good to follow well presented program in the main. I will go with Loyanshuang comments as well.
+</panel>
+
+</panel>
+
+<panel type="info" header="### 4. TAN ..CHUN `@TanChiaChun` (10 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r702302914" expanded>
+
+Recommend to import classes explicitly
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r702303341" expanded>
+
+Perhaps consider startsWith() method? Not coding standard related by the way
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r702304325" expanded>
+
+Perhaps rename these variables to be more specific? My understanding is 'done' command accepts >1 indexes, took some time to figure out fyi. Think will be helpful when you look back these codes after a while
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r702304999" expanded>
+
+Recommend to rename method name to verb form, e.g. processInvalidTask
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r702340513" expanded>
+
+Can consider verb (checkIndexOutOfRange) or boolean (isIndexOutOfRange) forms
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r702340519" expanded>
+
+Similarly, can consider verb or boolean forms
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#discussion_r702341724" expanded>
+
+Happen to think, can try removing this line, should be not required anymore
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/4#pullrequestreview-746581361" expanded>
+
+**Review Status:** COMMENTED
+
+Some minor feedback but great codes overall, my honour to review your codes :smile:
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/16#discussion_r702343395" expanded>
+
+Perhaps rename method to verb form, e.g. printNewLine?
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/16#pullrequestreview-746602522" expanded>
+
+**Review Status:** COMMENTED
+
+Only 1 minor feedback I have, keep it up :thumbsup:
+</panel>
+
+</panel>
+
+<panel type="info" header="### 5. LIM .. YIN `@yinyin377` (8 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/5#discussion_r702010204" expanded>
+
+not sure if this should be while loop?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/5#discussion_r702011305" expanded>
+
+Indentation with the next line seems to be misaligned 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/5#pullrequestreview-746266498" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#discussion_r702013054" expanded>
+
+Boolean variables/methods should be named to sound like booleans
+maybe canRun is a better naming
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#discussion_r702014264" expanded>
+
+Line 49 to 51. can improve by putting into a method as it is repeated for todo, deadline and event
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#discussion_r702015163" expanded>
+
+Overall, I like that it is kept clean and very readable.
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#discussion_r702015796" expanded>
+
+to include comments so others know what type of symbol is used
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#pullrequestreview-746270529" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 6. WANG..NWEI `@e0373972` (9 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/6#discussion_r701242502" expanded>
+
+Perhaps distinguish clearly between single-valued and multi-valued variables here?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/6#discussion_r701243591" expanded>
+
+I like that you use many short methods to improve the readability.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/6#pullrequestreview-745279711" expanded>
+
+**Review Status:** COMMENTED
+
+Good Job! :thumbsup:
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/19#discussion_r699565518" expanded>
+
+Should this be listed explicitly for imported classes?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/19#discussion_r699567055" expanded>
+
+I like you distinguish clearly between single-valued and multi-valued variables.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/19#pullrequestreview-743052348" expanded>
+
+**Review Status:** COMMENTED
+
+Good Job overall!  :thumbsup:
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/21#discussion_r698595265" expanded>
+
+:thumbsup: Good to use "switch" and "case" for different commands.
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/21#discussion_r698604046" expanded>
+
+Try to use Exceptions to handle errors.
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/21#pullrequestreview-741793079" expanded>
+
+**Review Status:** COMMENTED
+
+Looks good overall! :thumbsup:
+</panel>
+
+</panel>
+
+<panel type="info" header="### 7. GIMP..ADAY `@Mr-YaRou` (10 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#discussion_r698038497" expanded>
+
+Small Feedback, perhaps utilizing a design pattern instead of using multiple if-else statements would improve readability?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#discussion_r698039186" expanded>
+
+Try to consider similar inputs (e.g. LIST), should Duke not understand what this means?
+
+Similar suggestion to the other "keywords" below.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#pullrequestreview-741131354" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#pullrequestreview-741131933" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#discussion_r698040196" expanded>
+
+For readability, perhaps creating a UI Class to help with the printing of lines?
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#discussion_r698040389" expanded>
+
+Perhaps consider scenarios where input is similar (e.g. BYE / LIST), should this be interpreted as an "action" for duke?
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#discussion_r698040449" expanded>
+
+I like how you increment and print the index in the same line!
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#pullrequestreview-741132801" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#pullrequestreview-741132929" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#pullrequestreview-741132973" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 8. LEOW.. HUI `@IcyNoPeople` (7 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/14#discussion_r701561582" expanded>
+
+NotUnderstandable should weird, maybe can try Unclear or Invalid?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/14#discussion_r701563329" expanded>
+
+Not sure if package or classes should have an underscore, but if it is ok, then can ignore this comment
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/14#discussion_r701564690" expanded>
+
+The comment here is helpful for me. 👍 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/14#discussion_r701567601" expanded>
+
+Maybe can avoid arrowhead format by checking for error first?
+```suggestion
+        if (inputWords.length != 2) {
+            //throw error 1
+        } //error is checked and throw out before going to the next line
+        if (!inputWords[1].matches("\\d+")){
+           //throw error 2
+        }
+        //...
+```
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/14#pullrequestreview-745679324" expanded>
+
+**Review Status:** COMMENTED
+
+I have left some comment. Hope it helps. 😃 
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/22#discussion_r701570888" expanded>
+
+Maybe can try break it down to more smaller method to improve readability? 
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/22#pullrequestreview-745689398" expanded>
+
+**Review Status:** COMMENTED
+
+I have added come comments, hope it helps 😃 
+</panel>
+
+</panel>
+
+<panel type="info" header="### 9. ZHUA..MING `@yaololo` (8 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#discussion_r702435713" expanded>
+
+I think the method name should start with a lower case letter.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/10#pullrequestreview-746658910" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/11#discussion_r702435348" expanded>
+
+It would be good if you can put an error message to `DukeException()`, so that it would be easier to debug.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/11#pullrequestreview-746658686" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/14#discussion_r702433640" expanded>
+
+I think in `Java`, we should use `camelcase` syntax.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/14#pullrequestreview-746657574" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/17#discussion_r702432323" expanded>
+
+I like the `CommandFactory` concept to keep all available commands together. 👍 
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/17#pullrequestreview-746656724" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 10. TAN .. HUA `@thisisdax` (6 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/8#discussion_r701820439" expanded>
+
+You can consider renaming this method to have more clarity.
+
+Perhaps "handleInput" might be a better naming convention. 👍 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/8#discussion_r701844520" expanded>
+
+Since we are using split(" ") string method to split up the words delimited by spaces, it will naturally remove spaces from each of the elements returned.
+
+```
+String wordOne = "Hello World"
+String[] splitWords = wordOne.split(" ")
+// splitWords[0] == "Hello" and splitWords[1] == "World"
+
+// In the case of multiple spaces (e.g. double spaces)
+String wordTwo = "Hello  World"
+splitWords = wordTwo.split(" ")
+// splitWords[0] == "Hello"
+// splitWords[1] == " "
+// splitWords[2] == "World"
+```
+
+The trim() method removes whitespace from both ends of a string and since split handled that for you, you can save some extra steps here.
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/8#pullrequestreview-746009975" expanded>
+
+**Review Status:** COMMENTED
+
+Good stuff! Couldn't find much else that I would do otherwise.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/15#discussion_r701809631" expanded>
+
+Can consider sticking to one indentation style, it will be easier to read when dealing with a larger codebase or working long hours on the project.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/15#discussion_r701810780" expanded>
+
+Would be better for code quality if you could remove commented codes before a commit and push. 👍 
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/15#pullrequestreview-745995909" expanded>
+
+**Review Status:** COMMENTED
+
+Everything looks great, just gotta tidy up and lint the code before each commit.
+</panel>
+
+</panel>
+
+<panel type="info" header="### 11. SOH ..AMES `@sohwkjames` (6 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/9#discussion_r702309549" expanded>
+
+Maybe can modularize this part a bit
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/9#discussion_r702309658" expanded>
+
+Good usage of override 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/9#pullrequestreview-746585062" expanded>
+
+**Review Status:** COMMENTED
+
+Some parts in the getMsg() method can be modularize I think. Overall looks good to me.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/17#discussion_r702309183" expanded>
+
+I think this is a bit tight coupling
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/17#discussion_r702309228" expanded>
+
+Good usage of design patterns here
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/17#pullrequestreview-746584904" expanded>
+
+**Review Status:** COMMENTED
+
+Good usage of design patterns! An area of improvement is there is some tight coupling with the task list. Looks good to me overall
+</panel>
+
+</panel>
+
+<panel type="info" header="### 12. KHOR..YONG `@KaydenKhor` (5 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/2#discussion_r701777017" expanded>
+
+In terms of readability, I think you can break new line for this long string, so that it can contain within the screen
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/2#discussion_r701777447" expanded>
+
+You can try making this Task class as an abstract class! 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/2#pullrequestreview-745952361" expanded>
+
+**Review Status:** COMMENTED
+
+Your code looks clean! Just some ideas to leverage the power of OOP. Hope it helps!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/22#discussion_r701779952" expanded>
+
+You can trying making Task class as an Abstract class
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/22#pullrequestreview-745956155" expanded>
+
+**Review Status:** COMMENTED
+
+Overall your code looks great. Just need to leverage the power of OOP more.
+</panel>
+
+</panel>
+
+<panel type="info" header="### 13. CHEN..YUAN `@chenghuiyuan` (6 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#discussion_r702284794" expanded>
+
+Perhaps can use `tasks` (plural form) as the variable name instead of addedList. 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#discussion_r702284971" expanded>
+
+I like that all Imported classes are listed explicitly instead of java.util.*
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#discussion_r702285314" expanded>
+
+I like that the loop body is wrapped by curly brackets even when there is only one line in the body.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#pullrequestreview-746568389" expanded>
+
+**Review Status:** COMMENTED
+
+First PR review
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#pullrequestreview-746570302" expanded>
+
+**Review Status:** COMMENTED
+
+First PR review
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/18#pullrequestreview-746570825" expanded>
+
+**Review Status:** COMMENTED
+
+Edited first PR review
+</panel>
+
+</panel>
+
+<panel type="info" header="### 14. ZHAN.. YUN `@zyjarvis` (6 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#discussion_r700210851" expanded>
+
+Perhaps you can try to break the long method into many short methods to improve the readability.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/3#pullrequestreview-743923713" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/16#discussion_r700027570" expanded>
+
+Perhaps imported classes can be listed explicitly here.
+
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/16#discussion_r700032908" expanded>
+
+A small suggestion, it would be better if there is no indentation for case clauses in the switch statement.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/16#pullrequestreview-743674150" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/16#pullrequestreview-743681294" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 15. LIM ..YONG `@jr-mojito` (6 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/6#discussion_r702427316" expanded>
+
+I like how you add comments on for unicode.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/6#pullrequestreview-746653187" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#discussion_r702442557" expanded>
+
+I like that it is inheritance is clear.
+
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#discussion_r702442878" expanded>
+
+Perhaps similar repeated/similar function can be extracted to new functions.
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#pullrequestreview-746663516" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/12#pullrequestreview-746663719" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 16. LIM ..KANG `@Opkko` (4 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/5#discussion_r702258097" expanded>
+
+Instead of import task should be more abstract and use import Task*
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/5#discussion_r702263318" expanded>
+
+curly braces indentation issue need one more tab space
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/5#discussion_r702263841" expanded>
+
+Can consider using a switch case instead as number of cases is more than 5, switch case will implement it as a lookup table or hash list which is much faster than if else.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/5#pullrequestreview-746554451" expanded>
+
+**Review Status:** COMMENTED
+
+Just my two cents
+</panel>
+
+</panel>
+
+<panel type="info" header="### 17. LAM ..CHUN `@zcnmashleu95` (6 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#discussion_r700232793" expanded>
+
+Use of Enum is great. Naming is also intuitive
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#pullrequestreview-743949383" expanded>
+
+**Review Status:** COMMENTED
+
+Generally, the readability is great. Methods are named with verbs, exceptions are also thrown.
+Readability and Naming are fine
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/7#pullrequestreview-743953845" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/9#discussion_r700214780" expanded>
+
+May probably want to refactor with a design pattern afterwards. Otherwise, there aren't much coding violations
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/9#discussion_r700217752" expanded>
+
+I don't think this is a major coding violation but the function could be renamed without the "Function" word or to be renamed differently. Similar opinion for other functions/methods. Otherwise, generally within the method itself, no coding violations.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/9#pullrequestreview-743929042" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 18. JOSE..YANG `@badfr0g` (4 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/1#discussion_r702356238" expanded>
+
+currently i am using if else for this part as well, have you think of using switch to replace this?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/1#pullrequestreview-746608482" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/17#discussion_r702355167" expanded>
+
+i think it will be good to keep the space between methods consistent
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/17#pullrequestreview-746608022" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 19. YANG..GENG `@YangShuogeng` (4 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/1#pullrequestreview-742929291" expanded>
+
+**Review Status:** COMMENTED
+
+Well Done.
+
+A little my own opinion, maybe you can group these methods in Interactor.java to a new class.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/19#discussion_r702369593" expanded>
+
+For my own opinion, maybe its arrange all printed output to one class better to arrange and check. 
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/19#pullrequestreview-746614701" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/22#pullrequestreview-742933038" expanded>
+
+**Review Status:** COMMENTED
+
+It's good but needs to be faster. Quite a lot of weeks' tasks need to do. 
+</panel>
+
+</panel>
+
+<panel type="info" header="### 20. IVAN..BOON `@ivanhlb` (2 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/27#discussion_r705498467" expanded>
+
+Nice, good to be verbose and import classes explicitly.
+
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/27#pullrequestreview-750562162" expanded>
+
+**Review Status:** COMMENTED
+
+
+</panel>
+
+</panel>
+
+<panel type="info" header="### 21. OEI ..NNAH `@hana-oxy` (0 comments)"  collapsed>
+
+n/a
+</panel>
+
+<panel type="info" header="### 22. TAN ..RICK `@e0262191` (0 comments)"  collapsed>
+
+n/a
+</panel>
+
+<panel type="info" header="### 23. NIE ..TING `@Ruiting1` (0 comments)"  collapsed>
+
+n/a
+</panel>
+
+<panel type="info" header="### 24. LOW ..UANG `@lowyanshuang` (3 comments)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/8#pullrequestreview-743873690" expanded>
+
+**Review Status:** COMMENTED
+
+### Short and Sweet
+Dont find any coding standard you have violated. And I like how you separate into different functions so that it is easier to reuse the code. Overall is short and easy to understand. Good work!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/8#pullrequestreview-743885258" expanded>
+
+**Review Status:** COMMENTED
+
+### Some Personal Additional Questions
+Just wondering since the task is limited to 100, is it possible to not set the size of the task array and expand as you go?
+Also for `case ""` i feel that this rather redundant, why not include it under default?
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-tic4001-AY2122S1/ip/pull/11#pullrequestreview-743945225" expanded>
+
+**Review Status:** COMMENTED
+
+The `if else` statement can be change to `switch` which I believe it will look cleaner that way. Overall looks good but dont forget to look out for exception!
+</panel>
+
+</panel>
+
+<panel type="info" header="### 25. SPEN.. HAO `@spencernah` (0 comments)"  collapsed>
+
+n/a
+</panel>
