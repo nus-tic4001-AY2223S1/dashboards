@@ -3,6 +3,9 @@
 </head-bottom>
 
 <header fixed>
+{% if archived %}
+<div class="w-100 p-1 bg-danger text-center text-warning d-print-none"><md>**This site is from a past semester!**</md></div>
+{% endif %}
   <navbar type="dark">
     <a slot="brand" href="{{url_module_website}}" title="Home" class="navbar-brand"> {{ badge_main_site }}</a>
     <li><a href="{{baseUrl}}/index.html" class="nav-link"><md>Dashboards home</md></a></li>

@@ -9,6 +9,7 @@
 <variable name="semester">AY2021S{{ S }}</variable>
 <variable name="period">2020 Aug-Dec</variable>
 <variable name="current_week">0</variable>
+<variable name="archived"></variable>  <!-- keep empty during semester time -->
 
 <variable name="url_announcements">https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/announcements/active</variable>
 <variable name="url_files">https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/files</variable>
