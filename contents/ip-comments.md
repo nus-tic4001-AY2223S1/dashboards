@@ -7,4 +7,4 @@ pageNav: 4
 
 This dashboard is **updated weekly**.
 
-<include src="{{ module | lower }}/ip-review-comments-panels.mbdf" />
+<include src="{{ module | lower }}/ip-review-comments-panels-fragment.md" />

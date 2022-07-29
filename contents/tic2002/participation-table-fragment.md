@@ -1,8 +1,8 @@
-%%[This page was last updated on Apr 12 2022]%% 
+%%[This page was last updated on Apr 12 2022]%%
 
  <tooltip content="Student number (partial)">Student</tooltip>|<tooltip content="i.e., participation status of each week → total weeks in which you met the participation bar">Weeks participated</tooltip>|<tooltip content="Activities participated in">Activities</tooltip>
 -------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------
-A0099658_ %%<trigger trigger="click" for="modal:pD-A0099658">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span><span class="badge badge-success mr-1">8</span><span class="badge badge-success mr-1">9</span><span class="badge badge-success mr-1">10</span><span class="badge badge-success mr-1">11</span><span class="badge badge-success mr-1">12</span> → **12** | W1:<span class="badge badge-light text-success"><tooltip content="**Submitted pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `77%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W6:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `73%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W7:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `86%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W8:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `91%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W9:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `93%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W10:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `80%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W11:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `79%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W12:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span>
+A0099658_ %%<trigger trigger="click" for="modal:pD-A0099658">{{ icon_info }}</trigger>%%|<span class="badge bg-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span><span class="badge badge-success mr-1">8</span><span class="badge badge-success mr-1">9</span><span class="badge badge-success mr-1">10</span><span class="badge badge-success mr-1">11</span><span class="badge badge-success mr-1">12</span> → **12** | W1:<span class="badge badge-light text-success"><tooltip content="**Submitted pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `77%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W6:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `73%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W7:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `86%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W8:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `91%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W9:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `93%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W10:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `80%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W11:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `79%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W12:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span>
 A0194103_ %%<trigger trigger="click" for="modal:pD-A0194103">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span><span class="badge badge-success mr-1">8</span><span class="badge badge-success mr-1">9</span><span class="badge badge-warning mr-1">~~10~~</span><span class="badge badge-warning mr-1">~~11~~</span><span class="badge badge-success mr-1">12</span> → **10** | W1:<span class="badge badge-light text-success"><tooltip content="**Submitted pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W6:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W7:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `96%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W8:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W9:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `89%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W10:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `64%` (1/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W11:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `68%` (1/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W12:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `58%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span>
 A0194137_ %%<trigger trigger="click" for="modal:pD-A0194137">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span><span class="badge badge-success mr-1">8</span><span class="badge badge-success mr-1">9</span><span class="badge badge-warning mr-1">~~10~~</span><span class="badge badge-warning mr-1">~~11~~</span><span class="badge badge-success mr-1">12</span> → **10** | W1:<span class="badge badge-light text-success"><tooltip content="**Submitted pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W6:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W7:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `96%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W8:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `91%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W9:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `89%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W10:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `64%` (1/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W11:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `68%` (1/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W12:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span>
 A0194141_ %%<trigger trigger="click" for="modal:pD-A0194141">{{ icon_info }}</trigger>%%|<span class="badge badge-success mr-1">1</span><span class="badge badge-success mr-1">2</span><span class="badge badge-success mr-1">3</span><span class="badge badge-success mr-1">4</span><span class="badge badge-success mr-1">5</span><span class="badge badge-success mr-1">6</span><span class="badge badge-success mr-1">7</span><span class="badge badge-success mr-1">8</span><span class="badge badge-success mr-1">9</span><span class="badge badge-warning mr-1">~~10~~</span><span class="badge badge-warning mr-1">~~11~~</span><span class="badge badge-success mr-1">12</span> → **10** | W1:<span class="badge badge-light text-success"><tooltip content="**Submitted pre-module survey**: done %%(2/2 points)%%">S</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W2:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `85%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span> :fas-grip-lines-vertical: W3:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W4:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W5:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> :fas-grip-lines-vertical: W6:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W7:<span class="badge badge-light text-success"><tooltip content="**Coding exercises**: percentage of correct solutions: `100%` %%(3/3 points)%%">E</tooltip></span> <span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `94%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W8:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `91%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W9:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `71%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W10:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `64%` (1/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W11:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `68%` (1/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%">Q</tooltip></span> :fas-grip-lines-vertical: W12:<span class="badge badge-light text-success"><tooltip content="**LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%">Q</tooltip></span>
@@ -69,9 +69,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0194103_: Participation Details" id="modal:pD-A0194103">
 
@@ -108,9 +108,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `58%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0194137_: Participation Details" id="modal:pD-A0194137">
 
@@ -147,9 +147,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0194141_: Participation Details" id="modal:pD-A0194141">
 
@@ -186,9 +186,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0194220_: Participation Details" id="modal:pD-A0194220">
 
@@ -225,9 +225,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0194225_: Participation Details" id="modal:pD-A0194225">
 
@@ -264,9 +264,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0194245_: Participation Details" id="modal:pD-A0194245">
 
@@ -303,9 +303,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `42%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0194262_: Participation Details" id="modal:pD-A0194262">
 
@@ -342,9 +342,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211345_: Participation Details" id="modal:pD-A0211345">
 
@@ -381,9 +381,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211356_: Participation Details" id="modal:pD-A0211356">
 
@@ -420,9 +420,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-danger mr-1">~~12~~</span>: <small>0/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `0%` (0/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211358_: Participation Details" id="modal:pD-A0211358">
 
@@ -459,9 +459,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `58%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211361_: Participation Details" id="modal:pD-A0211361">
 
@@ -498,9 +498,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211375_: Participation Details" id="modal:pD-A0211375">
 
@@ -537,9 +537,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `50%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211381_: Participation Details" id="modal:pD-A0211381">
 
@@ -576,9 +576,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211404_: Participation Details" id="modal:pD-A0211404">
 
@@ -615,9 +615,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211412_: Participation Details" id="modal:pD-A0211412">
 
@@ -654,9 +654,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211425_: Participation Details" id="modal:pD-A0211425">
 
@@ -693,9 +693,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211428_: Participation Details" id="modal:pD-A0211428">
 
@@ -732,9 +732,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211440_: Participation Details" id="modal:pD-A0211440">
 
@@ -771,9 +771,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-danger mr-1">~~12~~</span>: <small>0/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `0%` (0/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211456_: Participation Details" id="modal:pD-A0211456">
 
@@ -810,9 +810,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211467_: Participation Details" id="modal:pD-A0211467">
 
@@ -849,9 +849,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211476_: Participation Details" id="modal:pD-A0211476">
 
@@ -888,9 +888,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `42%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211488_: Participation Details" id="modal:pD-A0211488">
 
@@ -927,9 +927,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211490_: Participation Details" id="modal:pD-A0211490">
 
@@ -966,9 +966,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-warning mr-1">~~12~~</span>: <small>1/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `58%` (1/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211495_: Participation Details" id="modal:pD-A0211495">
 
@@ -1005,9 +1005,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211496_: Participation Details" id="modal:pD-A0211496">
 
@@ -1044,9 +1044,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211509_: Participation Details" id="modal:pD-A0211509">
 
@@ -1083,9 +1083,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211525_: Participation Details" id="modal:pD-A0211525">
 
@@ -1122,9 +1122,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `100%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0211543_: Participation Details" id="modal:pD-A0211543">
 
@@ -1161,9 +1161,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>2/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `75%` (2/3 points) %%(excluding bonus questions, if any) (within early-submission window? No)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0227090_: Participation Details" id="modal:pD-A0227090">
 
@@ -1200,9 +1200,9 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `83%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
+
 
 <modal large header="A0227504_: Participation Details" id="modal:pD-A0227504">
 
@@ -1239,6 +1239,5 @@ A0227504_ %%<trigger trigger="click" for="modal:pD-A0227504">{{ icon_info }}</tr
 ##### Week <span class="badge badge-success mr-1">12</span>: <small>3/3 points</small>
 * **LumiNUS Quiz(zes)**: percentage of correct answers: `92%` (3/3 points) %%(excluding bonus questions, if any) (within early-submission window? Yes)%%
 </div>
-    
+
 </modal>
-    
